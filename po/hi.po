@@ -1,0 +1,2897 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-applets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Panwar108 <caspian7pena@gmail.com>, 2021
+# Martin Wimpress <code@flexion.org>, 2021
+# Sadgamaya <g.raghavan.g@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-applets 1.25.3\n"
+"Report-Msgid-Bugs-To: https://www.transifex.com/mate/MATE/\n"
+"POT-Creation-Date: 2023-03-10 07:23+0100\n"
+"PO-Revision-Date: 2021-09-18 20:12+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"Language-Team: Hindi (https://www.transifex.com/mate/teams/13566/hi/)\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:5
+msgid "AccessX Status Applet Factory"
+msgstr "एक्सेसएक्स स्थिति एप्लेट फैक्ट्री"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:6
+msgid "Keyboard Accessibility Status Applet Factory"
+msgstr "कुंजीपटल एक्सेसिबिलिटी स्थिति एप्लेट फैक्ट्री"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:9
+#: accessx-status/src/applet.c:1670
+msgid "Keyboard Accessibility Status"
+msgstr "कुंजीपटल विन्यास स्थिति"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:10
+msgid "Shows the status of keyboard accessibility features"
+msgstr "कुंजीपटल एक्सेसिबिलिटी विशेषताओं की स्थिति दिखाएँ"
+
+#: accessx-status/src/applet.c:100 charpick/charpick.c:623
+#: geyes/src/geyes.c:180 mateweather/src/mateweather-about.c:41
+#: multiload/src/main.c:48 stickynotes/stickynotes_applet_callbacks.c:417
+msgid "Sun GNOME Documentation Team <gdocteam@sun.com>"
+msgstr ""
+
+#: accessx-status/src/applet.c:101 battstat/battstat_applet.c:830
+#: charpick/charpick.c:624 cpufreq/src/cpufreq-applet.c:463
+#: drivemount/src/drivemount.c:107 geyes/src/geyes.c:181
+#: mateweather/src/mateweather-about.c:43 multiload/src/main.c:49
+#: stickynotes/stickynotes_applet_callbacks.c:418
+#: trashapplet/src/trashapplet.c:421
+msgid "MATE Documentation Team"
+msgstr ""
+
+#: accessx-status/src/applet.c:112
+msgid "About AccessX Status"
+msgstr ""
+
+#: accessx-status/src/applet.c:114
+msgid "Shows the state of AccessX features such as latched modifiers"
+msgstr "एक्सेसएक्स विशेषताओं की स्थिति दिखाएँ जैसे कि लैच्ड मॉनीटर्स"
+
+#: accessx-status/src/applet.c:115
+msgid ""
+"Copyright © 2003 Sun Microsystems\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+
+#: accessx-status/src/applet.c:119 battstat/battstat_applet.c:855
+#: charpick/charpick.c:644 command/src/command.c:131
+#: cpufreq/src/cpufreq-applet.c:487 drivemount/src/drivemount.c:125
+#: geyes/src/geyes.c:200 mateweather/src/mateweather-about.c:61
+#: multiload/src/main.c:69 netspeed/src/netspeed.c:1058
+#: stickynotes/stickynotes_applet_callbacks.c:438
+#: timerapplet/src/timerapplet.c:289 trashapplet/src/trashapplet.c:442
+msgid "translator-credits"
+msgstr ""
+"राजेश रंजन (rajeshkajha@yahoo.com)\n"
+"जी करुणाकर (karunakar@freedomink.org)\n"
+"रविशंकर श्रीवास्तव (raviratlami@gmail.com)\n"
+"राघवन गोपालकृष्णन्  (g.raghavan.g@gmail.com)"
+
+#: accessx-status/src/applet.c:143
+#, c-format
+msgid "There was an error launching the help viewer: %s"
+msgstr "मदद प्रदर्शक शुरु करने में त्रुटि थी: %s"
+
+#: accessx-status/src/applet.c:176
+msgid "Open the keyboard preferences dialog"
+msgstr ""
+
+#: accessx-status/src/applet.c:199
+#, c-format
+msgid "There was an error launching the keyboard preferences dialog: %s"
+msgstr "कीबोर्ड वरीयता संवाद प्रारंभ करने में त्रुटि हुई :%s"
+
+#: accessx-status/src/applet.c:218
+msgid "_Keyboard Accessibility Preferences"
+msgstr "कुंजीपटल विन्यास एक्सेसिबिलिटी वरीयताएँ (_K)"
+
+#: accessx-status/src/applet.c:220 battstat/battstat_applet.c:62
+#: battstat/battstat-preferences.ui:37 charpick/charpick.c:730
+#: cpufreq/cpufreq-preferences.ui:31 cpufreq/src/cpufreq-applet.c:119
+#: drivemount/src/drivemount.c:163 geyes/data/themes.ui:35
+#: geyes/src/geyes.c:371 mateweather/src/mateweather-applet.c:119
+#: multiload/data/properties.ui:67 multiload/src/main.c:470
+#: netspeed/data/netspeed-details.ui:31
+#: netspeed/data/netspeed-preferences.ui:33
+#: stickynotes/sticky-notes-preferences.ui:51
+#: stickynotes/sticky-notes-properties.ui:37
+#: stickynotes/stickynotes_applet.c:46 trashapplet/src/trashapplet.c:74
+msgid "_Help"
+msgstr "मदद (_H)"
+
+#: accessx-status/src/applet.c:222 battstat/battstat_applet.c:65
+#: charpick/charpick.c:733 command/src/command.c:87
+#: cpufreq/src/cpufreq-applet.c:122 drivemount/src/drivemount.c:166
+#: geyes/src/geyes.c:373 mateweather/src/mateweather-applet.c:122
+#: multiload/src/main.c:473 stickynotes/stickynotes_applet.c:49
+#: timerapplet/src/timerapplet.c:88 trashapplet/src/trashapplet.c:77
+msgid "_About"
+msgstr "परिचय (_A)"
+
+#: accessx-status/src/applet.c:571 accessx-status/src/applet.c:640
+msgid "a"
+msgstr "ए"
+
+#: accessx-status/src/applet.c:1242 accessx-status/src/applet.c:1320
+#: accessx-status/src/applet.c:1442 accessx-status/src/applet.c:1673
+msgid "AccessX Status"
+msgstr "एक्सेसएक्स स्थिति"
+
+#: accessx-status/src/applet.c:1244 accessx-status/src/applet.c:1444
+msgid "Shows keyboard status when accessibility features are used."
+msgstr "कुंजीपटल स्थिति दिखाता है जब एक्सेसिबिलिटी विशेषताएँ उपयोग की जाती हैं."
+
+#: accessx-status/src/applet.c:1280
+msgid "XKB Extension is not enabled"
+msgstr "XKB विस्तार सक्रिय नहीं है"
+
+#: accessx-status/src/applet.c:1285
+msgid "Unknown error"
+msgstr "अज्ञात त्रुटि"
+
+#: accessx-status/src/applet.c:1293
+#, c-format
+msgid "Error: %s"
+msgstr "त्रुटि: %s"
+
+#: accessx-status/src/applet.c:1675
+msgid "Displays current state of keyboard accessibility features"
+msgstr "कुंजीपटल एक्सेसिबिलिटी विशेषताओं की वर्तमान स्थिति दिखाती है"
+
+#: battstat/battstat_applet.c:59 charpick/charpick.c:727
+#: command/src/command.c:86 cpufreq/src/cpufreq-applet.c:116
+#: geyes/src/geyes.c:369 mateweather/src/mateweather-applet.c:116
+#: multiload/src/main.c:464 stickynotes/stickynotes_applet.c:43
+#: timerapplet/src/timerapplet.c:87
+msgid "_Preferences"
+msgstr "वरीयताएँ (_P)"
+
+#: battstat/battstat_applet.c:70
+msgid "System is running on AC power"
+msgstr "तंत्र एसी पावर पर चल रहा है"
+
+#: battstat/battstat_applet.c:71
+msgid "System is running on battery power"
+msgstr "तंत्र बैटरी पावर पर चल रहा है"
+
+#: battstat/battstat_applet.c:176
+#, c-format
+msgid "Battery charged (%d%%)"
+msgstr "बैटरी चार्ज (%d%%)"
+
+#: battstat/battstat_applet.c:178
+#, c-format
+msgid "Unknown time (%d%%) remaining"
+msgstr "अज्ञात समय (%d%%) बच रहा है"
+
+#: battstat/battstat_applet.c:180
+#, c-format
+msgid "Unknown time (%d%%) until charged"
+msgstr "अज्ञात समय (%d%%) जबतक चार्ज न हो"
+
+#: battstat/battstat_applet.c:184
+#, c-format
+msgid "%d minute (%d%%) remaining"
+msgid_plural "%d minutes (%d%%) remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: battstat/battstat_applet.c:189
+#, c-format
+msgid "%d minute until charged (%d%%)"
+msgid_plural "%d minutes until charged (%d%%)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: battstat/battstat_applet.c:195
+#, c-format
+msgid "%d hour (%d%%) remaining"
+msgid_plural "%d hours (%d%%) remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: battstat/battstat_applet.c:200
+#, c-format
+msgid "%d hour until charged (%d%%)"
+msgid_plural "%d hours until charged (%d%%)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: battstat/battstat_applet.c:208
+#, c-format
+msgid "%d %s %d %s (%d%%) remaining"
+msgstr "%d %s %d %s (%d%%) शेष"
+
+#: battstat/battstat_applet.c:209 battstat/battstat_applet.c:216
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: battstat/battstat_applet.c:210 battstat/battstat_applet.c:217
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: battstat/battstat_applet.c:215
+#, c-format
+msgid "%d %s %d %s until charged (%d%%)"
+msgstr "%d %s %d %s जबतक चार्ज हुआ (%d%%)"
+
+#: battstat/battstat_applet.c:229
+msgid "Battery Monitor"
+msgstr "बैटरी मॉनीटर"
+
+#: battstat/battstat_applet.c:239 battstat/battstat_applet.c:297
+msgid "Your battery is now fully recharged"
+msgstr "अब आपकी बैटरी पूरी तरह चार्ज है."
+
+#: battstat/battstat_applet.c:273 battstat/battstat_applet.c:430
+msgid "Battery Notice"
+msgstr "बैटरी सूचना"
+
+#: battstat/battstat_applet.c:377
+#, c-format
+msgid "You have %d%% of your total battery capacity remaining."
+msgstr "आपके पास बची बैटरी क्षमता का %d%% है."
+
+#: battstat/battstat_applet.c:382
+#, c-format
+msgid ""
+"You have %d minute of battery power remaining (%d%% of the total capacity)."
+msgid_plural ""
+"You have %d minutes of battery power remaining (%d%% of the total capacity)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: battstat/battstat_applet.c:395
+msgid ""
+"To avoid losing your work:\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr ""
+"अपने काम को नष्ट होने से बचाने के लिये:\n"
+" • अपने लैपटॉप को बाहरी शक्ति में प्लग करें, या\n"
+" • खुला दस्तावेज सहेजें और अपना लैपटॉप बंद करें."
+
+#: battstat/battstat_applet.c:402
+msgid ""
+"To avoid losing your work:\n"
+" • suspend your laptop to save power,\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr ""
+"अपने काम को नष्ट होने से बचाने के लिये:\n"
+" • ऊर्जा बचाने के लिये अपना लैपटॉप स्थगित रखें,\n"
+" • अपने लैपटॉप को बाहरी शक्ति में प्लग करें, या\n"
+" • खुला दस्तावेज सहेजें और अपना लैपटॉप बंद करें."
+
+#: battstat/battstat_applet.c:408
+msgid "Your battery is running low"
+msgstr "अब आपकी बैटरी कम चार्ज है."
+
+#: battstat/battstat_applet.c:510
+msgid "No battery present"
+msgstr "बैटरी उपस्थित नहीं है"
+
+#: battstat/battstat_applet.c:513
+msgid "Battery status unknown"
+msgstr "बैटरी स्थिति अज्ञात"
+
+#: battstat/battstat_applet.c:543
+msgid "N/A"
+msgstr "लागू नहीं"
+
+#: battstat/battstat_applet.c:793 drivemount/src/drivemount.c:151
+#: geyes/src/geyes.c:355 geyes/src/themes.c:226
+#: mateweather/src/mateweather-applet.c:63
+#: mateweather/src/mateweather-pref.c:774
+#: stickynotes/stickynotes_applet_callbacks.c:389
+#: stickynotes/stickynotes_applet_callbacks.c:617
+#: trashapplet/src/trashapplet.c:399
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "मदद दिखाने में त्रुटि हुई: %s"
+
+#: battstat/battstat_applet.c:835
+msgid "This utility shows the status of your laptop battery."
+msgstr "यह यूटिलिटी आपके लैपटाप बैटरी की स्थिति दर्शाती है."
+
+#: battstat/battstat_applet.c:837
+msgid "upower backend enabled."
+msgstr ""
+
+#: battstat/battstat_applet.c:838
+msgid "Legacy backend enabled."
+msgstr ""
+
+#: battstat/battstat_applet.c:847
+msgid "About Battery Charge Monitor"
+msgstr ""
+
+#: battstat/battstat_applet.c:849
+msgid ""
+"Copyright © 2000 The Gnulix Society\n"
+"Copyright © 2002-2005 Free Software Foundation and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+
+#: battstat/battstat_applet.c:1133 battstat/battstat_applet.c:1188
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:9
+msgid "Battery Charge Monitor"
+msgstr "बैटरी चार्ज मॉनीटर"
+
+#: battstat/battstat_applet.c:1190
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:10
+msgid "Monitor a laptop's remaining power"
+msgstr "लैपटाप की बची ऊर्जा पर नजर रखें"
+
+#: battstat/battstat-preferences.ui:23
+msgid "Battery Charge Monitor Preferences"
+msgstr "बैटरी चार्ज मॉनीटर वरीयताएँ"
+
+#: battstat/battstat-preferences.ui:53 command/data/command-preferences.ui:39
+#: cpufreq/cpufreq-preferences.ui:47 geyes/data/themes.ui:51
+#: mateweather/data/mateweather-dialog.ui:45 multiload/data/properties.ui:83
+#: netspeed/data/netspeed-details.ui:47
+#: netspeed/data/netspeed-preferences.ui:49
+#: stickynotes/sticky-notes-preferences.ui:68
+#: stickynotes/sticky-notes-properties.ui:54
+#: timerapplet/data/timerapplet-preferences.ui:41
+msgid "_Close"
+msgstr "बंद करें (_C)"
+
+#: battstat/battstat-preferences.ui:102
+msgid "_Show time/percentage:"
+msgstr "समय/प्रतिशत दिखायें (_S):"
+
+#: battstat/battstat-preferences.ui:125
+msgid "Show _time remaining"
+msgstr "शेष समय दिखायें (_t)"
+
+#: battstat/battstat-preferences.ui:143
+msgid "Show _percentage remaining"
+msgstr "शेष प्रतिशत दिखायें (_p)"
+
+#: battstat/battstat-preferences.ui:175
+msgid "Appearance"
+msgstr "दिखावट"
+
+#: battstat/battstat-preferences.ui:214
+msgid "_Warn when battery charge drops to:"
+msgstr "बैटरी चार्ज यहां पहुंचने पर चेतावनी दें (_W)"
+
+#: battstat/battstat-preferences.ui:255
+msgid "Percent"
+msgstr "प्रतिशत"
+
+#: battstat/battstat-preferences.ui:256
+msgid "Minutes Remaining"
+msgstr "शेष मिनट"
+
+#: battstat/battstat-preferences.ui:282
+msgid "_Notify when battery is fully recharged"
+msgstr "बैटरी पूर्णतः चार्ज होने पर चेतावनी दें (_N)"
+
+#: battstat/battstat-preferences.ui:305
+msgid "Notifications"
+msgstr "अधिसूचनाएं"
+
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:5
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:6
+msgid "Battstat Factory"
+msgstr "बैटस्टेट फैक्टरी"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:5
+msgid "Red value level"
+msgstr "लाल मान स्तर"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:6
+msgid ""
+"The battery level below which the battery is displayed as red. Also the "
+"value at which the low battery warning is displayed."
+msgstr ""
+"बैटरी स्तर जिसके नीचे बैटरी को लाल रंग दिखाया जाए. साथ ही मान जिसपर कम बैटरी चैतावनी "
+"दिखाया जाता है."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:10
+msgid "Warn on low time rather than low percentage"
+msgstr "कम प्रतिशत के बजाय कम समय के लिये चेतावनी दें"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:11
+msgid ""
+"Use the value defined in red_value as a time remaining to show the warning "
+"dialog rather than a percentage."
+msgstr ""
+"red_value में परिभाषित मान का प्रतिशत की बजाय चेतावनी बचे समय के लिये संवाद दिखाने के "
+"लिये प्रयोग करें."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:15
+msgid "Low Battery Notification"
+msgstr "कम बैटरी सूचना"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:16
+msgid "Notify user when the battery is low."
+msgstr "बैटरी चार्ज कम होने पर सूचित करें."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:20
+msgid "Full Battery Notification"
+msgstr "पूरी बैटरी सूचना"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:21
+msgid "Notify user when the battery is full."
+msgstr "बैटरी पूर्णतः चार्ज होने पर सूचित करें."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:25
+msgid "Beep for warnings"
+msgstr "चेतावनी हेतु बीप करें"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:26
+msgid "Beep when displaying a warning."
+msgstr "चेतावनी दिखाते समय बीप करें"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:30
+msgid "Show the time/percent label"
+msgstr "प्रतिशत/प्रतिशत लेबल दिखाएँ"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:31
+msgid "0 for no label, 1 for percentage and 2 for time remaining."
+msgstr "0 किसी लेबल के लिये नहीं, 1 प्रतिशत के लिये और 2 शेष समय के लिये"
+
+#: battstat/sounds/mate-battstat_applet.soundlist.desktop.in:3
+msgid "Battery Status Utility"
+msgstr "बैटरी स्थिति सूचक यूटिलिटी"
+
+#: battstat/sounds/mate-battstat_applet.soundlist.desktop.in:7
+msgid "Battery power low"
+msgstr "बैटरी पावर कम"
+
+#: battstat/sounds/mate-battstat_applet.soundlist.desktop.in:11
+msgid "Battery fully re-charged"
+msgstr "बैटरी पूर्णतः पुनः चार्ज"
+
+#: charpick/charpick.c:412
+msgid "Available palettes"
+msgstr "उपलब्ध पटल"
+
+#: charpick/charpick.c:465
+#, c-format
+msgid "Insert \"%s\""
+msgstr "\"%s\" दाखिल करें"
+
+#: charpick/charpick.c:468
+msgid "Insert special character"
+msgstr "विशेष अक्षर को जोड़ो"
+
+#: charpick/charpick.c:472
+#, c-format
+msgid "insert special character %s"
+msgstr "विशिष्ट अक्षर %s प्रविष्ट करें"
+
+#: charpick/charpick.c:635
+msgid "About Character Palette"
+msgstr ""
+
+#: charpick/charpick.c:637
+msgid ""
+"Copyright © 1998, 2004-2005 GNOME Applets Maintainers and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+
+#: charpick/charpick.c:639
+msgid ""
+"MATE Panel applet for selecting strange characters that are not on the "
+"keyboard. Released under GNU General Public Licence."
+msgstr ""
+
+#: charpick/charpick.c:757 charpick/charpick.c:770
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:9
+#: charpick/properties.c:452
+msgid "Character Palette"
+msgstr "अक्षर पटल"
+
+#: charpick/charpick.c:757
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:10
+msgid "Insert characters"
+msgstr "अक्षर प्रविष्ट करें"
+
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:5
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:6
+msgid "Charpicker Applet Factory"
+msgstr "कैरपिकर एप्लेट फैक्टरी"
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:5
+msgid "Characters shown on applet startup"
+msgstr "एप्लेट प्रारंभ होने पर दिखाए जाने वाले अक्षर"
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:6
+msgid ""
+"The string that the user had selected when the applet was last used. This "
+"string will be displayed when the user starts the applet."
+msgstr ""
+"स्ट्रिंग जोकि उपयोगकर्ता ने चुना है जब एप्लेट अंतिम बार उपयोग में लिया गया. यह स्ट्रिंग "
+"प्रदर्शित होगा जब उपयोगकर्ता एप्लेट प्रारंभ करेगा."
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:10
+#: charpick/properties.c:370
+msgid "List of available palettes"
+msgstr "उपलब्ध पटल सूची"
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:11
+msgid "List of strings containing the available palettes."
+msgstr "उपलब्ध रंगपट्टिकाएँ रखी हुईं स्ट्रिंग्स की सूची."
+
+#: charpick/properties.c:28
+msgid "_Edit"
+msgstr "संपादन (_E)"
+
+#: charpick/properties.c:94
+msgid "_Palette:"
+msgstr "पटल (_P):"
+
+#: charpick/properties.c:102
+msgid "Palette entry"
+msgstr "रंगपट्टिका प्रविष्टि"
+
+#: charpick/properties.c:103
+msgid "Modify a palette by adding or removing characters"
+msgstr "अक्षरों को जोड़ कर या मिटा कर रंगपट्टिका परिवर्धित करें"
+
+#: charpick/properties.c:227
+msgid "Add Palette"
+msgstr "पटल जोड़ें"
+
+#: charpick/properties.c:263
+msgid "Edit Palette"
+msgstr "पटल संपादित करें"
+
+#: charpick/properties.c:369
+msgid "Palettes list"
+msgstr "पटल सूची"
+
+#: charpick/properties.c:457
+msgid "_Palettes:"
+msgstr "रंगपट्टिकाः"
+
+#: charpick/properties.c:480
+msgid "Add button"
+msgstr "बटन जोड़ें"
+
+#: charpick/properties.c:481
+msgid "Click to add a new palette"
+msgstr "नया पटल जोड़ने हेतु क्लिक करें"
+
+#: charpick/properties.c:495
+msgid "Edit button"
+msgstr "संपादन बटन"
+
+#: charpick/properties.c:496
+msgid "Click to edit the selected palette"
+msgstr "चयनित रंगपट्टिका संपादित करने हेतु क्लिक करें"
+
+#: charpick/properties.c:510
+msgid "Delete button"
+msgstr "मिटाएँ बटन"
+
+#: charpick/properties.c:511
+msgid "Click to delete the selected palette"
+msgstr "चयनित पटल मिटाने हेतु क्लिक करें"
+
+#: charpick/properties.c:565
+msgid "Character Palette Preferences"
+msgstr "अक्षर पैलेट वरीयताएँ"
+
+#: command/data/command-preferences.ui:25
+msgid "Command Applet Preferences"
+msgstr ""
+
+#: command/data/command-preferences.ui:77
+msgid "C_ommand:"
+msgstr "कमांड: (_o):"
+
+#: command/data/command-preferences.ui:91
+msgid "_Interval (seconds):"
+msgstr ""
+
+#: command/data/command-preferences.ui:105
+msgid "Maximum _width (chars):"
+msgstr ""
+
+#: command/data/command-preferences.ui:161
+msgid "_Show icon"
+msgstr ""
+
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:5
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:6
+msgid "Command Factory"
+msgstr ""
+
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:9
+msgid "Command"
+msgstr "कमांड"
+
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:10
+#: command/src/command.c:130 command/src/command.c:477
+msgid "Shows the output of a command"
+msgstr ""
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:5
+msgid "Command to execute"
+msgstr ""
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:6
+msgid "Command/script to execute to get the output"
+msgstr ""
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:10
+msgid "Interval for the command"
+msgstr ""
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:11
+msgid "Interval to execute the command (in seconds)"
+msgstr ""
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:15
+msgid "Width of output"
+msgstr ""
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:16
+msgid "Number of characters to display"
+msgstr ""
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:20
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:25
+msgid "Show icon"
+msgstr ""
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:21
+msgid "If applet icon is shown or not"
+msgstr ""
+
+#: command/src/command.c:125
+msgid "About Command Applet"
+msgstr ""
+
+#: command/src/command.c:127
+msgid ""
+"Copyright © 2013-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 MATE developers"
+msgstr ""
+
+#: command/src/command.c:416
+msgid "Command Applet"
+msgstr ""
+
+#: command/src/command.c:475
+#, fuzzy
+msgid "Command applet"
+msgstr "कमांड"
+
+#: cpufreq/cpufreq-preferences.ui:18
+msgid "CPU Frequency Monitor Preferences"
+msgstr "CPU आवृति स्केलिंग मॉनीटर वरीयता"
+
+#: cpufreq/cpufreq-preferences.ui:97
+msgid "_Monitored CPU:"
+msgstr "मॉनीटर्ड सीपीयू (_M):"
+
+#: cpufreq/cpufreq-preferences.ui:127
+msgid "Monitor Settings"
+msgstr "मॉनिटर सेटिंग"
+
+#: cpufreq/cpufreq-preferences.ui:168
+msgid "_Appearance:"
+msgstr "रूप (_A):"
+
+#: cpufreq/cpufreq-preferences.ui:199
+msgid "Show CPU frequency as _frequency"
+msgstr "CPU आवृति को आवृति के रूप में दिखायें (_f)"
+
+#: cpufreq/cpufreq-preferences.ui:216
+msgid "Show frequency _units"
+msgstr "आवृति इकाई दिखायें (_u)"
+
+#: cpufreq/cpufreq-preferences.ui:233
+msgid "Show CPU frequency as _percentage"
+msgstr "प्रतिशत में सीपीयू आवृति दिखाएँ (_p)"
+
+#: cpufreq/cpufreq-preferences.ui:256
+msgid "Display Settings"
+msgstr "सेटिंग प्रदर्शित करें"
+
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:5
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:9
+#: cpufreq/src/cpufreq-applet.c:791 cpufreq/src/cpufreq-applet.c:846
+msgid "CPU Frequency Scaling Monitor"
+msgstr "CPU आवृति स्केलिंग मॉनीटर"
+
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:6
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:10
+msgid "Monitor the CPU Frequency Scaling"
+msgstr "CPU आवृति स्केलिंग मॉनीटर करें"
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:6
+msgid "CPU to Monitor"
+msgstr "सीपीयू से मॉनीटर"
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:7
+msgid ""
+"Set the CPU to monitor. In a single processor system you don't have to "
+"change it."
+msgstr "CPU मॉनीटर में सेट करें. एकल प्रोसेसर सिस्टम में आपको इसे बदलने की जरूरत नहीं है."
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:11
+msgid "Mode to show CPU usage"
+msgstr ""
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:12
+msgid ""
+"A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in "
+"graphic and text mode."
+msgstr ""
+"0 मान आलेखीय मोड में एप्प्लेट दिखाने के लिये है (pixmap सिर्फ), 1 एप्प्लेट को पाठ मोड मे "
+"दिखाने के लिये (pixmap नहीं दिखाने के लिये) और 2 एप्प्लेट को आलेखीय व पाठ मोड में दिखाने के "
+"लिये."
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:16
+msgid "The type of text to display (if the text is enabled)."
+msgstr "प्रदर्शन के लिये पाठ का प्रकार (अगर पाठ सक्रिय है)."
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:17
+msgid ""
+"A 0 value means to show CPU frequency, 1 to show frequency and units, and 2 "
+"to show percentage instead of frequency."
+msgstr ""
+
+#: cpufreq/src/cpufreq-applet.c:446 cpufreq/src/cpufreq-prefs.c:364
+msgid "Could not open help document"
+msgstr "सहायता दस्तावेज नहीं खोल सकता"
+
+#: cpufreq/src/cpufreq-applet.c:478
+msgid "About CPU Frequency Scaling Monitor"
+msgstr ""
+
+#: cpufreq/src/cpufreq-applet.c:480
+msgid ""
+"Copyright © 2004 Carlos Garcia Campos\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+
+#: cpufreq/src/cpufreq-applet.c:482
+msgid "This utility shows the current CPU Frequency Scaling."
+msgstr "यह यूटिलिटी मौजूदा सीपीयू आवृति स्केलिंग दर्शाती है."
+
+#: cpufreq/src/cpufreq-applet.c:847
+msgid "This utility shows the current CPU Frequency"
+msgstr "मौजूदा सीपीयू आवृति को उपयोगिता दिखायें"
+
+#: cpufreq/src/cpufreq-prefs.c:504
+msgid "Graphic"
+msgstr "आलेख"
+
+#: cpufreq/src/cpufreq-prefs.c:509
+msgid "Text"
+msgstr "पाठ"
+
+#: cpufreq/src/cpufreq-prefs.c:514
+msgid "Graphic and Text"
+msgstr "आलेख और पाठ"
+
+#: cpufreq/src/cpufreq-monitor-cpuinfo.c:119
+msgid "Frequency Scaling Unsupported"
+msgstr "आवृति स्केलिंग असमर्थित"
+
+#: cpufreq/src/cpufreq-monitor-factory.c:55
+msgid "CPU frequency scaling unsupported"
+msgstr "CPU आवृति स्केलिंग असमर्थित"
+
+#: cpufreq/src/cpufreq-monitor-factory.c:56
+msgid ""
+"You will not be able to modify the frequency of your machine.  Your machine "
+"may be misconfigured or not have hardware support for CPU frequency scaling."
+msgstr ""
+"आप अपनी मशीन की आवृत्ति को रूपांतरित करने में समर्थ न हो पायेंगे.  आप मशीन की रूपरेखा "
+"विगड़ सकती है या CPU आवृत्ति मापन के लिये हार्डवेयर संर्थन नहीं रखती है."
+
+#: cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in:14
+msgid "Change CPU Frequency scaling"
+msgstr "CPU आवृति स्केलिंग मॉनीटर करें."
+
+#: cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in:15
+msgid "Privileges are required to change the CPU Frequency scaling."
+msgstr "CPU आवृति स्केलिंग मॉनीटर करें."
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:5
+msgid "Drive Mount Applet Factory"
+msgstr "ड्राइव माउन्ट एप्लेट फैक्टरी"
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:6
+msgid "Factory for drive mount applet"
+msgstr "ड्राइव माउन्ट एप्लेट हेतु फैक्टरी"
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:9
+#: drivemount/src/drivemount.c:182 drivemount/src/drivemount.c:216
+msgid "Disk Mounter"
+msgstr "डिस्क माउन्ट करने वाला"
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:10
+msgid "Mount local disks and devices"
+msgstr "स्थानीय डिस्क एवं उपकरण माउन्ट करें"
+
+#: drivemount/src/drive-button.c:281
+msgid "nothing to mount"
+msgstr ""
+
+#: drivemount/src/drive-button.c:314 drivemount/src/drive-button.c:328
+msgid "(mounted)"
+msgstr "(आरोहित)"
+
+#: drivemount/src/drive-button.c:321
+msgid "(not mounted)"
+msgstr "(आरोहित नहीं)"
+
+#: drivemount/src/drive-button.c:599
+msgid "Cannot execute Caja"
+msgstr ""
+
+#: drivemount/src/drive-button.c:940
+msgid "_Play DVD"
+msgstr "DVD चलायें (_P)"
+
+#: drivemount/src/drive-button.c:944
+msgid "_Play CD"
+msgstr "सीडी बजायें (_P)"
+
+#: drivemount/src/drive-button.c:947
+#, c-format
+msgid "_Open %s"
+msgstr "%s को खोले (_O)"
+
+#: drivemount/src/drive-button.c:955
+#, c-format
+msgid "Un_mount %s"
+msgstr "%s को आरोहित करें (_m)"
+
+#: drivemount/src/drive-button.c:961
+#, c-format
+msgid "_Mount %s"
+msgstr "%s को आरोहित करें (_M)"
+
+#: drivemount/src/drive-button.c:969
+#, c-format
+msgid "_Eject %s"
+msgstr "%s को बाहर (_E)"
+
+#: drivemount/src/drivemount.c:118
+msgid "About Disk Mounter"
+msgstr ""
+
+#: drivemount/src/drivemount.c:120
+msgid ""
+"Copyright © 2004 Canonical Ltd\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+
+#: drivemount/src/drivemount.c:122
+msgid "Applet for mounting and unmounting block volumes."
+msgstr "ब्लॉक वाल्यूम को माउन्ट और अनमाउन्ट करने हेतु अप्लेट."
+
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:5
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:6
+msgid "Eyes Applet Factory"
+msgstr ""
+
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:9
+#: geyes/src/geyes.c:401 geyes/src/geyes.c:430 geyes/src/geyes.c:432
+msgid "Eyes"
+msgstr "आँख"
+
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:10
+msgid "A set of eyeballs for your panel"
+msgstr "आपके पटल हेतु दो आँखें"
+
+#: geyes/data/org.mate.panel.applet.geyes.gschema.xml.in:5
+#: geyes/data/org.mate.panel.applet.geyes.gschema.xml.in:6
+msgid "Directory in which the theme is located"
+msgstr "डिरेक्ट्री जहाँ प्रसंग स्थित है"
+
+#: geyes/data/themes.ui:18
+msgid "Eyes Preferences"
+msgstr ""
+
+#: geyes/data/themes.ui:100
+msgid "_Select a theme:"
+msgstr "प्रसंग चुनें (_S):"
+
+#: geyes/data/themes.ui:148
+msgid "Themes"
+msgstr "प्रसंग"
+
+#: geyes/src/geyes.c:192
+msgid "About Eyes"
+msgstr ""
+
+#: geyes/src/geyes.c:194
+msgid "A goofy set of eyes for the MATE panel. They follow your mouse."
+msgstr "गनोम पटल हेतु गूफी सेट की आँख. वे आपके माउस का अनुसरण करते हैं."
+
+#: geyes/src/geyes.c:196
+msgid ""
+"Copyright © 1999 Dave Camp\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+
+#: geyes/src/geyes.c:433
+msgid "The eyes look in the direction of the mouse pointer"
+msgstr "ये आँखें माउस पांइटर दिशा में देखती हैं"
+
+#: geyes/src/themes.c:123
+msgid "Can not launch the eyes applet."
+msgstr "आईज़ एप्लेट प्रारंभ नहीं कर सका."
+
+#: geyes/src/themes.c:124
+msgid "There was a fatal error while trying to load the theme."
+msgstr "प्रसंग लोड करने के दौरान एक गंभीर त्रुटि हुई."
+
+#: mateweather/data/mateweather-dialog.ui:13
+msgid "Details"
+msgstr "विवरण"
+
+#: mateweather/data/mateweather-dialog.ui:30
+#: mateweather/src/mateweather-applet.c:113
+msgid "_Update"
+msgstr "अद्यतन करें (_U)"
+
+#: mateweather/data/mateweather-dialog.ui:88
+msgid "City:"
+msgstr "शहर:"
+
+#: mateweather/data/mateweather-dialog.ui:101
+msgid "Last update:"
+msgstr "पिछला अद्यतनः"
+
+#: mateweather/data/mateweather-dialog.ui:114
+msgid "Conditions:"
+msgstr "शर्तें:"
+
+#: mateweather/data/mateweather-dialog.ui:127
+msgid "Sky:"
+msgstr "आकाश:"
+
+#: mateweather/data/mateweather-dialog.ui:140
+msgid "Temperature:"
+msgstr "तापमानः"
+
+#: mateweather/data/mateweather-dialog.ui:153
+msgid "Feels like:"
+msgstr "इस तरह का अनुभव:"
+
+#: mateweather/data/mateweather-dialog.ui:166
+msgid "Dew point:"
+msgstr "तुषार बिंदुः"
+
+#: mateweather/data/mateweather-dialog.ui:179
+msgid "Relative humidity:"
+msgstr "सापेक्षिक आद्रता:"
+
+#: mateweather/data/mateweather-dialog.ui:192
+msgid "Wind:"
+msgstr "हवाः"
+
+#: mateweather/data/mateweather-dialog.ui:205
+msgid "Pressure:"
+msgstr "दबावः"
+
+#: mateweather/data/mateweather-dialog.ui:218
+msgid "Visibility:"
+msgstr "दृश्यताः"
+
+#: mateweather/data/mateweather-dialog.ui:231
+msgid "Sunrise:"
+msgstr "सूर्योदयः"
+
+#: mateweather/data/mateweather-dialog.ui:244
+msgid "Sunset:"
+msgstr "सूर्यास्तः"
+
+#: mateweather/data/mateweather-dialog.ui:422
+msgid "Current Conditions"
+msgstr "वर्तमान शर्तें"
+
+#: mateweather/data/mateweather-dialog.ui:447
+msgid "Forecast Report"
+msgstr "पूर्वानुमान रपट"
+
+#: mateweather/data/mateweather-dialog.ui:448
+msgid "See the ForeCast Details"
+msgstr "पूर्वानुमान विवरण देखें"
+
+#: mateweather/data/mateweather-dialog.ui:469
+msgid "Forecast"
+msgstr "पूर्वानुमान"
+
+#: mateweather/data/mateweather-dialog.ui:510
+msgid "_Visit Weather.com"
+msgstr "जाएँ Weather.com (_V)"
+
+#: mateweather/data/mateweather-dialog.ui:518
+msgid "Visit Weather.com"
+msgstr "जाएँ Weather.com पर"
+
+#: mateweather/data/mateweather-dialog.ui:519
+msgid "Click to Enter Weather.com"
+msgstr "Weather.com में जाने हेतु क्लिक करें"
+
+#: mateweather/data/mateweather-dialog.ui:538
+msgid "Radar Map"
+msgstr "रेडार नक्शा"
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:5
+msgid "Mateweather Applet Factory"
+msgstr ""
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:6
+msgid "Factory for creating the weather applet."
+msgstr "मौसम एप्लेट बनाने हेतु फैक्टरी"
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:9
+#: mateweather/src/mateweather-applet.c:345
+msgid "Weather Report"
+msgstr "मौसम रपट"
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:10
+msgid "Monitor the current weather conditions, and forecasts"
+msgstr "वर्तमान मौसम परिस्थिति पर नजर रखता है और पूर्वानुमान करता है"
+
+#: mateweather/src/mateweather-about.c:54
+msgid "About Weather Report"
+msgstr ""
+
+#: mateweather/src/mateweather-about.c:56
+msgid ""
+"Copyright © 1999-2005 by S. Papadimitriou and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+
+#: mateweather/src/mateweather-about.c:58
+msgid "A panel application for monitoring local weather conditions."
+msgstr "स्थानीय मौसम परिस्थिति पर नज़र रखने हेतु पैनल अनुप्रयोग"
+
+#: mateweather/src/mateweather-applet.c:110
+msgid "_Details"
+msgstr "विवरण (_D)"
+
+#: mateweather/src/mateweather-applet.c:165
+msgid "?"
+msgstr "?"
+
+#: mateweather/src/mateweather-applet.c:369
+#: mateweather/src/mateweather-applet.c:373
+msgid "MATE Weather"
+msgstr "गनोम मौसम"
+
+#: mateweather/src/mateweather-applet.c:466
+msgid "Weather Forecast"
+msgstr "मौसम रपट"
+
+#: mateweather/src/mateweather-applet.c:477
+#, c-format
+msgid ""
+"City: %s\n"
+"Sky: %s\n"
+"Temperature: %s"
+msgstr ""
+"शहर: %s\n"
+"आकाश: %s\n"
+"तापमान: %s"
+
+#: mateweather/src/mateweather-applet.c:531
+msgid "Updating..."
+msgstr "अद्यतन कर रहे..."
+
+#: mateweather/src/mateweather-dialog.c:231
+msgid "Forecast not currently available for this location."
+msgstr "इस स्थान हेतु पूर्वानुमान उपलब्ध नहीं है."
+
+#: mateweather/src/mateweather-pref.c:157
+msgid "Location view"
+msgstr "स्थान दर्शन"
+
+#: mateweather/src/mateweather-pref.c:157
+msgid "Select Location from the list"
+msgstr "सूची में से स्थान चुने"
+
+#: mateweather/src/mateweather-pref.c:158
+msgid "Update spin button"
+msgstr "स्पिन बटन अद्यतन करें"
+
+#: mateweather/src/mateweather-pref.c:158
+msgid "Spinbutton for updating"
+msgstr "अद्यतन हेतु स्पिन बटन "
+
+#: mateweather/src/mateweather-pref.c:159
+msgid "Address Entry"
+msgstr "पता प्रविष्ठि"
+
+#: mateweather/src/mateweather-pref.c:159
+msgid "Enter the URL"
+msgstr "यूआरएल प्रविष्ठ करें"
+
+#: mateweather/src/mateweather-pref.c:285
+msgid ""
+"Failed to load the Locations XML database.  Please report this as a bug."
+msgstr "स्थान XML डाटाबेस लोड करने में विफल.  कृपया इसे बग के रूप में रिपोर्ट करें."
+
+#: mateweather/src/mateweather-pref.c:839
+msgid "Weather Preferences"
+msgstr "मौसम वरीयताएँ"
+
+#: mateweather/src/mateweather-pref.c:863
+#: mateweather/src/mateweather-pref.c:1054
+msgid "_Automatically update every:"
+msgstr "अद्यतन स्वचालित करें प्रत्येक (_A):"
+
+#: mateweather/src/mateweather-pref.c:878
+msgid "_Temperature unit:"
+msgstr "तापमान ईकाई (_T):"
+
+#: mateweather/src/mateweather-pref.c:888
+msgid "Kelvin"
+msgstr "केल्विन"
+
+#: mateweather/src/mateweather-pref.c:890
+msgid "Celsius"
+msgstr "सेल्सियस"
+
+#: mateweather/src/mateweather-pref.c:891
+msgid "Fahrenheit"
+msgstr "फॉरेनहाइट"
+
+#: mateweather/src/mateweather-pref.c:900
+msgid "_Wind speed unit:"
+msgstr "वायु गति इकाई (_W):"
+
+#: mateweather/src/mateweather-pref.c:911
+msgid "m/s"
+msgstr "m/s"
+
+#: mateweather/src/mateweather-pref.c:913
+msgid "km/h"
+msgstr "km/h"
+
+#: mateweather/src/mateweather-pref.c:915
+msgid "mph"
+msgstr "mph"
+
+#: mateweather/src/mateweather-pref.c:917
+msgid "knots"
+msgstr "नॉट्स"
+
+#: mateweather/src/mateweather-pref.c:918
+msgid "Beaufort scale"
+msgstr "ब्यूफोर्ट स्केल"
+
+#: mateweather/src/mateweather-pref.c:927
+msgid "_Pressure unit:"
+msgstr "दबाव इकाई (_P):"
+
+#: mateweather/src/mateweather-pref.c:938
+msgid "kPa"
+msgstr "kPa"
+
+#: mateweather/src/mateweather-pref.c:940
+msgid "hPa"
+msgstr "hPa"
+
+#: mateweather/src/mateweather-pref.c:942
+msgid "mb"
+msgstr "मे.बि."
+
+#: mateweather/src/mateweather-pref.c:944
+msgid "mmHg"
+msgstr "mmHg"
+
+#: mateweather/src/mateweather-pref.c:946
+msgid "inHg"
+msgstr "inHg"
+
+#: mateweather/src/mateweather-pref.c:948
+msgid "atm"
+msgstr "atm"
+
+#: mateweather/src/mateweather-pref.c:957
+msgid "_Visibility unit:"
+msgstr "दृश्यता इकाई (_V):"
+
+#: mateweather/src/mateweather-pref.c:968
+msgid "meters"
+msgstr "मीटर्स"
+
+#: mateweather/src/mateweather-pref.c:970
+msgid "km"
+msgstr "किमी"
+
+#: mateweather/src/mateweather-pref.c:972
+msgid "miles"
+msgstr "मील"
+
+#: mateweather/src/mateweather-pref.c:996
+msgid "Enable _radar map"
+msgstr "रेडार नक्शा सक्षम करें (_r)"
+
+#: mateweather/src/mateweather-pref.c:1011
+msgid "Use _custom address for radar map"
+msgstr "रेडार नक्शा हेतु अनुकूलित पता उपयोग करें (_c)"
+
+#: mateweather/src/mateweather-pref.c:1027
+msgid "A_ddress:"
+msgstr "पता (_d):"
+
+#: mateweather/src/mateweather-pref.c:1042
+msgid "Show _notifications"
+msgstr ""
+
+#: mateweather/src/mateweather-pref.c:1050
+msgid "Update"
+msgstr "अद्यतन"
+
+#: mateweather/src/mateweather-pref.c:1066
+msgid "minutes"
+msgstr "मिनट"
+
+#: mateweather/src/mateweather-pref.c:1084
+msgid "Display"
+msgstr "प्रदर्शक"
+
+#: mateweather/src/mateweather-pref.c:1103
+msgid "General"
+msgstr "सामान्य"
+
+#: mateweather/src/mateweather-pref.c:1114
+msgid "_Select a location:"
+msgstr "एक स्थान चुनें (_S):"
+
+#: mateweather/src/mateweather-pref.c:1135
+msgid "_Find:"
+msgstr "ढूंढें: (_F)"
+
+#: mateweather/src/mateweather-pref.c:1141
+msgid "Find _Next"
+msgstr "अगला ढूंढें (_N)"
+
+#: mateweather/src/mateweather-pref.c:1159
+msgid "Location"
+msgstr "स्थान"
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:5
+msgid "MultiLoad Applet Factory"
+msgstr ""
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:6
+msgid "Factory for creating the load applet."
+msgstr ""
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:9
+#: multiload/src/main.c:499 multiload/src/main.c:551
+msgid "System Monitor"
+msgstr "तंत्र मॉनीटर"
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:10
+msgid "A system load indicator"
+msgstr "तंत्र लोड प्रदर्शक"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:5
+msgid "Enable CPU load graph"
+msgstr "सीपीयू लोड ग्राफ सक्षम करें"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:9
+msgid "Enable memory load graph"
+msgstr "मेमोरी लोड ग्राफ सक्षम करें"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:13
+msgid "Enable network load graph"
+msgstr "नेटवर्क लोड ग्राफ सक्षम करें"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:17
+msgid "Enable swap load graph"
+msgstr "लोड ग्राफ स्वेप सक्षम करें"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:21
+msgid "Enable load average graph"
+msgstr "लोड ओसत ग्राफ सक्षम करें"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:25
+msgid "Enable disk load graph"
+msgstr "डिस्क लोड ग्राफ सक्षम करें"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:30
+msgid "Applet refresh rate in milliseconds"
+msgstr "मिलीसेकण्ड्स में एप्लेट ताज़ा करने का दर"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:35
+msgid "Graph size"
+msgstr "ग्राफ आकार"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:36
+msgid ""
+"For horizontal panels, the width of the graphs in pixels. For vertical "
+"panels, this is the height of the graphs."
+msgstr ""
+"क्षैतिज पटल के लिये, ग्राफ की चौड़ाई पिक्सेल में. लंबवत पैनल के लिये, यह ग्राफ की ऊंचाई है."
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:40
+msgid "Graph color for user-related CPU activity"
+msgstr "उपयोगकर्ता-सम्बन्धित सीपीयू क्रियाकलाप हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:44
+msgid "Graph color for system-related CPU activity"
+msgstr "तंत्र-सम्बन्धित सीपीयू क्रियाकलाप हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:48
+msgid "Graph color for nice-related CPU activity"
+msgstr "नाइस-सम्बन्धित सीपीयू क्रियाकलाप हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:52
+msgid "Graph color for iowait related CPU activity"
+msgstr "iowait-सम्बन्धित सीपीयू क्रियाकलाप हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:56
+msgid "CPU graph background color"
+msgstr "सीपीयू ग्राफ पृष्ठभूमि रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:60
+msgid "Graph color for user-related memory usage"
+msgstr "उपयोगकर्ता-सम्बन्धित मेमोरी उपयोग हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:64
+msgid "Graph color for shared memory"
+msgstr "साझा मेमोरी हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:68
+msgid "Graph color for buffer memory"
+msgstr "बफ़र मेमोरी हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:72
+msgid "Graph color for cached memory"
+msgstr "कैच्ड मेमोरी हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:76
+msgid "Memory graph background color"
+msgstr "मेमोरी ग्राफ पृष्ठभूमि रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:80
+msgid "Graph color for input network activity"
+msgstr "इनपुट नेटवर्क क्रियाकलाप हेतु आलेख रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:84
+msgid "Graph color for output network activity"
+msgstr "आउटपुट नेटवर्क क्रियाकलाप हेतु आलेख रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:88
+msgid "Graph color for loopback network usage"
+msgstr "लूपबैक नेटवर्क उपयोग हेतु आलेख रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:92
+msgid "Network graph background color"
+msgstr "नेटवर्क ग्राफ पृष्ठभूमि रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:96
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:135
+msgid "Grid line color"
+msgstr ""
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:100
+msgid "Indicator color"
+msgstr ""
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:105
+msgid "Network threshold 1 in bytes"
+msgstr ""
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:110
+msgid "Network threshold 2 in bytes"
+msgstr ""
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:115
+msgid "Network threshold 3 in bytes"
+msgstr ""
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:119
+msgid "Graph color for user-related swap usage"
+msgstr "उपयोगकर्ता-सम्बन्धित स्वेप उपयोग हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:123
+msgid "Swap graph background color"
+msgstr "ग्राफ पृष्ठ भूमि का रंग अदला-बदली करें (_g)"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:127
+msgid "Graph color for load average"
+msgstr "लोड औसत हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:131
+msgid "Load graph background color"
+msgstr "लोड ग्राफ पृष्ठभूमि का रंग (_g)"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:139
+msgid "Graph color for disk read"
+msgstr "डिस्क पठन हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:143
+msgid "Graph color for disk write"
+msgstr "डिस्क लेखन हेतु ग्राफ रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:147
+msgid "Background color for disk load graph"
+msgstr "डिस्क लोड ग्राप के लिये पृष्ठभूमि रंग"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:151
+msgid "Uses /proc/diskstats to determine NVMe disk load"
+msgstr ""
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:155
+msgid "The desktop description file to execute as the system monitor"
+msgstr "तंत्र मॉनिटर के रूप में डेस्कटॉप विवरण फ़ाइल"
+
+#: multiload/data/properties.ui:51
+msgid "System Monitor Preferences"
+msgstr "तंत्र मॉनीटर वरीयताएँ"
+
+#: multiload/data/properties.ui:131
+msgid "_Processor"
+msgstr "प्रोसेसर  (_P)"
+
+#: multiload/data/properties.ui:148
+msgid "_Memory"
+msgstr "मेमोरी (_M)"
+
+#: multiload/data/properties.ui:165
+msgid "_Network"
+msgstr "नेटवर्क (_N)"
+
+#: multiload/data/properties.ui:182
+msgid "S_wap Space"
+msgstr "स्वेप जगह (_w)"
+
+#: multiload/data/properties.ui:199
+msgid "_Load"
+msgstr "लोड (_L)"
+
+#: multiload/data/properties.ui:216
+msgid "_Harddisk"
+msgstr "हार्ड डिस्क (_H)"
+
+#: multiload/data/properties.ui:239
+msgid "Monitored Resources"
+msgstr "मॉनीटर्ड युक्तियाँ"
+
+#: multiload/data/properties.ui:276 multiload/src/properties.c:602
+msgid "System m_onitor width:"
+msgstr ""
+
+#: multiload/data/properties.ui:304
+msgid "pixels"
+msgstr "पिक्सेल"
+
+#: multiload/data/properties.ui:316
+msgid "Sys_tem monitor update interval:"
+msgstr ""
+
+#: multiload/data/properties.ui:344
+msgid "milliseconds"
+msgstr "मिली-सेकण्ड्स"
+
+#: multiload/data/properties.ui:359
+msgid "Options"
+msgstr "विकल्प"
+
+#: multiload/data/properties.ui:481 multiload/data/properties.ui:583
+msgid "_User"
+msgstr "उपयोगकर्ता (_U)"
+
+#: multiload/data/properties.ui:494
+msgid "S_ystem"
+msgstr "तंत्र (_y)"
+
+#: multiload/data/properties.ui:507
+msgid "N_ice"
+msgstr "नाइस (_i)"
+
+#: multiload/data/properties.ui:520
+msgid "I_OWait"
+msgstr "I_OWait"
+
+#: multiload/data/properties.ui:533
+msgid "I_dle"
+msgstr "निष्क्रिय (_d)"
+
+#: multiload/data/properties.ui:548 multiload/src/main.c:272
+msgid "Processor"
+msgstr "प्रोसेसर"
+
+#: multiload/data/properties.ui:612
+msgid "Sh_ared"
+msgstr "साझा (_a)"
+
+#: multiload/data/properties.ui:641
+msgid "_Buffers"
+msgstr "बफ़र्स (_B)"
+
+#: multiload/data/properties.ui:670
+msgid "Cach_ed"
+msgstr "कैच्ड (_e)"
+
+#: multiload/data/properties.ui:699
+msgid "F_ree"
+msgstr "मुफ्त (_r)"
+
+#: multiload/data/properties.ui:717 multiload/src/main.c:273
+msgid "Memory"
+msgstr "मेमोरी"
+
+#: multiload/data/properties.ui:753
+msgid "_In"
+msgstr "अंदर (_I)"
+
+#: multiload/data/properties.ui:782
+msgid "_Out"
+msgstr "बाहर (_O)"
+
+#: multiload/data/properties.ui:811
+msgid "_Local"
+msgstr "स्थानीय (_L)"
+
+#: multiload/data/properties.ui:840 multiload/data/properties.ui:1064
+#: multiload/data/properties.ui:1211
+msgid "_Background"
+msgstr "पृष्ठभूमि (_B)"
+
+#: multiload/data/properties.ui:869 multiload/data/properties.ui:1093
+msgid "_Gridline"
+msgstr ""
+
+#: multiload/data/properties.ui:898
+msgid "_Indicator"
+msgstr ""
+
+#: multiload/data/properties.ui:916 multiload/src/main.c:274
+msgid "Network"
+msgstr "संजाल"
+
+#: multiload/data/properties.ui:952
+msgid "_Used"
+msgstr "प्रयुक्त (_U)"
+
+#: multiload/data/properties.ui:981
+msgid "_Free"
+msgstr "खाली (_F)"
+
+#: multiload/data/properties.ui:999 multiload/src/main.c:275
+msgid "Swap Space"
+msgstr "स्वेप जगह"
+
+#: multiload/data/properties.ui:1035
+msgid "_Average"
+msgstr "औसत (_A)"
+
+#: multiload/data/properties.ui:1111
+msgid "Load"
+msgstr "लोड"
+
+#: multiload/data/properties.ui:1153
+msgid "_Read"
+msgstr "पढ़ें (_R)"
+
+#: multiload/data/properties.ui:1182
+msgid "_Write"
+msgstr "लिखें (_W)"
+
+#: multiload/data/properties.ui:1229
+msgid "Use diskstats for _NVMe"
+msgstr ""
+
+#: multiload/data/properties.ui:1253
+msgid "Harddisk"
+msgstr "हार्ड डिस्क"
+
+#: multiload/data/properties.ui:1268
+msgid "Colors"
+msgstr "रंग"
+
+#: multiload/data/properties.ui:1305
+msgid "Threshold _1:"
+msgstr ""
+
+#: multiload/data/properties.ui:1334 multiload/data/properties.ui:1375
+#: multiload/data/properties.ui:1415
+msgid "bytes"
+msgstr "बाइट्स"
+
+#: multiload/data/properties.ui:1346
+msgid "Threshold _2:"
+msgstr ""
+
+#: multiload/data/properties.ui:1387
+msgid "Threshold _3:"
+msgstr ""
+
+#: multiload/data/properties.ui:1430
+msgid "Network speed thresholds"
+msgstr ""
+
+#: multiload/src/main.c:60
+msgid "About System Monitor"
+msgstr ""
+
+#: multiload/src/main.c:62
+msgid ""
+"Copyright © 1999-2005 Free Software Foundation and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+
+#: multiload/src/main.c:64 multiload/src/main.c:553
+msgid ""
+"A system load monitor capable of displaying graphs for CPU, ram, and swap "
+"space use, plus network traffic."
+msgstr ""
+"यह तंत्र लोड मॉनीटर, सीपीयू, रैम, स्वैप फ़ाइल उपयोग के साथ ही नेटवर्क ट्रेफिक के ग्राफ "
+"बताने में समर्थ है"
+
+#: multiload/src/main.c:124
+msgid "Start system-monitor"
+msgstr ""
+
+#: multiload/src/main.c:146
+#, c-format
+msgid "There was an error executing '%s': %s"
+msgstr "कार्य निष्पादन में त्रुटि आई '%s': %s"
+
+#: multiload/src/main.c:276 multiload/src/main.c:360
+msgid "Load Average"
+msgstr "भार औसत"
+
+#: multiload/src/main.c:277
+msgid "Disk"
+msgstr "डिस्क"
+
+#: multiload/src/main.c:294
+#, c-format
+msgid ""
+"%s:\n"
+"%.01f%% in use by programs\n"
+"%.01f%% in use as cache"
+msgstr ""
+
+#: multiload/src/main.c:303
+#, c-format
+msgid "The system load average is %0.02f"
+msgstr "सिस्टम लोड औसत %0.02f है"
+
+#: multiload/src/main.c:313
+#, c-format
+msgid ""
+"%s:\n"
+"Receiving %s\n"
+"Sending %s"
+msgstr ""
+"%s:\n"
+"%s पा रहा है\n"
+"%s भेज रहा है"
+
+#: multiload/src/main.c:335
+#, c-format
+msgid ""
+"%s:\n"
+"%.01f%% in use"
+msgstr ""
+
+#: multiload/src/main.c:356
+msgid "CPU Load"
+msgstr "सीपीयू लोड"
+
+#: multiload/src/main.c:357
+msgid "Memory Load"
+msgstr "मेमोरी भार"
+
+#: multiload/src/main.c:358
+msgid "Net Load"
+msgstr "नेट भार"
+
+#: multiload/src/main.c:359
+msgid "Swap Load"
+msgstr "लोड की अदला बदली"
+
+#: multiload/src/main.c:361
+msgid "Disk Load"
+msgstr "डिस्क लोड"
+
+#: multiload/src/main.c:467
+msgid "_Open System Monitor"
+msgstr "तंत्र मॉनीटर खोलें (_O)"
+
+#: multiload/src/netspeed.c:60
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: multiload/src/properties.c:605
+msgid "System m_onitor height:"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:101
+msgid "Transfer Rate Graph"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:134
+msgid "_In graph color"
+msgstr "लेखाचित्र रंग अंदर (_I)"
+
+#: netspeed/data/netspeed-details.ui:161
+msgid "_Out graph color"
+msgstr "लेखाचित्र रंग बहार (_O)"
+
+#: netspeed/data/netspeed-details.ui:195
+msgid "IPv4 Address:"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:224
+msgid "Netmask:"
+msgstr "नेटमास्क:"
+
+#: netspeed/data/netspeed-details.ui:265
+msgid "IPv6 Address:"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:308
+msgid "Hardware Address:"
+msgstr "हार्डवेयर पता"
+
+#: netspeed/data/netspeed-details.ui:337
+msgid "P-t-P Address:"
+msgstr "पी-टी-पी पता :"
+
+#: netspeed/data/netspeed-details.ui:378
+msgid "Bytes in:"
+msgstr "बिट्स अंदर : "
+
+#: netspeed/data/netspeed-details.ui:393 netspeed/data/netspeed-details.ui:423
+msgid "0 byte"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:408
+msgid "Bytes out:"
+msgstr "बिट्स बहार :"
+
+#: netspeed/data/netspeed-details.ui:456
+msgid "ESSID:"
+msgstr "इएसएसआईडी:"
+
+#: netspeed/data/netspeed-details.ui:485
+msgid "Signal Strength:"
+msgstr "सिग्नल शक्ति:"
+
+#: netspeed/data/netspeed-details.ui:530
+msgid "Station:"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:557
+msgid "Channel:"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:596
+msgid "Connected Time:"
+msgstr ""
+
+#: netspeed/data/netspeed-preferences.ui:18
+msgid "MATE Netspeed Preferences"
+msgstr ""
+
+#: netspeed/data/netspeed-preferences.ui:100
+msgid "Network _device:"
+msgstr "नेटवर्क यंत्र: (_D)"
+
+#: netspeed/data/netspeed-preferences.ui:131
+msgid "Show _sum instead of in & out"
+msgstr "अंदर व बहार के बजाये योग दिखाएँ (_S)"
+
+#: netspeed/data/netspeed-preferences.ui:147
+msgid "Show _bits instead of bytes"
+msgstr "बिट्स दिखाएँ, बजाए बैट्स के (_B)"
+
+#: netspeed/data/netspeed-preferences.ui:163
+msgid "_Change icon according to the selected device"
+msgstr ""
+
+#: netspeed/data/netspeed-preferences.ui:179
+msgid "Show _icon"
+msgstr "चिह्न दिखाएँ (_I)"
+
+#: netspeed/data/netspeed-preferences.ui:195
+msgid "Show signal _quality icon for wireless devices"
+msgstr ""
+
+#: netspeed/data/netspeed-preferences.ui:211
+msgid "Show all _IP addresses on tooltip"
+msgstr ""
+
+#: netspeed/data/netspeed-preferences.ui:234
+msgid "General Settings"
+msgstr "सामान्य सेटिंग्स"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:5
+msgid "Device to monitor"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:6
+msgid "The name of the device to monitor"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:10
+msgid "Show sum speed"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:11
+msgid "If true, show sum of inbound/outbound speed instead of separated ones."
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:15
+msgid "Show bits"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:16
+msgid "If true, show speed in bits instead of bytes."
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:20
+msgid "Show IPv4 and IPv6 addresses on tooltip"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:21
+msgid "If true, show both IP addresses if enabled."
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:26
+msgid "If true, show main icon."
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:30
+msgid "Change icon"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:31
+msgid "If true, change the icon due to selected device."
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:35
+msgid "Auto change device"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:36
+msgid "If true, change automatically the selected device."
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:40
+msgid "In color"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:41
+msgid "The color of the graph of the inbound traffic"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:45
+msgid "Out color"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:46
+msgid "The color of the graph of the outbound traffic"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:50
+msgid "Up command"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:51
+msgid "Command to execute to activate the device"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:55
+msgid "Down command"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:56
+msgid "Command to execute to shut down the device"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:60
+msgid "Show signal quality icon"
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:61
+msgid "If true, show signal quality icon for wireless devices."
+msgstr ""
+
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:5
+msgid "Netspeed Applet Factory"
+msgstr ""
+
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:6
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:10
+msgid "Netspeed Applet"
+msgstr ""
+
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:9
+msgid "Network Monitor"
+msgstr ""
+
+#: netspeed/src/backend.c:149
+msgid "link-local"
+msgstr ""
+
+#: netspeed/src/backend.c:151
+msgid "site-local"
+msgstr ""
+
+#: netspeed/src/backend.c:153
+msgid "v4mapped"
+msgstr ""
+
+#: netspeed/src/backend.c:155
+msgid "v4compat"
+msgstr ""
+
+#: netspeed/src/backend.c:157
+msgid "host"
+msgstr ""
+
+#: netspeed/src/backend.c:159
+msgid "unspecified"
+msgstr ""
+
+#: netspeed/src/backend.c:161
+msgid "global"
+msgstr ""
+
+#: netspeed/src/backend.c:588
+#, c-format
+msgid "%d.%d MBit/s"
+msgstr ""
+
+#: netspeed/src/backend.c:590
+#, c-format
+msgid "(unknown)"
+msgstr ""
+
+#: netspeed/src/backend.c:594
+#, c-format
+msgid " MCS %d"
+msgstr ""
+
+#: netspeed/src/backend.c:597
+#, c-format
+msgid " VHT-MCS %d"
+msgstr ""
+
+#: netspeed/src/backend.c:599
+#, c-format
+msgid " 40MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:601
+#, c-format
+msgid " 80MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:603
+#, c-format
+msgid " 80P80MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:605
+#, c-format
+msgid " 160MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:607
+#, c-format
+msgid " short GI)"
+msgstr ""
+
+#: netspeed/src/backend.c:610
+#, c-format
+msgid " VHT-NSS %d"
+msgstr ""
+
+#: netspeed/src/backend.c:613
+#, c-format
+msgid " HE-MCS %d"
+msgstr ""
+
+#: netspeed/src/backend.c:616
+#, c-format
+msgid " HE-NSS %d"
+msgstr ""
+
+#: netspeed/src/backend.c:619
+#, c-format
+msgid " HE-GI %d"
+msgstr ""
+
+#: netspeed/src/backend.c:622
+#, c-format
+msgid " HE-DCM %d"
+msgstr ""
+
+#: netspeed/src/backend.c:706
+msgid "20 MHz (no HT)"
+msgstr ""
+
+#: netspeed/src/backend.c:708
+msgid "20 MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:710
+msgid "40 MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:712
+msgid "80 MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:714
+msgid "80+80 MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:716
+msgid "160 MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:718
+msgid "5 MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:720
+msgid "10 MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:722 netspeed/src/netspeed.c:772
+#: netspeed/src/netspeed.c:776 netspeed/src/netspeed.c:1422
+#: netspeed/src/netspeed.c:1431
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: netspeed/src/backend.c:773
+#, c-format
+msgid "%d (%d MHz)"
+msgstr ""
+
+#: netspeed/src/backend.c:777
+#, c-format
+msgid ", width: %s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:469
+msgid "bit/s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:469
+msgid "B/s"
+msgstr "बा./से."
+
+#: netspeed/src/netspeed.c:473
+msgid "Kibit/s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:473
+msgid "KiB/s"
+msgstr " कि.बा./से."
+
+#: netspeed/src/netspeed.c:477
+msgid "Mibit/s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:477
+msgid "MiB/s"
+msgstr "मि.बा./से."
+
+#: netspeed/src/netspeed.c:481
+msgid "Gibit/s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:481
+msgid "GiB/s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:646
+msgid "%'"
+msgid_plural "%'"
+msgstr[0] ""
+msgstr[1] ""
+
+#: netspeed/src/netspeed.c:652
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: netspeed/src/netspeed.c:653
+#, c-format
+msgid "%'d secon"
+msgid_plural "%'d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: netspeed/src/netspeed.c:658
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: netspeed/src/netspeed.c:699 netspeed/src/netspeed.c:707
+#: netspeed/src/netspeed.c:716 netspeed/src/netspeed.c:723
+msgid "none"
+msgstr "कुछ नहीं"
+
+#: netspeed/src/netspeed.c:780 netspeed/src/netspeed.c:892
+msgid "na"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1011
+#, c-format
+msgid ""
+"There was an error displaying help:\n"
+"%s"
+msgstr ""
+"मदद दिखाने में कोई त्रुटि है:\n"
+"%s"
+
+#: netspeed/src/netspeed.c:1050
+msgid "About MATE Netspeed"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1052
+msgid ""
+"Copyright © 2002-2003 Jörgen Scheibengruber\n"
+"Copyright © 2011-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 MATE developers"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1055 netspeed/src/netspeed.c:1757
+msgid ""
+"A little applet that displays some information on the traffic on the "
+"specified network device"
+msgstr "एक छोटा एप्लेट जो चुने गए नेटवर्क यन्त्र की ट्रैफिक सम्बन्धी जानकारी देता है"
+
+#: netspeed/src/netspeed.c:1231
+msgid "Device _Details"
+msgstr "यंत्र विवरण (_D)"
+
+#: netspeed/src/netspeed.c:1233
+msgid "Preferences..."
+msgstr "वरीयताएँ..."
+
+#: netspeed/src/netspeed.c:1235
+msgid "Help"
+msgstr "सहायता"
+
+#: netspeed/src/netspeed.c:1237
+msgid "About..."
+msgstr "परिचय..."
+
+#: netspeed/src/netspeed.c:1278
+#, c-format
+msgid "Do you want to disconnect %s now?"
+msgstr "क्या आप %s अभी डिसकनेक्ट करना चाहते हैं?"
+
+#: netspeed/src/netspeed.c:1281
+#, c-format
+msgid "Do you want to connect %s now?"
+msgstr "क्या आप %s अभी कनेक्ट करना चाहते हैं?"
+
+#: netspeed/src/netspeed.c:1307
+#, c-format
+msgid ""
+"<b>Running command %s failed</b>\n"
+"%s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1365
+#, c-format
+msgid "%s is down"
+msgstr "%s अधोमुख है"
+
+#: netspeed/src/netspeed.c:1383 netspeed/src/netspeed.c:1402
+#, c-format
+msgid ""
+"\n"
+"%s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1409
+#, c-format
+msgid ""
+"\n"
+"in: %s out: %s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1414
+#, c-format
+msgid ""
+"\n"
+"sum: %s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1421
+#, c-format
+msgid ""
+"\n"
+"ESSID: %s\n"
+"RSSI: %d dBm\n"
+"RX Bitrate: %s\n"
+"TX Bitrate: %s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1430
+#, c-format
+msgid ""
+"\n"
+"ESSID: %s\n"
+"Strength: %d %%"
+msgstr ""
+"\n"
+"इएसएसआईडी : %s\n"
+"शक्ति : %d %%"
+
+#: netspeed/src/netspeed.c:1578 netspeed/src/netspeed.c:1755
+msgid "MATE Netspeed"
+msgstr ""
+
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:5
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:6
+msgid "Sticky Notes Applet Factory"
+msgstr "स्टिकी नोट्स अप्लेट फैक्टरी"
+
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:9
+#: stickynotes/stickynotes_applet.c:179 stickynotes/stickynotes_applet.c:427
+msgid "Sticky Notes"
+msgstr "स्टिकी नोट्स"
+
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:10
+msgid "Create, view, and manage sticky notes on the desktop"
+msgstr "डेस्कटॉप पर बनाएँ, देखें तथा प्रबंधित करें स्टिकी नोट्स"
+
+#: stickynotes/stickynotes.c:706
+msgid "This note is locked."
+msgstr "नोट लॉक है."
+
+#: stickynotes/stickynotes.c:712
+msgid "This note is unlocked."
+msgstr "नोट खोला गया है."
+
+#: stickynotes/sticky-notes-delete-all.ui:36
+#: stickynotes/sticky-notes-delete.ui:37
+#: trashapplet/trashapplet-empty-progress.ui:27
+msgid "_Cancel"
+msgstr "रद्द करें (_C)"
+
+#: stickynotes/sticky-notes-delete-all.ui:53
+msgid "_Delete All"
+msgstr "सभी मिटाएँ (_D)"
+
+#: stickynotes/sticky-notes-delete-all.ui:106
+msgid "Delete all sticky notes?"
+msgstr "सभी स्टिकी नोट्स मिटाएँ?"
+
+#: stickynotes/sticky-notes-delete-all.ui:123
+#: stickynotes/sticky-notes-delete.ui:124
+msgid "This cannot be undone."
+msgstr "यह वापस नहीं किया जा सकता है."
+
+#: stickynotes/sticky-notes-delete.ui:54
+msgid "_Delete"
+msgstr "मिटाएँ (_D)"
+
+#: stickynotes/sticky-notes-delete.ui:107
+msgid "Delete this sticky note?"
+msgstr "यह स्टिकी नोट्स मिटाएँ?"
+
+#: stickynotes/sticky-notes-note.ui:14 stickynotes/stickynotes_applet.c:34
+msgid "_New Note"
+msgstr "नया नोट (_N)"
+
+#: stickynotes/sticky-notes-note.ui:21
+#, fuzzy
+msgid "_Delete Note..."
+msgstr "नोट्स मिटाएँ (_D)..."
+
+#: stickynotes/sticky-notes-note.ui:31
+#, fuzzy
+msgid "_Lock Note"
+msgstr "लॉक नोट्स (_L)"
+
+#: stickynotes/sticky-notes-note.ui:41
+#, fuzzy
+msgid "_Properties"
+msgstr "गुण"
+
+#: stickynotes/sticky-notes-note.ui:47
+msgid "Sticky Note"
+msgstr "स्टिकी नोट"
+
+#: stickynotes/sticky-notes-note.ui:64
+msgid "Lock/Unlock note"
+msgstr "लॉक/अनलॉक नोट"
+
+#: stickynotes/sticky-notes-note.ui:102
+msgid "Delete note"
+msgstr ""
+
+#: stickynotes/sticky-notes-note.ui:155 stickynotes/sticky-notes-note.ui:178
+msgid "Resize note"
+msgstr "नोट को नया आकार दें"
+
+#: stickynotes/sticky-notes-preferences.ui:32
+msgid "Sticky Notes Preferences"
+msgstr "स्टिकी नोट्स वरीयताएँ"
+
+#: stickynotes/sticky-notes-preferences.ui:108
+msgid "Default Note Properties"
+msgstr "तयशुदा नोट विशेषता"
+
+#: stickynotes/sticky-notes-preferences.ui:131
+msgid "_Width:"
+msgstr "चौड़ाई (_W):"
+
+#: stickynotes/sticky-notes-preferences.ui:145
+msgid "H_eight:"
+msgstr "ऊँचाई (_e):"
+
+#: stickynotes/sticky-notes-preferences.ui:159
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "नये नोट्स हेतु डिफ़ॉल्ट चौड़ाई (पिक्सेल में) निर्दिष्ट करें"
+
+#: stickynotes/sticky-notes-preferences.ui:160
+msgid "1"
+msgstr "1"
+
+#: stickynotes/sticky-notes-preferences.ui:174
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "नये नोट्स हेतु डिफ़ॉल्ट ऊँचाई (पिक्सेल में) निर्दिष्ट करें"
+
+#: stickynotes/sticky-notes-preferences.ui:175
+msgid "0"
+msgstr "0"
+
+#: stickynotes/sticky-notes-preferences.ui:187
+msgid "Use co_lor from the system theme"
+msgstr "तंत्र प्रसंग से रंग उपयोग करें (_l)"
+
+#: stickynotes/sticky-notes-preferences.ui:205
+msgid "Font Co_lor:"
+msgstr "फ़ॉन्ट रंग (_l):"
+
+#: stickynotes/sticky-notes-preferences.ui:219
+msgid "Note C_olor:"
+msgstr "नोट रंग (_o):"
+
+#: stickynotes/sticky-notes-preferences.ui:234
+#, fuzzy
+msgid "Choose a font color to use for all sticky notes"
+msgstr "सभी स्टिकी नोट्स के लिए कोई फ़ॉन्ट चुनें"
+
+#: stickynotes/sticky-notes-preferences.ui:235
+#, fuzzy
+msgid "Pick a default font color"
+msgstr "डिफ़ॉल्ट स्टिकी नोट रंग चुनें"
+
+#: stickynotes/sticky-notes-preferences.ui:247
+msgid "Choose a base color to use for all sticky notes"
+msgstr "सभी स्टिकी नोट्स के उपयोग हेतु एक आधार रंग चुनें"
+
+#: stickynotes/sticky-notes-preferences.ui:248
+msgid "Pick a default sticky note color"
+msgstr "डिफ़ॉल्ट स्टिकी नोट रंग चुनें"
+
+#: stickynotes/sticky-notes-preferences.ui:257
+msgid "Use fo_nt from the system theme"
+msgstr "तंत्र प्रसंग से फ़ॉन्ट उपयोग करें (_n)"
+
+#: stickynotes/sticky-notes-preferences.ui:275
+#: stickynotes/sticky-notes-properties.ui:230
+msgid "_Font:"
+msgstr "फ़ॉन्ट (_F):"
+
+#: stickynotes/sticky-notes-preferences.ui:290
+msgid "Choose a font to use for all sticky notes"
+msgstr "सभी स्टिकी नोट्स के लिए कोई फ़ॉन्ट चुनें"
+
+#: stickynotes/sticky-notes-preferences.ui:292
+msgid "Pick a default sticky note font"
+msgstr "स्टिकी नोट हेतु डिफ़ॉल्ट फ़ॉन्ट चुनें"
+
+#: stickynotes/sticky-notes-preferences.ui:323
+msgid "Behavior"
+msgstr "व्यवहार"
+
+#: stickynotes/sticky-notes-preferences.ui:344
+msgid "_Put notes on all workspaces"
+msgstr "नोट्स सभी कार्यस्थानों पर रखें (_P)"
+
+#: stickynotes/sticky-notes-preferences.ui:348
+msgid "Choose if notes are visible on all workspaces"
+msgstr "चुनें यदि नोट्स सभी कार्यस्थान में दिखने चाहिएँ"
+
+#: stickynotes/sticky-notes-preferences.ui:361
+msgid "Force _default color and font on notes"
+msgstr "नोट्स पर डिफ़ॉल्ट रंग तथा फ़ॉन्ट बाध्य करें (_d)"
+
+#: stickynotes/sticky-notes-preferences.ui:365
+msgid "Choose if the default style is forced on all notes"
+msgstr "चुनें कि क्या सभी नोट्स पर डिफ़ॉल्ट शैली बाध्य की जाए"
+
+#: stickynotes/sticky-notes-preferences.ui:378
+msgid "Hide notes when the des_ktop is clicked on"
+msgstr ""
+
+#: stickynotes/sticky-notes-preferences.ui:382
+msgid "Choose whether to hide all notes when selecting on the desktop"
+msgstr ""
+
+#: stickynotes/sticky-notes-properties.ui:18
+msgid "Sticky Note Properties"
+msgstr "स्टिकी नोट गुण"
+
+#: stickynotes/sticky-notes-properties.ui:94
+msgid "Properties"
+msgstr "गुण"
+
+#: stickynotes/sticky-notes-properties.ui:117
+msgid "_Title:"
+msgstr "शीर्षक (_T):"
+
+#: stickynotes/sticky-notes-properties.ui:131
+msgid "Specify a title for the note"
+msgstr "नोट हेतु शीर्षक निर्दिष्ट करें"
+
+#: stickynotes/sticky-notes-properties.ui:140
+msgid "Use default co_lor"
+msgstr "डिफ़ॉल्ट रंग उपयोग करें (_l)"
+
+#: stickynotes/sticky-notes-properties.ui:159
+msgid "Font C_olor:"
+msgstr "फ़ॉन्ट रंग (_o):"
+
+#: stickynotes/sticky-notes-properties.ui:174
+msgid "Note _Color:"
+msgstr "नोट रंग (_C):"
+
+#: stickynotes/sticky-notes-properties.ui:185
+msgid "Use default fo_nt"
+msgstr "डिफ़ॉल्ट फ़ॉन्ट उपयोग करें (_n)"
+
+#: stickynotes/sticky-notes-properties.ui:204
+#, fuzzy
+msgid "Choose a font color for the note"
+msgstr "नोट के लिए कोई रंग चुनें"
+
+#: stickynotes/sticky-notes-properties.ui:205
+#, fuzzy
+msgid "Pick a font color for the sticky note"
+msgstr "स्टिकी नोट हेतु रंग चुने"
+
+#: stickynotes/sticky-notes-properties.ui:217
+msgid "Choose a color for the note"
+msgstr "नोट के लिए कोई रंग चुनें"
+
+#: stickynotes/sticky-notes-properties.ui:218
+msgid "Pick a color for the sticky note"
+msgstr "स्टिकी नोट हेतु रंग चुने"
+
+#: stickynotes/sticky-notes-properties.ui:245
+msgid "Choose a font for the note"
+msgstr "नोट के लिए कोई फ़ॉन्ट चुनें"
+
+#: stickynotes/sticky-notes-properties.ui:247
+msgid "Pick a font for the sticky note"
+msgstr "स्टिकी नोट हेतु फ़ॉन्ट चुनें"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:5
+msgid "Default width for new notes"
+msgstr "नये नोट्स हेतु डिफ़ॉल्ट चौड़ाई"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:6
+msgid "Default width for new sticky notes in pixels."
+msgstr "नये नोट्स हेतु पिक्सेल में डिफ़ॉल्ट चौड़ाई."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:10
+msgid "Default height for new notes"
+msgstr "नये नोट्स हेतु डिफ़ॉल्ट ऊँचाई"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:11
+msgid "Default height for new sticky notes in pixels."
+msgstr "नये नोट्स हेतु पिक्सेल में डिफ़ॉल्ट ऊँचाई"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:15
+msgid "Default color for new notes"
+msgstr "नये नोट्स हेतु डिफ़ॉल्ट रंग"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:16
+msgid ""
+"Default color for new sticky notes. This should be in html hex "
+"specification, for example \"#30FF50\"."
+msgstr ""
+"नये स्टिकी नोट के लिये मूलभूत रंग. इसे html hex विशिष्टता में होना चाहिये, उदाहरण के लिये "
+"\"#30FF50\"."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:20
+msgid "Default color for font"
+msgstr "फंट हेतु डिफ़ॉल्ट रंग"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:21
+msgid ""
+"Default font color for new sticky notes. This should be in html hex "
+"specification, for example \"#000000\"."
+msgstr ""
+"नये स्टिकी नोट के लिये मूलभूत फंट रंग. इसे html hex विशिष्टता में होना चाहिये, उदाहरण के "
+"लिये \"#000000\"."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:25
+msgid "Default font for new notes"
+msgstr "नये नोट्स हेतु डिफ़ॉल्ट फ़ॉन्ट"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:26
+msgid ""
+"Default font for new sticky notes. This should be a Pango Font Name, for "
+"example \"Sans Italic 10\"."
+msgstr ""
+"नये स्टिकी नोट के लिये तयशुदा रंग. इसे पैंगो फंट नाम होना चाहिये, उदाहरण के लिये \"Sans "
+"Italic 10\"."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:30
+msgid "Sticky notes' workspace stickyness"
+msgstr "स्टिकी नोट्स कार्यस्थान स्टिकीनेस"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:31
+msgid ""
+"Specifies whether the sticky notes are visible on ALL workspaces on the "
+"desktop, or not."
+msgstr "निर्दिष्ट करता है कि स्टिकी नोट्स डेस्कटॉप के सभी कार्यस्थान पर दिखाई दे या नहीं."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:35
+msgid "Sticky notes' locked state"
+msgstr "स्टिकी नोट्स तालाबंद स्थिति"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:36
+msgid "Specifies whether the sticky notes are locked (non-editable) or not."
+msgstr "निर्दिष्ट करता है कि क्या स्टिकी नोट्स तालाबंद (संपादन योग्य नहीं) है या नहीं"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:40
+msgid "Date format of note's title"
+msgstr "नोट के शीर्षक पर तिथि का स्वरूप"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:41
+msgid ""
+"By default, sticky notes are given the current date as the title when they "
+"are created. This format is used; anything that can be parsed by strftime() "
+"is valid."
+msgstr ""
+"मूलभूत रूप से, शीर्षक की तरह स्टिकी नोट को वर्तमान तिथि दी गई है जब वे बनाये गये. यह "
+"प्रारूप प्रयुक्त है; कुछ भी जो strftime() के द्वारा विश्लेषित है मान्य है."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:45
+msgid "Whether to use the default system color"
+msgstr "क्या डिफ़ॉल्ट तंत्र रंग उपयोग करना है"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:46
+msgid ""
+"If this option is disabled, a custom color can be used as the default color "
+"for all sticky notes."
+msgstr ""
+"अगर यह विकल्प निष्क्रिय किया जाता है, सारे स्टिकी नोट के लिये पसंदीदा रंग मूलभूत रंग की "
+"तरह प्रयोग किया जा सकता है."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:50
+msgid "Whether to use the default system font"
+msgstr "क्या तंत्र डिफ़ॉल्ट फ़ॉन्ट उपयोग करना है"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:51
+msgid ""
+"If this option is disabled, a custom font can be used as the default font "
+"for all sticky notes."
+msgstr ""
+"अगर यह विकल्प निष्क्रिय किया जाता है, सारे स्टिकी नोट के लिये पसंदीदा फंट मूलभूत फंट की "
+"तरह प्रयोग किया जा सकता है."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:55
+msgid "Whether to force the default color and font on all notes"
+msgstr "क्या सभी नोट्स में डिफ़ॉल्ट रंग तथा फ़ॉन्ट बाध्य करें"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:56
+msgid ""
+"If this option is enabled, the custom colors and fonts that have been "
+"assigned to individual notes will be ignored."
+msgstr ""
+"अगर यह विकल्प निष्क्रिय किया जाता है, निजी नोट्स जिसे पसंदीदा फंट व रंग नियत किया गया "
+"है अनदेखा किया जायेगा."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:60
+msgid "Whether to hide all notes when the desktop is selected"
+msgstr ""
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:61
+msgid ""
+"If this option is enabled, selecting the desktop in any way will "
+"automatically hide all the open notes."
+msgstr ""
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:65
+msgid "Whether to ask for confirmation when deleting a note"
+msgstr "जब नोट मिटा रहे हों तो पुष्टि के लिए पूछें या नहीं"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:66
+msgid "Empty notes are always deleted without confirmation."
+msgstr "खाली नोट्स हमेशा ही बिना पुष्टि किए मिटा दिए जाते हैं."
+
+#: stickynotes/stickynotes_applet.c:37
+msgid "Hi_de Notes"
+msgstr "नया नोट (_d)"
+
+#: stickynotes/stickynotes_applet.c:40
+msgid "_Delete Notes"
+msgstr "नोट्स मिटाएँ (_D)..."
+
+#: stickynotes/stickynotes_applet.c:56
+msgid "_Lock Notes"
+msgstr "लॉक नोट्स (_L)"
+
+#: stickynotes/stickynotes_applet.c:607
+#, c-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: stickynotes/stickynotes_applet.c:613
+msgid "Show sticky notes"
+msgstr "स्टिकी नोट्स दिखायें"
+
+#: stickynotes/stickynotes_applet_callbacks.c:429
+msgid "About Sticky Notes"
+msgstr ""
+
+#: stickynotes/stickynotes_applet_callbacks.c:431
+msgid ""
+"Copyright © 2002-2003 Loban A Rahman\n"
+"Copyright © 2005 Davyd Madeley\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+
+#: stickynotes/stickynotes_applet_callbacks.c:434
+msgid "Sticky Notes for the MATE Desktop Environment"
+msgstr "गनोम डेस्कटॉप वातावरण हेतु स्टिकी नोट्स"
+
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:5
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:6
+msgid "Timer Factory"
+msgstr ""
+
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:9
+msgid "Timer"
+msgstr ""
+
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:10
+#: timerapplet/src/timerapplet.c:288 timerapplet/src/timerapplet.c:399
+msgid "Start a timer and receive a notification when it is finished"
+msgstr ""
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:5
+msgid "Name of timer"
+msgstr ""
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:9
+msgid "Duration of timer in seconds"
+msgstr ""
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:13
+msgid "Show notification popup when timer finish"
+msgstr ""
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:17
+msgid "Show dialog window when timer finish"
+msgstr ""
+
+#: timerapplet/data/timerapplet-preferences.ui:28
+msgid "Timer Applet Preferences"
+msgstr ""
+
+#: timerapplet/data/timerapplet-preferences.ui:79
+msgid "_Name:"
+msgstr "नाम (_N):"
+
+#: timerapplet/data/timerapplet-preferences.ui:93
+msgid "_Hours:"
+msgstr ""
+
+#: timerapplet/data/timerapplet-preferences.ui:107
+msgid "_Minutes:"
+msgstr ""
+
+#: timerapplet/data/timerapplet-preferences.ui:121
+msgid "_Seconds:"
+msgstr ""
+
+#: timerapplet/data/timerapplet-preferences.ui:189
+msgid "Show notification _popup"
+msgstr ""
+
+#: timerapplet/data/timerapplet-preferences.ui:205
+msgid "Show _dialog"
+msgstr ""
+
+#: timerapplet/src/timerapplet.c:83
+msgid "_Start timer"
+msgstr ""
+
+#: timerapplet/src/timerapplet.c:84
+msgid "P_ause timer"
+msgstr ""
+
+#: timerapplet/src/timerapplet.c:85
+msgid "S_top timer"
+msgstr ""
+
+#: timerapplet/src/timerapplet.c:86
+msgid "R_eset"
+msgstr ""
+
+#. Translators: %s is a placeholder for the timer name, 'Timer' by default
+#: timerapplet/src/timerapplet.c:156
+#, c-format
+msgid "Finished %s"
+msgstr ""
+
+#: timerapplet/src/timerapplet.c:166 timerapplet/src/timerapplet.c:178
+msgid "Timer finished!"
+msgstr ""
+
+#: timerapplet/src/timerapplet.c:283
+msgid "About Timer Applet"
+msgstr ""
+
+#: timerapplet/src/timerapplet.c:285
+msgid ""
+"Copyright © 2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 MATE developers"
+msgstr ""
+
+#: timerapplet/src/timerapplet.c:376 timerapplet/src/timerapplet.c:398
+msgid "Timer Applet"
+msgstr ""
+
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:5
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:6
+msgid "Trash Applet Factory"
+msgstr ""
+
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:9
+msgid "Trash"
+msgstr "कूडे मे डाले"
+
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:10
+msgid "Go to Trash"
+msgstr "रद्दी में जायें"
+
+#: trashapplet/src/trashapplet.c:68 trashapplet/src/trash-empty.c:341
+msgid "_Empty Trash"
+msgstr "रद्दी खाली करें (_E)"
+
+#: trashapplet/src/trashapplet.c:71
+msgid "_Open Trash"
+msgstr "रद्दी खोलें (_O)"
+
+#: trashapplet/src/trashapplet.c:130
+#, c-format
+msgid "%d Item in Trash"
+msgid_plural "%d Items in Trash"
+msgstr[0] ""
+msgstr[1] ""
+
+#: trashapplet/src/trashapplet.c:135
+msgid "No Items in Trash"
+msgstr "रद्दी में कोई वस्तु नहीं"
+
+#: trashapplet/src/trashapplet.c:378
+#, c-format
+msgid ""
+"Error while spawning caja:\n"
+"%s"
+msgstr ""
+"नॉटिलस की संतति के दौरान त्रुटि:\n"
+"%s"
+
+#: trashapplet/src/trashapplet.c:432
+msgid "About Trash Applet"
+msgstr ""
+
+#: trashapplet/src/trashapplet.c:434
+msgid ""
+"Copyright © 2004 Michiel Sikkes\n"
+"Copyright © 2008 Ryan Lortie\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+
+#: trashapplet/src/trashapplet.c:437
+msgid ""
+"A MATE trash bin that lives in your panel. You can use it to view the trash "
+"or drag and drop items into the trash."
+msgstr ""
+"एक MATE रद्दी जो आपके पटल पर रहता है. आप इसे रद्दी को देखने के लिये प्रयोग कर सकते हैं या "
+"रद्दी में मद को खींचकर छोड़ भी सकते हैं."
+
+#: trashapplet/src/trashapplet.c:462
+msgid "Delete Immediately?"
+msgstr "फ़ौरन मिटाएँ?"
+
+#: trashapplet/src/trashapplet.c:492
+msgid "Cannot move items to trash, do you want to delete them immediately?"
+msgstr "वस्तुओं को रद्दी पर नहीं खिसका सका, क्या आप इन्हें तत्काल ही मिटाना चाहेंगे?"
+
+#: trashapplet/src/trashapplet.c:497
+msgid ""
+"Cannot move some items to trash, do you want to delete these immediately?"
+msgstr "कुछ वस्तुओं को रद्दी पर नहीं खिसका सका, क्या आप इन्हें तत्काल ही मिटाना चाहेंगे?"
+
+#: trashapplet/src/trashapplet.c:625 trashapplet/src/trashapplet.c:644
+msgid "Trash Applet"
+msgstr "रद्दी का ऐप्लेट"
+
+#. Translators: the %s in this string should be read as %d.
+#: trashapplet/src/trash-empty.c:72
+#, c-format
+msgid "Removing item %s of %s"
+msgstr "%s मद %s का, को हटा रहा है"
+
+#. Translators: %s is a file name
+#: trashapplet/src/trash-empty.c:98
+#, c-format
+msgid "Removing: %s"
+msgstr "हटा रहा है: %s"
+
+#: trashapplet/src/trash-empty.c:321
+msgid "Empty all of the items from the trash?"
+msgstr "आप रद्दी से सभी वस्तुओं को खाली करना चाहते हैं?"
+
+#: trashapplet/src/trash-empty.c:328
+msgid ""
+"If you choose to empty the trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
+msgstr ""
+"अगर आप रद्दी खाली करने के लिये चुनते हैं, इसमें सारा मद स्थायी रूप से मिट जायेगा. कृपया नोट "
+"करें कि आप इन्हें अलग अलग भी मिटा सकते हैं."
+
+#: trashapplet/trashapplet-empty-progress.ui:13
+#: trashapplet/trashapplet-empty-progress.ui:62
+msgid "Emptying the Trash"
+msgstr "रद्दी खाली कर रहा है"
+
+#: trashapplet/trashapplet-empty-progress.ui:83
+msgid "From:"
+msgstr "द्वारा:"

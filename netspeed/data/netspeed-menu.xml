@@ -1,0 +1,5 @@
+<menuitem name="NetspeedAppletDetails" action="NetspeedAppletDetails" />
+<separator/>
+<menuitem name="NetspeedAppletProperties" action="NetspeedAppletProperties" />
+<menuitem name="NetspeedAppletHelp" action="NetspeedAppletHelp" />
+<menuitem name="NetspeedAppletAbout" action="NetspeedAppletAbout" />

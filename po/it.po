@@ -1,0 +1,3016 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-applets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Emilio Bologna <io@emilio.i5-my.name>, 2021
+# Martin Wimpress <code@flexion.org>, 2021
+# Marco Z. <minaz666@gmail.com>, 2021
+# 6d1bb5d393520b00f70a137a58397ea1_b5ba1e2 <22cc5e560e0d5b6554809bfb51b90403_882095>, 2021
+# Dario Di Nucci <linkin88mail@gmail.com>, 2021
+# Giuseppe Pignataro <rogepix@gmail.com>, 2021
+# Enrico B. <enricobe@hotmail.com>, 2021
+# Marco Bartolucci, 2021
+# Mat V <enthusedquill6@gmail.com>, 2021
+# l3nn4rt, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Alessandro Volturno <alelvb@inwind.it>, 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-applets 1.25.3\n"
+"Report-Msgid-Bugs-To: https://www.transifex.com/mate/MATE/\n"
+"POT-Creation-Date: 2023-03-10 07:23+0100\n"
+"PO-Revision-Date: 2021-09-18 20:12+0000\n"
+"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:5
+msgid "AccessX Status Applet Factory"
+msgstr "AccessX Status Applet Factory"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:6
+msgid "Keyboard Accessibility Status Applet Factory"
+msgstr "Fabbrica applet di stato per l'accessibilità alla tastiera"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:9
+#: accessx-status/src/applet.c:1670
+msgid "Keyboard Accessibility Status"
+msgstr "Stato di accessibilità alla tastiera"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:10
+msgid "Shows the status of keyboard accessibility features"
+msgstr "Mostra lo stato delle funzionalità di accesso facilitato alla tastiera"
+
+#: accessx-status/src/applet.c:100 charpick/charpick.c:623
+#: geyes/src/geyes.c:180 mateweather/src/mateweather-about.c:41
+#: multiload/src/main.c:48 stickynotes/stickynotes_applet_callbacks.c:417
+msgid "Sun GNOME Documentation Team <gdocteam@sun.com>"
+msgstr "Team Documentazione GNOME Sun <gdocteam@sun.com>"
+
+#: accessx-status/src/applet.c:101 battstat/battstat_applet.c:830
+#: charpick/charpick.c:624 cpufreq/src/cpufreq-applet.c:463
+#: drivemount/src/drivemount.c:107 geyes/src/geyes.c:181
+#: mateweather/src/mateweather-about.c:43 multiload/src/main.c:49
+#: stickynotes/stickynotes_applet_callbacks.c:418
+#: trashapplet/src/trashapplet.c:421
+msgid "MATE Documentation Team"
+msgstr "Team della documentazione MATE"
+
+#: accessx-status/src/applet.c:112
+msgid "About AccessX Status"
+msgstr "Info su AccessX Status"
+
+#: accessx-status/src/applet.c:114
+msgid "Shows the state of AccessX features such as latched modifiers"
+msgstr ""
+"Mostra lo stato delle caratteristiche di AccessX come ad esempio i "
+"modificatori a due stati"
+
+#: accessx-status/src/applet.c:115
+msgid ""
+"Copyright © 2003 Sun Microsystems\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Copyright © 2003 Sun Microsystems\n"
+"Copyright © 2012-2021 Gli sviluppatori di MATE"
+
+#: accessx-status/src/applet.c:119 battstat/battstat_applet.c:855
+#: charpick/charpick.c:644 command/src/command.c:131
+#: cpufreq/src/cpufreq-applet.c:487 drivemount/src/drivemount.c:125
+#: geyes/src/geyes.c:200 mateweather/src/mateweather-about.c:61
+#: multiload/src/main.c:69 netspeed/src/netspeed.c:1058
+#: stickynotes/stickynotes_applet_callbacks.c:438
+#: timerapplet/src/timerapplet.c:289 trashapplet/src/trashapplet.c:442
+msgid "translator-credits"
+msgstr "Alessandro Volturno, 2021"
+
+#: accessx-status/src/applet.c:143
+#, c-format
+msgid "There was an error launching the help viewer: %s"
+msgstr "Si è verificato un errore nel lanciare il visualizzatore d'aiuto: %s"
+
+#: accessx-status/src/applet.c:176
+msgid "Open the keyboard preferences dialog"
+msgstr "Apri la finestra di preferenze della tastiera"
+
+#: accessx-status/src/applet.c:199
+#, c-format
+msgid "There was an error launching the keyboard preferences dialog: %s"
+msgstr ""
+"Si è verificato un errore nel lanciare la finestra di dialogo per le "
+"preferenze della tastiera: %s"
+
+#: accessx-status/src/applet.c:218
+msgid "_Keyboard Accessibility Preferences"
+msgstr "Preferen_ze di accessibilità alla tastiera"
+
+#: accessx-status/src/applet.c:220 battstat/battstat_applet.c:62
+#: battstat/battstat-preferences.ui:37 charpick/charpick.c:730
+#: cpufreq/cpufreq-preferences.ui:31 cpufreq/src/cpufreq-applet.c:119
+#: drivemount/src/drivemount.c:163 geyes/data/themes.ui:35
+#: geyes/src/geyes.c:371 mateweather/src/mateweather-applet.c:119
+#: multiload/data/properties.ui:67 multiload/src/main.c:470
+#: netspeed/data/netspeed-details.ui:31
+#: netspeed/data/netspeed-preferences.ui:33
+#: stickynotes/sticky-notes-preferences.ui:51
+#: stickynotes/sticky-notes-properties.ui:37
+#: stickynotes/stickynotes_applet.c:46 trashapplet/src/trashapplet.c:74
+msgid "_Help"
+msgstr "Aiuto"
+
+#: accessx-status/src/applet.c:222 battstat/battstat_applet.c:65
+#: charpick/charpick.c:733 command/src/command.c:87
+#: cpufreq/src/cpufreq-applet.c:122 drivemount/src/drivemount.c:166
+#: geyes/src/geyes.c:373 mateweather/src/mateweather-applet.c:122
+#: multiload/src/main.c:473 stickynotes/stickynotes_applet.c:49
+#: timerapplet/src/timerapplet.c:88 trashapplet/src/trashapplet.c:77
+msgid "_About"
+msgstr "Informazioni"
+
+#: accessx-status/src/applet.c:571 accessx-status/src/applet.c:640
+msgid "a"
+msgstr "a"
+
+#: accessx-status/src/applet.c:1242 accessx-status/src/applet.c:1320
+#: accessx-status/src/applet.c:1442 accessx-status/src/applet.c:1673
+msgid "AccessX Status"
+msgstr "AccessX Status"
+
+#: accessx-status/src/applet.c:1244 accessx-status/src/applet.c:1444
+msgid "Shows keyboard status when accessibility features are used."
+msgstr ""
+"Mostra lo stato della tastiera quando sono usate le funzioni di "
+"accessibilità universale."
+
+#: accessx-status/src/applet.c:1280
+msgid "XKB Extension is not enabled"
+msgstr "L'estensione XKB non è abilitata"
+
+#: accessx-status/src/applet.c:1285
+msgid "Unknown error"
+msgstr "Errore sconosciuto"
+
+#: accessx-status/src/applet.c:1293
+#, c-format
+msgid "Error: %s"
+msgstr "Errore: %s"
+
+#: accessx-status/src/applet.c:1675
+msgid "Displays current state of keyboard accessibility features"
+msgstr ""
+"Mostra lo stato attuale delle funzioni di accessibilità universale alla "
+"tastiera"
+
+#: battstat/battstat_applet.c:59 charpick/charpick.c:727
+#: command/src/command.c:86 cpufreq/src/cpufreq-applet.c:116
+#: geyes/src/geyes.c:369 mateweather/src/mateweather-applet.c:116
+#: multiload/src/main.c:464 stickynotes/stickynotes_applet.c:43
+#: timerapplet/src/timerapplet.c:87
+msgid "_Preferences"
+msgstr "_Preferenze"
+
+#: battstat/battstat_applet.c:70
+msgid "System is running on AC power"
+msgstr "Il sistema sta funzionando con l'alimentazione di rete"
+
+#: battstat/battstat_applet.c:71
+msgid "System is running on battery power"
+msgstr "Il sistema sta funzionando con l'alimentazione a batteria"
+
+#: battstat/battstat_applet.c:176
+#, c-format
+msgid "Battery charged (%d%%)"
+msgstr "Batteria caricata (%d%%)"
+
+#: battstat/battstat_applet.c:178
+#, c-format
+msgid "Unknown time (%d%%) remaining"
+msgstr "Tempo rimanente (%d%%) sconosciuto"
+
+#: battstat/battstat_applet.c:180
+#, c-format
+msgid "Unknown time (%d%%) until charged"
+msgstr "Tempo sconosciuto (%d%%) per completare la carica"
+
+#: battstat/battstat_applet.c:184
+#, c-format
+msgid "%d minute (%d%%) remaining"
+msgid_plural "%d minutes (%d%%) remaining"
+msgstr[0] "%d minuto (%d%%) rimanenti"
+msgstr[1] "%d minuti (%d%%) rimanenti"
+msgstr[2] "%d minuti (%d%%) rimanenti"
+
+#: battstat/battstat_applet.c:189
+#, c-format
+msgid "%d minute until charged (%d%%)"
+msgid_plural "%d minutes until charged (%d%%)"
+msgstr[0] "%d minuto alla carica completa (%d%%)"
+msgstr[1] "%d minuti alla carica completa (%d%%)"
+msgstr[2] "%d minuti alla carica completa (%d%%)"
+
+#: battstat/battstat_applet.c:195
+#, c-format
+msgid "%d hour (%d%%) remaining"
+msgid_plural "%d hours (%d%%) remaining"
+msgstr[0] "%d ora (%d%%) rimanenti"
+msgstr[1] "%d ore (%d%%) rimanenti"
+msgstr[2] "%d ore (%d%%) rimanenti"
+
+#: battstat/battstat_applet.c:200
+#, c-format
+msgid "%d hour until charged (%d%%)"
+msgid_plural "%d hours until charged (%d%%)"
+msgstr[0] "%d ora alla carica completa (%d%%)"
+msgstr[1] "%d ore alla carica completa (%d%%)"
+msgstr[2] "%d ore alla carica completa (%d%%)"
+
+#: battstat/battstat_applet.c:208
+#, c-format
+msgid "%d %s %d %s (%d%%) remaining"
+msgstr "%d %s %d %s (%d%%) rimanenti"
+
+#: battstat/battstat_applet.c:209 battstat/battstat_applet.c:216
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ora"
+msgstr[1] "ore"
+msgstr[2] "ore"
+
+#: battstat/battstat_applet.c:210 battstat/battstat_applet.c:217
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minuto"
+msgstr[1] "minuti"
+msgstr[2] "minuti"
+
+#: battstat/battstat_applet.c:215
+#, c-format
+msgid "%d %s %d %s until charged (%d%%)"
+msgstr "%d %s %d %s per completare la carica (%d%%)"
+
+#: battstat/battstat_applet.c:229
+msgid "Battery Monitor"
+msgstr "Monitor della Batteria"
+
+#: battstat/battstat_applet.c:239 battstat/battstat_applet.c:297
+msgid "Your battery is now fully recharged"
+msgstr "La batteria adesso è completamente carica"
+
+#: battstat/battstat_applet.c:273 battstat/battstat_applet.c:430
+msgid "Battery Notice"
+msgstr "Avviso della batteria"
+
+#: battstat/battstat_applet.c:377
+#, c-format
+msgid "You have %d%% of your total battery capacity remaining."
+msgstr "Resta %d%% della capacità totale della batteria."
+
+#: battstat/battstat_applet.c:382
+#, c-format
+msgid ""
+"You have %d minute of battery power remaining (%d%% of the total capacity)."
+msgid_plural ""
+"You have %d minutes of battery power remaining (%d%% of the total capacity)."
+msgstr[0] ""
+"%d minuto di alimentazione a batteria rimanente (%d%% della capacità totale)."
+msgstr[1] ""
+"%d minuti di alimentazione a batteria rimanenti (%d%% della capacità totale)."
+msgstr[2] ""
+"%d minuti di alimentazione a batteria rimanenti (%d%% della capacità totale)."
+
+#: battstat/battstat_applet.c:395
+msgid ""
+"To avoid losing your work:\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr ""
+"Per evitare la perdita del proprio lavoro:\n"
+" • connettere il portatile a una presa elettrica, oppure\n"
+" • salvare i documenti aperti e arrestare il portatile."
+
+#: battstat/battstat_applet.c:402
+msgid ""
+"To avoid losing your work:\n"
+" • suspend your laptop to save power,\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr ""
+"Per evitare la perdita del proprio lavoro:\n"
+" • sospendere il portatile per risparmiare energia,\n"
+" • connettere il portatile a una presa elettrica, oppure\n"
+" • salvare i documenti aperti e arrestare il portatile."
+
+#: battstat/battstat_applet.c:408
+msgid "Your battery is running low"
+msgstr "La batteria si sta esaurendo"
+
+#: battstat/battstat_applet.c:510
+msgid "No battery present"
+msgstr "Nessuna batteria presente"
+
+#: battstat/battstat_applet.c:513
+msgid "Battery status unknown"
+msgstr "Stato della batteria sconosciuto"
+
+#: battstat/battstat_applet.c:543
+msgid "N/A"
+msgstr "N/D"
+
+#: battstat/battstat_applet.c:793 drivemount/src/drivemount.c:151
+#: geyes/src/geyes.c:355 geyes/src/themes.c:226
+#: mateweather/src/mateweather-applet.c:63
+#: mateweather/src/mateweather-pref.c:774
+#: stickynotes/stickynotes_applet_callbacks.c:389
+#: stickynotes/stickynotes_applet_callbacks.c:617
+#: trashapplet/src/trashapplet.c:399
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "Si è verificato un errore nel visualizzare il manuale: %s"
+
+#: battstat/battstat_applet.c:835
+msgid "This utility shows the status of your laptop battery."
+msgstr "Questa utilità mostra lo stato della batteria del proprio portatile."
+
+#: battstat/battstat_applet.c:837
+msgid "upower backend enabled."
+msgstr "backend upower abilitato."
+
+#: battstat/battstat_applet.c:838
+msgid "Legacy backend enabled."
+msgstr "backend legacy abilitato."
+
+#: battstat/battstat_applet.c:847
+msgid "About Battery Charge Monitor"
+msgstr "Informazioni sul Monitor Carica della Batteria"
+
+#: battstat/battstat_applet.c:849
+msgid ""
+"Copyright © 2000 The Gnulix Society\n"
+"Copyright © 2002-2005 Free Software Foundation and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Copyright © 2000 The Gnulix Society\n"
+"Copyright © 2002-2005 Free Software Foundation ed altri\n"
+"Copyright © 2012-2021 Gli sviluppatori di MATE"
+
+#: battstat/battstat_applet.c:1133 battstat/battstat_applet.c:1188
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:9
+msgid "Battery Charge Monitor"
+msgstr "Monitor Carica della batteria"
+
+#: battstat/battstat_applet.c:1190
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:10
+msgid "Monitor a laptop's remaining power"
+msgstr "Monitoraggio della carica rimanente di un portatile"
+
+#: battstat/battstat-preferences.ui:23
+msgid "Battery Charge Monitor Preferences"
+msgstr "Preferenze di Monitor Carica della batteria"
+
+#: battstat/battstat-preferences.ui:53 command/data/command-preferences.ui:39
+#: cpufreq/cpufreq-preferences.ui:47 geyes/data/themes.ui:51
+#: mateweather/data/mateweather-dialog.ui:45 multiload/data/properties.ui:83
+#: netspeed/data/netspeed-details.ui:47
+#: netspeed/data/netspeed-preferences.ui:49
+#: stickynotes/sticky-notes-preferences.ui:68
+#: stickynotes/sticky-notes-properties.ui:54
+#: timerapplet/data/timerapplet-preferences.ui:41
+msgid "_Close"
+msgstr "_Chiudi"
+
+#: battstat/battstat-preferences.ui:102
+msgid "_Show time/percentage:"
+msgstr "_Mostra tempo/percentuale:"
+
+#: battstat/battstat-preferences.ui:125
+msgid "Show _time remaining"
+msgstr "Mostra il _tempo rimanente"
+
+#: battstat/battstat-preferences.ui:143
+msgid "Show _percentage remaining"
+msgstr "Mostra la _percentuale rimanente"
+
+#: battstat/battstat-preferences.ui:175
+msgid "Appearance"
+msgstr "Aspetto"
+
+#: battstat/battstat-preferences.ui:214
+msgid "_Warn when battery charge drops to:"
+msgstr "A_vverti quando la carica della batteria si abbassa a:"
+
+#: battstat/battstat-preferences.ui:255
+msgid "Percent"
+msgstr "Percentuale"
+
+#: battstat/battstat-preferences.ui:256
+msgid "Minutes Remaining"
+msgstr "Minuti rimanenti"
+
+#: battstat/battstat-preferences.ui:282
+msgid "_Notify when battery is fully recharged"
+msgstr "_Notifica quando la batteria è completamente ricaricata"
+
+#: battstat/battstat-preferences.ui:305
+msgid "Notifications"
+msgstr "Notifiche"
+
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:5
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:6
+msgid "Battstat Factory"
+msgstr "Fabbrica Battstat"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:5
+msgid "Red value level"
+msgstr "Valore di livello rosso"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:6
+msgid ""
+"The battery level below which the battery is displayed as red. Also the "
+"value at which the low battery warning is displayed."
+msgstr ""
+"Il livello della batteria al di sotto del quale viene mostrata in rosso. "
+"Rappresenta anche il valore che attiva la visualizzazione dell'avviso di "
+"batteria quasi scarica."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:10
+msgid "Warn on low time rather than low percentage"
+msgstr "Avvisa sul tempo limitato invece che sulla percentuale bassa"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:11
+msgid ""
+"Use the value defined in red_value as a time remaining to show the warning "
+"dialog rather than a percentage."
+msgstr ""
+"Usa il valore definito nella chiave \"red_value\" come tempo rimanente, "
+"invece che percentuale rimanente, per il quale mostrare il dialogo di avviso."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:15
+msgid "Low Battery Notification"
+msgstr "Notifica batteria quasi scarica"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:16
+msgid "Notify user when the battery is low."
+msgstr "Notifica all'utente quando la batteria è quasi scarica."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:20
+msgid "Full Battery Notification"
+msgstr "Notifica batteria carica"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:21
+msgid "Notify user when the battery is full."
+msgstr "Notifica all'utente quando la batteria è carica."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:25
+msgid "Beep for warnings"
+msgstr "Avviso sonoro per gli avvisi"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:26
+msgid "Beep when displaying a warning."
+msgstr "Avviso sonoro quando è mostrato un avviso."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:30
+msgid "Show the time/percent label"
+msgstr "Mostra l'etichetta tempo/percentuale"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:31
+msgid "0 for no label, 1 for percentage and 2 for time remaining."
+msgstr ""
+"Impostare a 0 per nessuna etichetta, 1 per la percentuale e 2 per il tempo "
+"rimanente."
+
+#: battstat/sounds/mate-battstat_applet.soundlist.desktop.in:3
+msgid "Battery Status Utility"
+msgstr "Utilità dello stato della batteria"
+
+#: battstat/sounds/mate-battstat_applet.soundlist.desktop.in:7
+msgid "Battery power low"
+msgstr "Batteria quasi scarica"
+
+#: battstat/sounds/mate-battstat_applet.soundlist.desktop.in:11
+msgid "Battery fully re-charged"
+msgstr "Batteria completamente ricaricata"
+
+#: charpick/charpick.c:412
+msgid "Available palettes"
+msgstr "Tavolozze disponibili"
+
+#: charpick/charpick.c:465
+#, c-format
+msgid "Insert \"%s\""
+msgstr "Inserisci «%s»"
+
+#: charpick/charpick.c:468
+msgid "Insert special character"
+msgstr "Inserisce il carattere speciale"
+
+#: charpick/charpick.c:472
+#, c-format
+msgid "insert special character %s"
+msgstr "inserisce il carattere speciale %s"
+
+#: charpick/charpick.c:635
+msgid "About Character Palette"
+msgstr "Info su Tavolozza caratteri"
+
+#: charpick/charpick.c:637
+msgid ""
+"Copyright © 1998, 2004-2005 GNOME Applets Maintainers and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Copyright © 1998, 2004-2005 GNOME I Manutentori delle Applet ed altri\n"
+"Copyright © 2012-2021 Gli sviluppatori di MATE"
+
+#: charpick/charpick.c:639
+msgid ""
+"MATE Panel applet for selecting strange characters that are not on the "
+"keyboard. Released under GNU General Public Licence."
+msgstr ""
+"applet di pannello MATE per selezionare particolari caratteri che non sono "
+"sulla tastiera. Rilasciato sotto licenza GNU General Public Licence."
+
+#: charpick/charpick.c:757 charpick/charpick.c:770
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:9
+#: charpick/properties.c:452
+msgid "Character Palette"
+msgstr "Tavolozza dei caratteri"
+
+#: charpick/charpick.c:757
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:10
+msgid "Insert characters"
+msgstr "Inserisce i caratteri"
+
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:5
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:6
+msgid "Charpicker Applet Factory"
+msgstr "Fabbrica applet Tavolozza caratteri"
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:5
+msgid "Characters shown on applet startup"
+msgstr "Caratteri mostrati all'avvio dell'applet"
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:6
+msgid ""
+"The string that the user had selected when the applet was last used. This "
+"string will be displayed when the user starts the applet."
+msgstr ""
+"La stringa selezionata dall'utente l'ultima volta che è stata avviata "
+"l'applet. Questa stringa è mostrata quando viene avviata l'applet."
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:10
+#: charpick/properties.c:370
+msgid "List of available palettes"
+msgstr "Elenco delle tavolozze disponibili"
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:11
+msgid "List of strings containing the available palettes."
+msgstr "Elenco delle stringhe contenute nelle tavolozze disponibili."
+
+#: charpick/properties.c:28
+msgid "_Edit"
+msgstr "Modifica"
+
+#: charpick/properties.c:94
+msgid "_Palette:"
+msgstr "_Tavolozza:"
+
+#: charpick/properties.c:102
+msgid "Palette entry"
+msgstr "Voce della tavolozza"
+
+#: charpick/properties.c:103
+msgid "Modify a palette by adding or removing characters"
+msgstr "Modifica una tavolozza aggiungendo o rimuovendo caratteri"
+
+#: charpick/properties.c:227
+msgid "Add Palette"
+msgstr "Aggiungi una tavolozza"
+
+#: charpick/properties.c:263
+msgid "Edit Palette"
+msgstr "Modifica la tavolozza"
+
+#: charpick/properties.c:369
+msgid "Palettes list"
+msgstr "Lista delle tavolozze"
+
+#: charpick/properties.c:457
+msgid "_Palettes:"
+msgstr "_Tavolozze:"
+
+#: charpick/properties.c:480
+msgid "Add button"
+msgstr "Pulsante aggiungi"
+
+#: charpick/properties.c:481
+msgid "Click to add a new palette"
+msgstr "Fare clic per aggiungere una nuova tavolozza"
+
+#: charpick/properties.c:495
+msgid "Edit button"
+msgstr "Pulsante modifica"
+
+#: charpick/properties.c:496
+msgid "Click to edit the selected palette"
+msgstr "Fare clic per modificare la tavolozza selezionata"
+
+#: charpick/properties.c:510
+msgid "Delete button"
+msgstr "Pulsante elimina"
+
+#: charpick/properties.c:511
+msgid "Click to delete the selected palette"
+msgstr "Fare clic per eliminare la tavolozza selezionata"
+
+#: charpick/properties.c:565
+msgid "Character Palette Preferences"
+msgstr "Preferenze di Tavolozza dei caratteri"
+
+#: command/data/command-preferences.ui:25
+msgid "Command Applet Preferences"
+msgstr "Preferenze di Applet Comando"
+
+#: command/data/command-preferences.ui:77
+msgid "C_ommand:"
+msgstr "C_omando:"
+
+#: command/data/command-preferences.ui:91
+msgid "_Interval (seconds):"
+msgstr "_Intervallo (secondi):"
+
+#: command/data/command-preferences.ui:105
+msgid "Maximum _width (chars):"
+msgstr "Ampie_zza massima (caratteri):"
+
+#: command/data/command-preferences.ui:161
+msgid "_Show icon"
+msgstr "Mo_stra icona"
+
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:5
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:6
+msgid "Command Factory"
+msgstr "Fabbrica di Comando"
+
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:9
+msgid "Command"
+msgstr "Comando"
+
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:10
+#: command/src/command.c:130 command/src/command.c:477
+msgid "Shows the output of a command"
+msgstr "Mostra l'output di un comando"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:5
+msgid "Command to execute"
+msgstr "Comando da eseguire"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:6
+msgid "Command/script to execute to get the output"
+msgstr "Comando/script da eseguire per ottenere l'output"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:10
+msgid "Interval for the command"
+msgstr "Intervallo per il comando"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:11
+msgid "Interval to execute the command (in seconds)"
+msgstr "Intervallo per l'esecuzione del comando (in secondi)"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:15
+msgid "Width of output"
+msgstr "Larghezza dell'output"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:16
+msgid "Number of characters to display"
+msgstr "Numero di caratteri da visualizzare"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:20
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:25
+msgid "Show icon"
+msgstr "Mostra icona"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:21
+msgid "If applet icon is shown or not"
+msgstr "Se visualizzare o no l'icona dell'applet"
+
+#: command/src/command.c:125
+msgid "About Command Applet"
+msgstr "Informazioni su Applet Comando"
+
+#: command/src/command.c:127
+msgid ""
+"Copyright © 2013-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 MATE developers"
+msgstr ""
+"Copyright © 2013-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 Gli sviluppatori di MATE"
+
+#: command/src/command.c:416
+msgid "Command Applet"
+msgstr "Applet Comando"
+
+#: command/src/command.c:475
+#, fuzzy
+msgid "Command applet"
+msgstr "Applet Comando"
+
+#: cpufreq/cpufreq-preferences.ui:18
+msgid "CPU Frequency Monitor Preferences"
+msgstr "Preferenze di Variazione frequenza CPU"
+
+#: cpufreq/cpufreq-preferences.ui:97
+msgid "_Monitored CPU:"
+msgstr "CPU _monitorata:"
+
+#: cpufreq/cpufreq-preferences.ui:127
+msgid "Monitor Settings"
+msgstr "Impostazioni di monitoraggio"
+
+#: cpufreq/cpufreq-preferences.ui:168
+msgid "_Appearance:"
+msgstr "_Aspetto:"
+
+#: cpufreq/cpufreq-preferences.ui:199
+msgid "Show CPU frequency as _frequency"
+msgstr "Mostra la frequenza della CPU come _frequenza"
+
+#: cpufreq/cpufreq-preferences.ui:216
+msgid "Show frequency _units"
+msgstr "Mostra _unità di misura della frequenza"
+
+#: cpufreq/cpufreq-preferences.ui:233
+msgid "Show CPU frequency as _percentage"
+msgstr "Mostra la frequenza della CPU come _percentuale"
+
+#: cpufreq/cpufreq-preferences.ui:256
+msgid "Display Settings"
+msgstr "Impostazioni di visualizzazione"
+
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:5
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:9
+#: cpufreq/src/cpufreq-applet.c:791 cpufreq/src/cpufreq-applet.c:846
+msgid "CPU Frequency Scaling Monitor"
+msgstr "Monitor Variazione frequenza della CPU"
+
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:6
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:10
+msgid "Monitor the CPU Frequency Scaling"
+msgstr "Monitora la variazione della frequenza della CPU"
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:6
+msgid "CPU to Monitor"
+msgstr "CPU da monitorare"
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:7
+msgid ""
+"Set the CPU to monitor. In a single processor system you don't have to "
+"change it."
+msgstr ""
+"Imposta la CPU da monitorare. In un sistema a processore singolo non è "
+"necessario cambiare questo valore."
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:11
+msgid "Mode to show CPU usage"
+msgstr "Modalità di visualizzazione dell'utilizzo della CPU"
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:12
+msgid ""
+"A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in "
+"graphic and text mode."
+msgstr ""
+"Un valore pari a 0 indica di mostrare l'applet nella modalità grafica (solo "
+"pixmap), a 1 nella modalità testuale (non mostra la pixmap), a 2 nella "
+"modalità grafica e testuale."
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:16
+msgid "The type of text to display (if the text is enabled)."
+msgstr "Il tipo di testo da mostrare (se il testo è abilitato)."
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:17
+msgid ""
+"A 0 value means to show CPU frequency, 1 to show frequency and units, and 2 "
+"to show percentage instead of frequency."
+msgstr ""
+"Un valore pari a 0 mostrerà la frequenza della CPU, pari a 1 mostrerà la "
+"frequenza e le unità, pari a 2 mostrerà la percentuale invece della "
+"frequenza."
+
+#: cpufreq/src/cpufreq-applet.c:446 cpufreq/src/cpufreq-prefs.c:364
+msgid "Could not open help document"
+msgstr "Impossibile aprire la documentazione"
+
+#: cpufreq/src/cpufreq-applet.c:478
+msgid "About CPU Frequency Scaling Monitor"
+msgstr "Info su Monitor di Variazione frequenza CPU"
+
+#: cpufreq/src/cpufreq-applet.c:480
+msgid ""
+"Copyright © 2004 Carlos Garcia Campos\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Copyright © 2004 Carlos Garcia Campos\n"
+"Copyright © 2012-2021 Gli sviluppatori di MATE"
+
+#: cpufreq/src/cpufreq-applet.c:482
+msgid "This utility shows the current CPU Frequency Scaling."
+msgstr "Questa utilità mostra la variazione attuale di frequenza della CPU."
+
+#: cpufreq/src/cpufreq-applet.c:847
+msgid "This utility shows the current CPU Frequency"
+msgstr "Questa utilità mostra la frequenza attuale della CPU"
+
+#: cpufreq/src/cpufreq-prefs.c:504
+msgid "Graphic"
+msgstr "Grafico"
+
+#: cpufreq/src/cpufreq-prefs.c:509
+msgid "Text"
+msgstr "Testo"
+
+#: cpufreq/src/cpufreq-prefs.c:514
+msgid "Graphic and Text"
+msgstr "Grafico e testo"
+
+#: cpufreq/src/cpufreq-monitor-cpuinfo.c:119
+msgid "Frequency Scaling Unsupported"
+msgstr "Variazione frequenza non supportata"
+
+#: cpufreq/src/cpufreq-monitor-factory.c:55
+msgid "CPU frequency scaling unsupported"
+msgstr "Variazione frequenza CPU non supportata"
+
+#: cpufreq/src/cpufreq-monitor-factory.c:56
+msgid ""
+"You will not be able to modify the frequency of your machine.  Your machine "
+"may be misconfigured or not have hardware support for CPU frequency scaling."
+msgstr ""
+"Non è possibile modificare la frequenza di funzionamento di questo sistema. "
+"Il sistema potrebbe essere mal configurato o non avere supporto hardware "
+"alla variazione di frequenza della CPU."
+
+#: cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in:14
+msgid "Change CPU Frequency scaling"
+msgstr "Cambia la variazione della frequenza della CPU"
+
+#: cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in:15
+msgid "Privileges are required to change the CPU Frequency scaling."
+msgstr ""
+"Sono richiesti privilegi per cambiare la variazione della frequenza della CPU"
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:5
+msgid "Drive Mount Applet Factory"
+msgstr "Fabbrica applet Montadischi"
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:6
+msgid "Factory for drive mount applet"
+msgstr "Fabbrica dell'applet per montaggio dischi"
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:9
+#: drivemount/src/drivemount.c:182 drivemount/src/drivemount.c:216
+msgid "Disk Mounter"
+msgstr "Montadischi"
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:10
+msgid "Mount local disks and devices"
+msgstr "Monta dischi e dispositivi locali"
+
+#: drivemount/src/drive-button.c:281
+msgid "nothing to mount"
+msgstr "nulla da montare"
+
+#: drivemount/src/drive-button.c:314 drivemount/src/drive-button.c:328
+msgid "(mounted)"
+msgstr "(montato)"
+
+#: drivemount/src/drive-button.c:321
+msgid "(not mounted)"
+msgstr "(non montato)"
+
+#: drivemount/src/drive-button.c:599
+msgid "Cannot execute Caja"
+msgstr "Impossibile eseguire Caja"
+
+#: drivemount/src/drive-button.c:940
+msgid "_Play DVD"
+msgstr "_Riproduci DVD"
+
+#: drivemount/src/drive-button.c:944
+msgid "_Play CD"
+msgstr "_Riproduci CD"
+
+#: drivemount/src/drive-button.c:947
+#, c-format
+msgid "_Open %s"
+msgstr "_Apri «%s»"
+
+#: drivemount/src/drive-button.c:955
+#, c-format
+msgid "Un_mount %s"
+msgstr "S_monta «%s»"
+
+#: drivemount/src/drive-button.c:961
+#, c-format
+msgid "_Mount %s"
+msgstr "_Monta «%s»"
+
+#: drivemount/src/drive-button.c:969
+#, c-format
+msgid "_Eject %s"
+msgstr "_Espelli «%s»"
+
+#: drivemount/src/drivemount.c:118
+msgid "About Disk Mounter"
+msgstr "Info su Montadischi"
+
+#: drivemount/src/drivemount.c:120
+msgid ""
+"Copyright © 2004 Canonical Ltd\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Copyright © 2004 Canonical Ltd\n"
+"Copyright © 2012-2021 Gli sviluppatori di MATE"
+
+#: drivemount/src/drivemount.c:122
+msgid "Applet for mounting and unmounting block volumes."
+msgstr "Applet per montare e smontare volumi a blocchi."
+
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:5
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:6
+msgid "Eyes Applet Factory"
+msgstr "Fabbrica applet Occhi"
+
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:9
+#: geyes/src/geyes.c:401 geyes/src/geyes.c:430 geyes/src/geyes.c:432
+msgid "Eyes"
+msgstr "Occhi"
+
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:10
+msgid "A set of eyeballs for your panel"
+msgstr "Un gruppo di bulbi oculari per il proprio pannello"
+
+#: geyes/data/org.mate.panel.applet.geyes.gschema.xml.in:5
+#: geyes/data/org.mate.panel.applet.geyes.gschema.xml.in:6
+msgid "Directory in which the theme is located"
+msgstr "Directory in cui è posizionato il tema"
+
+#: geyes/data/themes.ui:18
+msgid "Eyes Preferences"
+msgstr "Impostazioni di Occhi"
+
+#: geyes/data/themes.ui:100
+msgid "_Select a theme:"
+msgstr "_Seleziona un tema:"
+
+#: geyes/data/themes.ui:148
+msgid "Themes"
+msgstr "Temi"
+
+#: geyes/src/geyes.c:192
+msgid "About Eyes"
+msgstr "Info su Occhi"
+
+#: geyes/src/geyes.c:194
+msgid "A goofy set of eyes for the MATE panel. They follow your mouse."
+msgstr "Un buffo gruppo di occhi per il pannello di MATE che seguono il mouse."
+
+#: geyes/src/geyes.c:196
+msgid ""
+"Copyright © 1999 Dave Camp\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Copyright © 1999 Dave Camp\n"
+"Copyright © 2012-2021 Gli sviluppatori di MATE"
+
+#: geyes/src/geyes.c:433
+msgid "The eyes look in the direction of the mouse pointer"
+msgstr "Gli occhi fissano in direzione del puntatore del mouse"
+
+#: geyes/src/themes.c:123
+msgid "Can not launch the eyes applet."
+msgstr "Impossibile lanciare l'applet occhi."
+
+#: geyes/src/themes.c:124
+msgid "There was a fatal error while trying to load the theme."
+msgstr ""
+"Si è verificato un errore irreversibile durante il tentativo di caricare il "
+"tema."
+
+#: mateweather/data/mateweather-dialog.ui:13
+msgid "Details"
+msgstr "Dettagli"
+
+#: mateweather/data/mateweather-dialog.ui:30
+#: mateweather/src/mateweather-applet.c:113
+msgid "_Update"
+msgstr "_Aggiorna"
+
+#: mateweather/data/mateweather-dialog.ui:88
+msgid "City:"
+msgstr "Città:"
+
+#: mateweather/data/mateweather-dialog.ui:101
+msgid "Last update:"
+msgstr "Ultimo aggiornamento:"
+
+#: mateweather/data/mateweather-dialog.ui:114
+msgid "Conditions:"
+msgstr "Condizioni:"
+
+#: mateweather/data/mateweather-dialog.ui:127
+msgid "Sky:"
+msgstr "Cielo:"
+
+#: mateweather/data/mateweather-dialog.ui:140
+msgid "Temperature:"
+msgstr "Temperatura:"
+
+#: mateweather/data/mateweather-dialog.ui:153
+msgid "Feels like:"
+msgstr "Percepita:"
+
+#: mateweather/data/mateweather-dialog.ui:166
+msgid "Dew point:"
+msgstr "Punto di rugiada:"
+
+#: mateweather/data/mateweather-dialog.ui:179
+msgid "Relative humidity:"
+msgstr "Umidità relativa:"
+
+#: mateweather/data/mateweather-dialog.ui:192
+msgid "Wind:"
+msgstr "Vento:"
+
+#: mateweather/data/mateweather-dialog.ui:205
+msgid "Pressure:"
+msgstr "Pressione:"
+
+#: mateweather/data/mateweather-dialog.ui:218
+msgid "Visibility:"
+msgstr "Visibilità:"
+
+#: mateweather/data/mateweather-dialog.ui:231
+msgid "Sunrise:"
+msgstr "Alba:"
+
+#: mateweather/data/mateweather-dialog.ui:244
+msgid "Sunset:"
+msgstr "Tramonto:"
+
+#: mateweather/data/mateweather-dialog.ui:422
+msgid "Current Conditions"
+msgstr "Condizioni attuali"
+
+#: mateweather/data/mateweather-dialog.ui:447
+msgid "Forecast Report"
+msgstr "Rapporto delle previsioni"
+
+#: mateweather/data/mateweather-dialog.ui:448
+msgid "See the ForeCast Details"
+msgstr "Leggi i dettagli della previsione"
+
+#: mateweather/data/mateweather-dialog.ui:469
+msgid "Forecast"
+msgstr "Previsione"
+
+#: mateweather/data/mateweather-dialog.ui:510
+msgid "_Visit Weather.com"
+msgstr "_Visita Weather.com"
+
+#: mateweather/data/mateweather-dialog.ui:518
+msgid "Visit Weather.com"
+msgstr "Visita Weather.com"
+
+#: mateweather/data/mateweather-dialog.ui:519
+msgid "Click to Enter Weather.com"
+msgstr "Fare clic per visitare Weather.com"
+
+#: mateweather/data/mateweather-dialog.ui:538
+msgid "Radar Map"
+msgstr "Mappa radar"
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:5
+msgid "Mateweather Applet Factory"
+msgstr "Fabbrica Applet Mateweather "
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:6
+msgid "Factory for creating the weather applet."
+msgstr "Fabbrica per creare le applet meteo."
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:9
+#: mateweather/src/mateweather-applet.c:345
+msgid "Weather Report"
+msgstr "Condizioni meteo"
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:10
+msgid "Monitor the current weather conditions, and forecasts"
+msgstr "Monitoraggio delle condizioni meteo e previsioni"
+
+#: mateweather/src/mateweather-about.c:54
+msgid "About Weather Report"
+msgstr "Info su Condizioni meteo"
+
+#: mateweather/src/mateweather-about.c:56
+msgid ""
+"Copyright © 1999-2005 by S. Papadimitriou and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Copyright © 1999-2005 by S. Papadimitriou ed altri\n"
+"Copyright © 2012-2021 Gli sviluppatori di MATE"
+
+#: mateweather/src/mateweather-about.c:58
+msgid "A panel application for monitoring local weather conditions."
+msgstr ""
+"Un'applicazione da pannello per monitorare le condizioni meteorologiche "
+"locali."
+
+#: mateweather/src/mateweather-applet.c:110
+msgid "_Details"
+msgstr "D_ettagli"
+
+#: mateweather/src/mateweather-applet.c:165
+msgid "?"
+msgstr "?"
+
+#: mateweather/src/mateweather-applet.c:369
+#: mateweather/src/mateweather-applet.c:373
+msgid "MATE Weather"
+msgstr "Condizioni meteo di MATE"
+
+#: mateweather/src/mateweather-applet.c:466
+msgid "Weather Forecast"
+msgstr "Previsioni meteo"
+
+#: mateweather/src/mateweather-applet.c:477
+#, c-format
+msgid ""
+"City: %s\n"
+"Sky: %s\n"
+"Temperature: %s"
+msgstr ""
+"Città: %s\n"
+"Cielo: %s\n"
+"Temperatura: %s"
+
+#: mateweather/src/mateweather-applet.c:531
+msgid "Updating..."
+msgstr "Aggiornamento in corso..."
+
+#: mateweather/src/mateweather-dialog.c:231
+msgid "Forecast not currently available for this location."
+msgstr "Previsione attualmente non disponibile per questa località."
+
+#: mateweather/src/mateweather-pref.c:157
+msgid "Location view"
+msgstr "Vista della località"
+
+#: mateweather/src/mateweather-pref.c:157
+msgid "Select Location from the list"
+msgstr "Seleziona la località dalla lista"
+
+#: mateweather/src/mateweather-pref.c:158
+msgid "Update spin button"
+msgstr "Aggiorna pulsante selezione"
+
+#: mateweather/src/mateweather-pref.c:158
+msgid "Spinbutton for updating"
+msgstr "Pulsante selezione per gli aggiornamenti"
+
+#: mateweather/src/mateweather-pref.c:159
+msgid "Address Entry"
+msgstr "Campo indirizzo"
+
+#: mateweather/src/mateweather-pref.c:159
+msgid "Enter the URL"
+msgstr "Immetti l'URL"
+
+#: mateweather/src/mateweather-pref.c:285
+msgid ""
+"Failed to load the Locations XML database.  Please report this as a bug."
+msgstr ""
+"Caricamento del database XML delle località non riuscito. Notificare questo "
+"evento come bug."
+
+#: mateweather/src/mateweather-pref.c:839
+msgid "Weather Preferences"
+msgstr "Preferenze di Condizioni meteo"
+
+#: mateweather/src/mateweather-pref.c:863
+#: mateweather/src/mateweather-pref.c:1054
+msgid "_Automatically update every:"
+msgstr "_Aggiorna automaticamente ogni:"
+
+#: mateweather/src/mateweather-pref.c:878
+msgid "_Temperature unit:"
+msgstr "Unità di _temperatura:"
+
+#: mateweather/src/mateweather-pref.c:888
+msgid "Kelvin"
+msgstr "Kelvin"
+
+#: mateweather/src/mateweather-pref.c:890
+msgid "Celsius"
+msgstr "Celsius"
+
+#: mateweather/src/mateweather-pref.c:891
+msgid "Fahrenheit"
+msgstr "Fahrenheit"
+
+#: mateweather/src/mateweather-pref.c:900
+msgid "_Wind speed unit:"
+msgstr "Unità di velocità del _vento:"
+
+#: mateweather/src/mateweather-pref.c:911
+msgid "m/s"
+msgstr "Metri al secondo"
+
+#: mateweather/src/mateweather-pref.c:913
+msgid "km/h"
+msgstr "Kilometri all'ora"
+
+#: mateweather/src/mateweather-pref.c:915
+msgid "mph"
+msgstr "Miglia all'ora"
+
+#: mateweather/src/mateweather-pref.c:917
+msgid "knots"
+msgstr "Nodi"
+
+#: mateweather/src/mateweather-pref.c:918
+msgid "Beaufort scale"
+msgstr "Scala Beaufort"
+
+#: mateweather/src/mateweather-pref.c:927
+msgid "_Pressure unit:"
+msgstr "Unità di _pressione:"
+
+#: mateweather/src/mateweather-pref.c:938
+msgid "kPa"
+msgstr "kilopascal"
+
+#: mateweather/src/mateweather-pref.c:940
+msgid "hPa"
+msgstr "ettopascal"
+
+#: mateweather/src/mateweather-pref.c:942
+msgid "mb"
+msgstr "Millibar"
+
+#: mateweather/src/mateweather-pref.c:944
+msgid "mmHg"
+msgstr "Millimetri di mercurio"
+
+#: mateweather/src/mateweather-pref.c:946
+msgid "inHg"
+msgstr "Pollici di mercurio"
+
+#: mateweather/src/mateweather-pref.c:948
+msgid "atm"
+msgstr "Atmosfere"
+
+#: mateweather/src/mateweather-pref.c:957
+msgid "_Visibility unit:"
+msgstr "Unità di visi_bilità:"
+
+#: mateweather/src/mateweather-pref.c:968
+msgid "meters"
+msgstr "Metri"
+
+#: mateweather/src/mateweather-pref.c:970
+msgid "km"
+msgstr "Kilometri"
+
+#: mateweather/src/mateweather-pref.c:972
+msgid "miles"
+msgstr "Miglia"
+
+#: mateweather/src/mateweather-pref.c:996
+msgid "Enable _radar map"
+msgstr "Abilita le _mappe radar"
+
+#: mateweather/src/mateweather-pref.c:1011
+msgid "Use _custom address for radar map"
+msgstr "_Usa un indirizzo personalizzato per le mappe radar"
+
+#: mateweather/src/mateweather-pref.c:1027
+msgid "A_ddress:"
+msgstr "In_dirizzo:"
+
+#: mateweather/src/mateweather-pref.c:1042
+msgid "Show _notifications"
+msgstr "Mostra le _notifiche"
+
+#: mateweather/src/mateweather-pref.c:1050
+msgid "Update"
+msgstr "Aggiorna"
+
+#: mateweather/src/mateweather-pref.c:1066
+msgid "minutes"
+msgstr "minuti"
+
+#: mateweather/src/mateweather-pref.c:1084
+msgid "Display"
+msgstr "Schermata"
+
+#: mateweather/src/mateweather-pref.c:1103
+msgid "General"
+msgstr "Generale"
+
+#: mateweather/src/mateweather-pref.c:1114
+msgid "_Select a location:"
+msgstr "_Seleziona una località:"
+
+#: mateweather/src/mateweather-pref.c:1135
+msgid "_Find:"
+msgstr "Tr_ova:"
+
+#: mateweather/src/mateweather-pref.c:1141
+msgid "Find _Next"
+msgstr "Trova successi_vo"
+
+#: mateweather/src/mateweather-pref.c:1159
+msgid "Location"
+msgstr "Posizione"
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:5
+msgid "MultiLoad Applet Factory"
+msgstr "Fabbrica applet MultiLoad"
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:6
+msgid "Factory for creating the load applet."
+msgstr "Fabbrica per creare applet di caricamento. "
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:9
+#: multiload/src/main.c:499 multiload/src/main.c:551
+msgid "System Monitor"
+msgstr "Monitor di sistema"
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:10
+msgid "A system load indicator"
+msgstr "Un indicatore del carico del sistema"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:5
+msgid "Enable CPU load graph"
+msgstr "Abilita grafico carico del processore"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:9
+msgid "Enable memory load graph"
+msgstr "Abilita grafico carico della memoria"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:13
+msgid "Enable network load graph"
+msgstr "Abilita grafico carico della rete"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:17
+msgid "Enable swap load graph"
+msgstr "Abilita grafico carico dello swap"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:21
+msgid "Enable load average graph"
+msgstr "Abilita grafico carico medio"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:25
+msgid "Enable disk load graph"
+msgstr "Abilita grafico carico disco"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:30
+msgid "Applet refresh rate in milliseconds"
+msgstr "Aggiornamento dell'applet in millisecondi"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:35
+msgid "Graph size"
+msgstr "Dimensione del grafico"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:36
+msgid ""
+"For horizontal panels, the width of the graphs in pixels. For vertical "
+"panels, this is the height of the graphs."
+msgstr ""
+"Per i pannelli orizzontali è la larghezza in pixel dei grafici. Per quelli "
+"verticali, è l'altezza dei grafici."
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:40
+msgid "Graph color for user-related CPU activity"
+msgstr "Colore del grafico attività CPU legate agli utenti"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:44
+msgid "Graph color for system-related CPU activity"
+msgstr "Colore del grafico attività CPU legate al sistema"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:48
+msgid "Graph color for nice-related CPU activity"
+msgstr "Colore del grafico attività CPU legate al nice"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:52
+msgid "Graph color for iowait related CPU activity"
+msgstr "Colore del grafico attività CPU legate ad iowait"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:56
+msgid "CPU graph background color"
+msgstr "Colore di sfondo del grafico del processore"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:60
+msgid "Graph color for user-related memory usage"
+msgstr "Colore del grafico uso memoria legato agli utenti"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:64
+msgid "Graph color for shared memory"
+msgstr "Colore del grafico memoria condivisa"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:68
+msgid "Graph color for buffer memory"
+msgstr "Colore del grafico memoria buffer"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:72
+msgid "Graph color for cached memory"
+msgstr "Colore del grafico memoria in cache"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:76
+msgid "Memory graph background color"
+msgstr "Colore di sfondo del grafico della memoria"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:80
+msgid "Graph color for input network activity"
+msgstr "Colore del grafico attività di rete in ingresso"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:84
+msgid "Graph color for output network activity"
+msgstr "Colore delgrafico attività di rete in uscita"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:88
+msgid "Graph color for loopback network usage"
+msgstr "Colore del grafico utilizzo di rete lookback"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:92
+msgid "Network graph background color"
+msgstr "Colore di sfondo del grafico della rete"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:96
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:135
+msgid "Grid line color"
+msgstr "Colore linea della griglia"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:100
+msgid "Indicator color"
+msgstr "Colore indicatore"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:105
+msgid "Network threshold 1 in bytes"
+msgstr "Soglia di rete 1 in bytes"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:110
+msgid "Network threshold 2 in bytes"
+msgstr "Soglia di rete 2 in bytes"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:115
+msgid "Network threshold 3 in bytes"
+msgstr "Soglia di rete 3 in bytes"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:119
+msgid "Graph color for user-related swap usage"
+msgstr "Colore del grafico utilizzo dello swap legato agli utenti"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:123
+msgid "Swap graph background color"
+msgstr "Colore di sfondo del grafico dello swap"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:127
+msgid "Graph color for load average"
+msgstr "Colore del grafico di carico medio"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:131
+msgid "Load graph background color"
+msgstr "Colore di sfondo del grafico di carico"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:139
+msgid "Graph color for disk read"
+msgstr "Colore del grafico lettura dal disco"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:143
+msgid "Graph color for disk write"
+msgstr "Colore del grafico scrittura su disco"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:147
+msgid "Background color for disk load graph"
+msgstr "Colore di sfondo per il grafico del carico del disco"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:151
+msgid "Uses /proc/diskstats to determine NVMe disk load"
+msgstr "Usa /proc/diskstats per determinare il carico del disco NVMe"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:155
+msgid "The desktop description file to execute as the system monitor"
+msgstr "Il file descrizione desktop da eseguire come monitor di sistema"
+
+#: multiload/data/properties.ui:51
+msgid "System Monitor Preferences"
+msgstr "Preferenze di Monitor di sistema"
+
+#: multiload/data/properties.ui:131
+msgid "_Processor"
+msgstr "_Processore"
+
+#: multiload/data/properties.ui:148
+msgid "_Memory"
+msgstr "_Memoria"
+
+#: multiload/data/properties.ui:165
+msgid "_Network"
+msgstr "_Rete"
+
+#: multiload/data/properties.ui:182
+msgid "S_wap Space"
+msgstr "Spazio di s_wap"
+
+#: multiload/data/properties.ui:199
+msgid "_Load"
+msgstr "C_arico"
+
+#: multiload/data/properties.ui:216
+msgid "_Harddisk"
+msgstr "_Hard disk"
+
+#: multiload/data/properties.ui:239
+msgid "Monitored Resources"
+msgstr "Risorse monitorate"
+
+#: multiload/data/properties.ui:276 multiload/src/properties.c:602
+msgid "System m_onitor width:"
+msgstr "Larghezza di m_onitor di sistema:"
+
+#: multiload/data/properties.ui:304
+msgid "pixels"
+msgstr "pixel"
+
+#: multiload/data/properties.ui:316
+msgid "Sys_tem monitor update interval:"
+msgstr "Intervallo di aggiornamento di monitor di sis_tema:"
+
+#: multiload/data/properties.ui:344
+msgid "milliseconds"
+msgstr "millisecondi"
+
+#: multiload/data/properties.ui:359
+msgid "Options"
+msgstr "Opzioni"
+
+#: multiload/data/properties.ui:481 multiload/data/properties.ui:583
+msgid "_User"
+msgstr "_Utente"
+
+#: multiload/data/properties.ui:494
+msgid "S_ystem"
+msgstr "_Sistema"
+
+#: multiload/data/properties.ui:507
+msgid "N_ice"
+msgstr "Nic_e"
+
+#: multiload/data/properties.ui:520
+msgid "I_OWait"
+msgstr "I_OWait"
+
+#: multiload/data/properties.ui:533
+msgid "I_dle"
+msgstr "I_nattività"
+
+#: multiload/data/properties.ui:548 multiload/src/main.c:272
+msgid "Processor"
+msgstr "Processore"
+
+#: multiload/data/properties.ui:612
+msgid "Sh_ared"
+msgstr "Condivis_a"
+
+#: multiload/data/properties.ui:641
+msgid "_Buffers"
+msgstr "_Buffer"
+
+#: multiload/data/properties.ui:670
+msgid "Cach_ed"
+msgstr "In cach_e"
+
+#: multiload/data/properties.ui:699
+msgid "F_ree"
+msgstr "Libe_ra"
+
+#: multiload/data/properties.ui:717 multiload/src/main.c:273
+msgid "Memory"
+msgstr "Memoria"
+
+#: multiload/data/properties.ui:753
+msgid "_In"
+msgstr "I_ngresso"
+
+#: multiload/data/properties.ui:782
+msgid "_Out"
+msgstr "_Uscita"
+
+#: multiload/data/properties.ui:811
+msgid "_Local"
+msgstr "L_ocale"
+
+#: multiload/data/properties.ui:840 multiload/data/properties.ui:1064
+#: multiload/data/properties.ui:1211
+msgid "_Background"
+msgstr "_Sfondo"
+
+#: multiload/data/properties.ui:869 multiload/data/properties.ui:1093
+msgid "_Gridline"
+msgstr "Linea _griglia"
+
+#: multiload/data/properties.ui:898
+msgid "_Indicator"
+msgstr "_Indicatore"
+
+#: multiload/data/properties.ui:916 multiload/src/main.c:274
+msgid "Network"
+msgstr "Rete"
+
+#: multiload/data/properties.ui:952
+msgid "_Used"
+msgstr "_Usata"
+
+#: multiload/data/properties.ui:981
+msgid "_Free"
+msgstr "Li_bera"
+
+#: multiload/data/properties.ui:999 multiload/src/main.c:275
+msgid "Swap Space"
+msgstr "Spazio di swap"
+
+#: multiload/data/properties.ui:1035
+msgid "_Average"
+msgstr "Medi_a"
+
+#: multiload/data/properties.ui:1111
+msgid "Load"
+msgstr "Carico"
+
+#: multiload/data/properties.ui:1153
+msgid "_Read"
+msgstr "_Lettura"
+
+#: multiload/data/properties.ui:1182
+msgid "_Write"
+msgstr "_Scrittura"
+
+#: multiload/data/properties.ui:1229
+msgid "Use diskstats for _NVMe"
+msgstr "Usa diskstats per NVMe"
+
+#: multiload/data/properties.ui:1253
+msgid "Harddisk"
+msgstr "Hard disk"
+
+#: multiload/data/properties.ui:1268
+msgid "Colors"
+msgstr "Colori"
+
+#: multiload/data/properties.ui:1305
+msgid "Threshold _1:"
+msgstr "Soglia _1:"
+
+#: multiload/data/properties.ui:1334 multiload/data/properties.ui:1375
+#: multiload/data/properties.ui:1415
+msgid "bytes"
+msgstr "Bytes"
+
+#: multiload/data/properties.ui:1346
+msgid "Threshold _2:"
+msgstr "Soglia _2:"
+
+#: multiload/data/properties.ui:1387
+msgid "Threshold _3:"
+msgstr "Soglia _3:"
+
+#: multiload/data/properties.ui:1430
+msgid "Network speed thresholds"
+msgstr "Soglia della velocità di rete"
+
+#: multiload/src/main.c:60
+msgid "About System Monitor"
+msgstr "Info su Monitor di sistema"
+
+#: multiload/src/main.c:62
+msgid ""
+"Copyright © 1999-2005 Free Software Foundation and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Copyright © 1999-2005 Free Software Foundation ed altri\n"
+"Copyright © 2012-2021 Gli sviluppatori di MATE"
+
+#: multiload/src/main.c:64 multiload/src/main.c:553
+msgid ""
+"A system load monitor capable of displaying graphs for CPU, ram, and swap "
+"space use, plus network traffic."
+msgstr ""
+"Un monitor del carico di sistema, in grado di visualizzare grafici per la "
+"CPU, la RAM e l'uso dello spazio di swap, oltre che del traffico di rete."
+
+#: multiload/src/main.c:124
+msgid "Start system-monitor"
+msgstr "Avvia monitor di sistema"
+
+#: multiload/src/main.c:146
+#, c-format
+msgid "There was an error executing '%s': %s"
+msgstr "Si è verificato un errore nell'eseguire «%s»: %s"
+
+#: multiload/src/main.c:276 multiload/src/main.c:360
+msgid "Load Average"
+msgstr "Carico medio"
+
+#: multiload/src/main.c:277
+msgid "Disk"
+msgstr "Disco"
+
+#: multiload/src/main.c:294
+#, c-format
+msgid ""
+"%s:\n"
+"%.01f%% in use by programs\n"
+"%.01f%% in use as cache"
+msgstr ""
+"%s:\n"
+"%.01f%% in uso dai programmi\n"
+"%.01f%% in uso come cache"
+
+#: multiload/src/main.c:303
+#, c-format
+msgid "The system load average is %0.02f"
+msgstr "Il carico medio del sistema è %0.02f"
+
+#: multiload/src/main.c:313
+#, c-format
+msgid ""
+"%s:\n"
+"Receiving %s\n"
+"Sending %s"
+msgstr ""
+"%s:\n"
+"Ricezione %s\n"
+"Invio %s"
+
+#: multiload/src/main.c:335
+#, c-format
+msgid ""
+"%s:\n"
+"%.01f%% in use"
+msgstr ""
+"%s:\n"
+"%.01f%% in uso"
+
+#: multiload/src/main.c:356
+msgid "CPU Load"
+msgstr "Carico CPU"
+
+#: multiload/src/main.c:357
+msgid "Memory Load"
+msgstr "Carico della memoria"
+
+#: multiload/src/main.c:358
+msgid "Net Load"
+msgstr "Carico di rete"
+
+#: multiload/src/main.c:359
+msgid "Swap Load"
+msgstr "Carico dello swap"
+
+#: multiload/src/main.c:361
+msgid "Disk Load"
+msgstr "Carico del disco"
+
+#: multiload/src/main.c:467
+msgid "_Open System Monitor"
+msgstr "_Apri «Monitor di sistema»"
+
+#: multiload/src/netspeed.c:60
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: multiload/src/properties.c:605
+msgid "System m_onitor height:"
+msgstr "Altezza di m_onitor di sistema"
+
+#: netspeed/data/netspeed-details.ui:101
+msgid "Transfer Rate Graph"
+msgstr "Grafico delle velocità di trasferimento"
+
+#: netspeed/data/netspeed-details.ui:134
+msgid "_In graph color"
+msgstr "Colore del grafico di r_icezione"
+
+#: netspeed/data/netspeed-details.ui:161
+msgid "_Out graph color"
+msgstr "Colore del grafico di trasmissi_one"
+
+#: netspeed/data/netspeed-details.ui:195
+msgid "IPv4 Address:"
+msgstr "indirizzo IPv4:"
+
+#: netspeed/data/netspeed-details.ui:224
+msgid "Netmask:"
+msgstr "Maschera di rete:"
+
+#: netspeed/data/netspeed-details.ui:265
+msgid "IPv6 Address:"
+msgstr "Indirizzo IPv6:"
+
+#: netspeed/data/netspeed-details.ui:308
+msgid "Hardware Address:"
+msgstr "Indirizzo hardware:"
+
+#: netspeed/data/netspeed-details.ui:337
+msgid "P-t-P Address:"
+msgstr "Indirizzo P-t-P"
+
+#: netspeed/data/netspeed-details.ui:378
+msgid "Bytes in:"
+msgstr "Byte ricevuti:"
+
+#: netspeed/data/netspeed-details.ui:393 netspeed/data/netspeed-details.ui:423
+msgid "0 byte"
+msgstr "0 byte"
+
+#: netspeed/data/netspeed-details.ui:408
+msgid "Bytes out:"
+msgstr "Byte trasmessi:"
+
+#: netspeed/data/netspeed-details.ui:456
+msgid "ESSID:"
+msgstr "ESSID:"
+
+#: netspeed/data/netspeed-details.ui:485
+msgid "Signal Strength:"
+msgstr "Potenza segnale:"
+
+#: netspeed/data/netspeed-details.ui:530
+msgid "Station:"
+msgstr "Stazione"
+
+#: netspeed/data/netspeed-details.ui:557
+msgid "Channel:"
+msgstr "Canale"
+
+#: netspeed/data/netspeed-details.ui:596
+msgid "Connected Time:"
+msgstr "Durata della connessione"
+
+#: netspeed/data/netspeed-preferences.ui:18
+msgid "MATE Netspeed Preferences"
+msgstr "Impostazioni Monitor di Rete"
+
+#: netspeed/data/netspeed-preferences.ui:100
+msgid "Network _device:"
+msgstr "_Dispositivo di rete:"
+
+#: netspeed/data/netspeed-preferences.ui:131
+msgid "Show _sum instead of in & out"
+msgstr "Visualizza la _somma anziché ingresso e uscita"
+
+#: netspeed/data/netspeed-preferences.ui:147
+msgid "Show _bits instead of bytes"
+msgstr "Mostra _bit invece di byte"
+
+#: netspeed/data/netspeed-preferences.ui:163
+msgid "_Change icon according to the selected device"
+msgstr "Cambia l'ico_na secondo il tipo di interfaccia"
+
+#: netspeed/data/netspeed-preferences.ui:179
+msgid "Show _icon"
+msgstr "Mostra _icona"
+
+#: netspeed/data/netspeed-preferences.ui:195
+msgid "Show signal _quality icon for wireless devices"
+msgstr "Mostra l'icona di _qualità del segnale per i dispositivi wireless"
+
+#: netspeed/data/netspeed-preferences.ui:211
+msgid "Show all _IP addresses on tooltip"
+msgstr "Mostra tutti gli indirizzi _IP nel suggerimento"
+
+#: netspeed/data/netspeed-preferences.ui:234
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:5
+msgid "Device to monitor"
+msgstr "Dispositivo da monitorare"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:6
+msgid "The name of the device to monitor"
+msgstr "Il nome del dispositivo da monitorare"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:10
+msgid "Show sum speed"
+msgstr "Mostra la velocità di somma"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:11
+msgid "If true, show sum of inbound/outbound speed instead of separated ones."
+msgstr ""
+"Se impostato a \"vero\", mostra la somma della velocità di entrata/uscita "
+"invece dei valori separati."
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:15
+msgid "Show bits"
+msgstr "Mostra bit"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:16
+msgid "If true, show speed in bits instead of bytes."
+msgstr ""
+"Se impostato a \"vero\", mostra la velocità in bit invece che in bytes."
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:20
+msgid "Show IPv4 and IPv6 addresses on tooltip"
+msgstr "Mostra gli indirizzi IPV4 e IPV6 nel suggerimento"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:21
+msgid "If true, show both IP addresses if enabled."
+msgstr ""
+"Se impostato a VERO, mostra, qualora abilitato, entrambi gli indirizzi IP."
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:26
+msgid "If true, show main icon."
+msgstr "Se \"vero\", mostra l'icona principale."
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:30
+msgid "Change icon"
+msgstr "Cambia icona"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:31
+msgid "If true, change the icon due to selected device."
+msgstr ""
+"Se impostato su \"vero\", cambia l'icona secondo il dispositivo selezionato."
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:35
+msgid "Auto change device"
+msgstr "Cambia dispositivo automaticamente"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:36
+msgid "If true, change automatically the selected device."
+msgstr ""
+"Se impostato a \"vero\", cambia automaticamente il dispositivo selezionato."
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:40
+msgid "In color"
+msgstr "Colore di ingresso"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:41
+msgid "The color of the graph of the inbound traffic"
+msgstr "Colore del grafico per il traffico in entrata"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:45
+msgid "Out color"
+msgstr "Colore di uscita"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:46
+msgid "The color of the graph of the outbound traffic"
+msgstr "Colore del grafico per il traffico in uscita"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:50
+msgid "Up command"
+msgstr "Comando su"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:51
+msgid "Command to execute to activate the device"
+msgstr "Comando da eseguire per attivare il dispositivo"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:55
+msgid "Down command"
+msgstr "Comando giù"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:56
+msgid "Command to execute to shut down the device"
+msgstr "Comando da eseguire per spegnere il dispositivo"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:60
+msgid "Show signal quality icon"
+msgstr "Mostra l'icona di qualità del segnale"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:61
+msgid "If true, show signal quality icon for wireless devices."
+msgstr ""
+"Se impostato su \"vero\", mostra l'icona di qualità del segnale per "
+"dispositivi wireless"
+
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:5
+msgid "Netspeed Applet Factory"
+msgstr "Fabbrica Applet Netspeed"
+
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:6
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:10
+msgid "Netspeed Applet"
+msgstr "Applet Monitor di rete"
+
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:9
+msgid "Network Monitor"
+msgstr "Monitor di rete"
+
+#: netspeed/src/backend.c:149
+msgid "link-local"
+msgstr "link-local"
+
+#: netspeed/src/backend.c:151
+msgid "site-local"
+msgstr "site-local"
+
+#: netspeed/src/backend.c:153
+msgid "v4mapped"
+msgstr "v4mapped"
+
+#: netspeed/src/backend.c:155
+msgid "v4compat"
+msgstr "v4compat"
+
+#: netspeed/src/backend.c:157
+msgid "host"
+msgstr "host"
+
+#: netspeed/src/backend.c:159
+msgid "unspecified"
+msgstr "non specificato"
+
+#: netspeed/src/backend.c:161
+msgid "global"
+msgstr "globale"
+
+#: netspeed/src/backend.c:588
+#, c-format
+msgid "%d.%d MBit/s"
+msgstr "%d.%d MBit/s"
+
+#: netspeed/src/backend.c:590
+#, c-format
+msgid "(unknown)"
+msgstr "(sconosciuto)"
+
+#: netspeed/src/backend.c:594
+#, c-format
+msgid " MCS %d"
+msgstr " MCS %d"
+
+#: netspeed/src/backend.c:597
+#, c-format
+msgid " VHT-MCS %d"
+msgstr " VHT-MCS %d"
+
+#: netspeed/src/backend.c:599
+#, c-format
+msgid " 40MHz"
+msgstr " 40MHz"
+
+#: netspeed/src/backend.c:601
+#, c-format
+msgid " 80MHz"
+msgstr " 80MHz"
+
+#: netspeed/src/backend.c:603
+#, c-format
+msgid " 80P80MHz"
+msgstr " 80P80MHz"
+
+#: netspeed/src/backend.c:605
+#, c-format
+msgid " 160MHz"
+msgstr " 160MHz"
+
+#: netspeed/src/backend.c:607
+#, c-format
+msgid " short GI)"
+msgstr "GI corto"
+
+#: netspeed/src/backend.c:610
+#, c-format
+msgid " VHT-NSS %d"
+msgstr " VHT-NSS %d"
+
+#: netspeed/src/backend.c:613
+#, c-format
+msgid " HE-MCS %d"
+msgstr " HE-MCS %d"
+
+#: netspeed/src/backend.c:616
+#, c-format
+msgid " HE-NSS %d"
+msgstr " HE-NSS %d"
+
+#: netspeed/src/backend.c:619
+#, c-format
+msgid " HE-GI %d"
+msgstr " HE-GI %d"
+
+#: netspeed/src/backend.c:622
+#, c-format
+msgid " HE-DCM %d"
+msgstr " HE-DCM %d"
+
+#: netspeed/src/backend.c:706
+msgid "20 MHz (no HT)"
+msgstr "20 MHz (senza HT)"
+
+#: netspeed/src/backend.c:708
+msgid "20 MHz"
+msgstr "20 MHz"
+
+#: netspeed/src/backend.c:710
+msgid "40 MHz"
+msgstr "40 MHz"
+
+#: netspeed/src/backend.c:712
+msgid "80 MHz"
+msgstr "80 MHz"
+
+#: netspeed/src/backend.c:714
+msgid "80+80 MHz"
+msgstr "80+80 MHz"
+
+#: netspeed/src/backend.c:716
+msgid "160 MHz"
+msgstr "160 MHz"
+
+#: netspeed/src/backend.c:718
+msgid "5 MHz"
+msgstr "5 MHz"
+
+#: netspeed/src/backend.c:720
+msgid "10 MHz"
+msgstr "10 MHz"
+
+#: netspeed/src/backend.c:722 netspeed/src/netspeed.c:772
+#: netspeed/src/netspeed.c:776 netspeed/src/netspeed.c:1422
+#: netspeed/src/netspeed.c:1431
+msgid "unknown"
+msgstr "sconosciuta"
+
+#: netspeed/src/backend.c:773
+#, c-format
+msgid "%d (%d MHz)"
+msgstr "%d (%d MHz)"
+
+#: netspeed/src/backend.c:777
+#, c-format
+msgid ", width: %s"
+msgstr ", ampiezza: %s"
+
+#: netspeed/src/netspeed.c:469
+msgid "bit/s"
+msgstr "bit/s"
+
+#: netspeed/src/netspeed.c:469
+msgid "B/s"
+msgstr "B/s"
+
+#: netspeed/src/netspeed.c:473
+msgid "Kibit/s"
+msgstr "Kibit/s"
+
+#: netspeed/src/netspeed.c:473
+msgid "KiB/s"
+msgstr "KiB/s"
+
+#: netspeed/src/netspeed.c:477
+msgid "Mibit/s"
+msgstr "Mibit/s"
+
+#: netspeed/src/netspeed.c:477
+msgid "MiB/s"
+msgstr "MiB/s"
+
+#: netspeed/src/netspeed.c:481
+msgid "Gibit/s"
+msgstr "Gibit/s"
+
+#: netspeed/src/netspeed.c:481
+msgid "GiB/s"
+msgstr "GiB/s"
+
+#: netspeed/src/netspeed.c:646
+msgid "%'"
+msgid_plural "%'"
+msgstr[0] "%'"
+msgstr[1] "%'"
+msgstr[2] "%'"
+
+#: netspeed/src/netspeed.c:652
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] "%'d minuto"
+msgstr[1] "%'d minuti"
+msgstr[2] "%'d minuti"
+
+#: netspeed/src/netspeed.c:653
+#, c-format
+msgid "%'d secon"
+msgid_plural "%'d seconds"
+msgstr[0] "%'d secondo"
+msgstr[1] "%'d secondi"
+msgstr[2] "%'d secondi"
+
+#: netspeed/src/netspeed.c:658
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] "%'d ora"
+msgstr[1] "%'d ore"
+msgstr[2] "%'d ore"
+
+#: netspeed/src/netspeed.c:699 netspeed/src/netspeed.c:707
+#: netspeed/src/netspeed.c:716 netspeed/src/netspeed.c:723
+msgid "none"
+msgstr "nessuna"
+
+#: netspeed/src/netspeed.c:780 netspeed/src/netspeed.c:892
+msgid "na"
+msgstr "nd"
+
+#: netspeed/src/netspeed.c:1011
+#, c-format
+msgid ""
+"There was an error displaying help:\n"
+"%s"
+msgstr ""
+"Si è verificato un errore nel mostrare l'aiuto.\n"
+"%s"
+
+#: netspeed/src/netspeed.c:1050
+msgid "About MATE Netspeed"
+msgstr "Info su Monitor di Rete"
+
+#: netspeed/src/netspeed.c:1052
+msgid ""
+"Copyright © 2002-2003 Jörgen Scheibengruber\n"
+"Copyright © 2011-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 MATE developers"
+msgstr ""
+"Copyright © 2002-2003 Jörgen Scheibengruber\n"
+"Copyright © 2011-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 Gli sviluppatori di MATE"
+
+#: netspeed/src/netspeed.c:1055 netspeed/src/netspeed.c:1757
+msgid ""
+"A little applet that displays some information on the traffic on the "
+"specified network device"
+msgstr ""
+"Una piccola applet che mostra informazioni relative al traffico di rete sul "
+"dispositivo di rete selezionato"
+
+#: netspeed/src/netspeed.c:1231
+msgid "Device _Details"
+msgstr "_Dettagli del dispositivo"
+
+#: netspeed/src/netspeed.c:1233
+msgid "Preferences..."
+msgstr "Preferenze..."
+
+#: netspeed/src/netspeed.c:1235
+msgid "Help"
+msgstr "Aiuto"
+
+#: netspeed/src/netspeed.c:1237
+msgid "About..."
+msgstr "Informazioni"
+
+#: netspeed/src/netspeed.c:1278
+#, c-format
+msgid "Do you want to disconnect %s now?"
+msgstr "Vuoi disconnettere %s adesso?"
+
+#: netspeed/src/netspeed.c:1281
+#, c-format
+msgid "Do you want to connect %s now?"
+msgstr "Vuoi connettere %s adesso?"
+
+#: netspeed/src/netspeed.c:1307
+#, c-format
+msgid ""
+"<b>Running command %s failed</b>\n"
+"%s"
+msgstr ""
+"<b>Esecuzione comando %s fallita</b>\n"
+"%s"
+
+#: netspeed/src/netspeed.c:1365
+#, c-format
+msgid "%s is down"
+msgstr "%s non è attiva"
+
+#: netspeed/src/netspeed.c:1383 netspeed/src/netspeed.c:1402
+#, c-format
+msgid ""
+"\n"
+"%s"
+msgstr ""
+"\n"
+"%s"
+
+#: netspeed/src/netspeed.c:1409
+#, c-format
+msgid ""
+"\n"
+"in: %s out: %s"
+msgstr ""
+"\n"
+"ingresso: %s uscita: %s"
+
+#: netspeed/src/netspeed.c:1414
+#, c-format
+msgid ""
+"\n"
+"sum: %s"
+msgstr ""
+"\n"
+"somma: %s"
+
+#: netspeed/src/netspeed.c:1421
+#, c-format
+msgid ""
+"\n"
+"ESSID: %s\n"
+"RSSI: %d dBm\n"
+"RX Bitrate: %s\n"
+"TX Bitrate: %s"
+msgstr ""
+"\n"
+"ESSID: %s\n"
+"RSSI: %d dBm\n"
+"RX Bitrate: %s\n"
+"TX Bitrate: %s"
+
+#: netspeed/src/netspeed.c:1430
+#, c-format
+msgid ""
+"\n"
+"ESSID: %s\n"
+"Strength: %d %%"
+msgstr ""
+"\n"
+"ESSID: %s\n"
+"Potenza: %d %%"
+
+#: netspeed/src/netspeed.c:1578 netspeed/src/netspeed.c:1755
+msgid "MATE Netspeed"
+msgstr "Monitor di Rete"
+
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:5
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:6
+msgid "Sticky Notes Applet Factory"
+msgstr "Fabbrica applet Note adesive"
+
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:9
+#: stickynotes/stickynotes_applet.c:179 stickynotes/stickynotes_applet.c:427
+msgid "Sticky Notes"
+msgstr "Note adesive"
+
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:10
+msgid "Create, view, and manage sticky notes on the desktop"
+msgstr "Crea, visualizza e gestisce le note adesive sulla scrivania"
+
+#: stickynotes/stickynotes.c:706
+msgid "This note is locked."
+msgstr "Questa nota è bloccata."
+
+#: stickynotes/stickynotes.c:712
+msgid "This note is unlocked."
+msgstr "Questa nota non è bloccata."
+
+#: stickynotes/sticky-notes-delete-all.ui:36
+#: stickynotes/sticky-notes-delete.ui:37
+#: trashapplet/trashapplet-empty-progress.ui:27
+msgid "_Cancel"
+msgstr "Annulla"
+
+#: stickynotes/sticky-notes-delete-all.ui:53
+msgid "_Delete All"
+msgstr "Eli_mina tutte"
+
+#: stickynotes/sticky-notes-delete-all.ui:106
+msgid "Delete all sticky notes?"
+msgstr "Eliminare tutte le note adesive?"
+
+#: stickynotes/sticky-notes-delete-all.ui:123
+#: stickynotes/sticky-notes-delete.ui:124
+msgid "This cannot be undone."
+msgstr "Questa azione non può essere annullata."
+
+#: stickynotes/sticky-notes-delete.ui:54
+msgid "_Delete"
+msgstr "Elimina"
+
+#: stickynotes/sticky-notes-delete.ui:107
+msgid "Delete this sticky note?"
+msgstr "Eliminare questa nota adesiva?"
+
+#: stickynotes/sticky-notes-note.ui:14 stickynotes/stickynotes_applet.c:34
+msgid "_New Note"
+msgstr "_Nuova nota"
+
+#: stickynotes/sticky-notes-note.ui:21
+#, fuzzy
+msgid "_Delete Note..."
+msgstr "Eli_mina note"
+
+#: stickynotes/sticky-notes-note.ui:31
+#, fuzzy
+msgid "_Lock Note"
+msgstr "B_locca note"
+
+#: stickynotes/sticky-notes-note.ui:41
+#, fuzzy
+msgid "_Properties"
+msgstr "Proprietà"
+
+#: stickynotes/sticky-notes-note.ui:47
+msgid "Sticky Note"
+msgstr "Nota adesiva"
+
+#: stickynotes/sticky-notes-note.ui:64
+msgid "Lock/Unlock note"
+msgstr "Bloccare/Sbloccare la nota"
+
+#: stickynotes/sticky-notes-note.ui:102
+msgid "Delete note"
+msgstr "Elimina note"
+
+#: stickynotes/sticky-notes-note.ui:155 stickynotes/sticky-notes-note.ui:178
+msgid "Resize note"
+msgstr "Ridimensiona la nota"
+
+#: stickynotes/sticky-notes-preferences.ui:32
+msgid "Sticky Notes Preferences"
+msgstr "Preferenze di Note adesive"
+
+#: stickynotes/sticky-notes-preferences.ui:108
+msgid "Default Note Properties"
+msgstr "Proprietà note predefinite"
+
+#: stickynotes/sticky-notes-preferences.ui:131
+msgid "_Width:"
+msgstr "Larg_hezza:"
+
+#: stickynotes/sticky-notes-preferences.ui:145
+msgid "H_eight:"
+msgstr "Alt_ezza:"
+
+#: stickynotes/sticky-notes-preferences.ui:159
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "Imposta la larghezza (in pixel) predefinita per le nuove note"
+
+#: stickynotes/sticky-notes-preferences.ui:160
+msgid "1"
+msgstr "1"
+
+#: stickynotes/sticky-notes-preferences.ui:174
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "Imposta l'altezza (in pixel) predefinita per le nuove note"
+
+#: stickynotes/sticky-notes-preferences.ui:175
+msgid "0"
+msgstr "0"
+
+#: stickynotes/sticky-notes-preferences.ui:187
+msgid "Use co_lor from the system theme"
+msgstr "_Usa il colore del tema di sistema"
+
+#: stickynotes/sticky-notes-preferences.ui:205
+msgid "Font Co_lor:"
+msgstr "Co_lore del carattere:"
+
+#: stickynotes/sticky-notes-preferences.ui:219
+msgid "Note C_olor:"
+msgstr "C_olore della nota:"
+
+#: stickynotes/sticky-notes-preferences.ui:234
+#, fuzzy
+msgid "Choose a font color to use for all sticky notes"
+msgstr "Scegli un tipo di carattere per tutte le note"
+
+#: stickynotes/sticky-notes-preferences.ui:235
+#, fuzzy
+msgid "Pick a default font color"
+msgstr "Scegli un colore predefinito per le note"
+
+#: stickynotes/sticky-notes-preferences.ui:247
+msgid "Choose a base color to use for all sticky notes"
+msgstr "Scegli un colore da usare per tutte le note adesive"
+
+#: stickynotes/sticky-notes-preferences.ui:248
+msgid "Pick a default sticky note color"
+msgstr "Scegli un colore predefinito per le note"
+
+#: stickynotes/sticky-notes-preferences.ui:257
+msgid "Use fo_nt from the system theme"
+msgstr "U_sa il tipo di carattere del tema di sistema"
+
+#: stickynotes/sticky-notes-preferences.ui:275
+#: stickynotes/sticky-notes-properties.ui:230
+msgid "_Font:"
+msgstr "_Tipo di carattere:"
+
+#: stickynotes/sticky-notes-preferences.ui:290
+msgid "Choose a font to use for all sticky notes"
+msgstr "Scegli un tipo di carattere per tutte le note"
+
+#: stickynotes/sticky-notes-preferences.ui:292
+msgid "Pick a default sticky note font"
+msgstr "Scegli un tipo di carattere predefinito per le note"
+
+#: stickynotes/sticky-notes-preferences.ui:323
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: stickynotes/sticky-notes-preferences.ui:344
+msgid "_Put notes on all workspaces"
+msgstr "_Posiziona le note su tutte le aree di lavoro"
+
+#: stickynotes/sticky-notes-preferences.ui:348
+msgid "Choose if notes are visible on all workspaces"
+msgstr "Indica se le note devono essere visibili su tutte le aree di lavoro"
+
+#: stickynotes/sticky-notes-preferences.ui:361
+msgid "Force _default color and font on notes"
+msgstr "_Forza il colore e il tipo di carattere predefiniti sulle note"
+
+#: stickynotes/sticky-notes-preferences.ui:365
+msgid "Choose if the default style is forced on all notes"
+msgstr "Indica se lo stile predefinito deve essere valido per tutte le note"
+
+#: stickynotes/sticky-notes-preferences.ui:378
+msgid "Hide notes when the des_ktop is clicked on"
+msgstr "_Nascondi le note quando si clicca sulla Scrivania"
+
+#: stickynotes/sticky-notes-preferences.ui:382
+msgid "Choose whether to hide all notes when selecting on the desktop"
+msgstr "Scegliere se nascondere tutte le note quando si seleziona la Scrivania"
+
+#: stickynotes/sticky-notes-properties.ui:18
+msgid "Sticky Note Properties"
+msgstr "Proprietà della nota adesiva"
+
+#: stickynotes/sticky-notes-properties.ui:94
+msgid "Properties"
+msgstr "Proprietà"
+
+#: stickynotes/sticky-notes-properties.ui:117
+msgid "_Title:"
+msgstr "_Titolo:"
+
+#: stickynotes/sticky-notes-properties.ui:131
+msgid "Specify a title for the note"
+msgstr "Imposta un titolo per la nota"
+
+#: stickynotes/sticky-notes-properties.ui:140
+msgid "Use default co_lor"
+msgstr "_Usa il colore predefinito"
+
+#: stickynotes/sticky-notes-properties.ui:159
+msgid "Font C_olor:"
+msgstr "C_olore del carattere:"
+
+#: stickynotes/sticky-notes-properties.ui:174
+msgid "Note _Color:"
+msgstr "Colore della _nota:"
+
+#: stickynotes/sticky-notes-properties.ui:185
+msgid "Use default fo_nt"
+msgstr "U_sa il tipo di carattere predefinito"
+
+#: stickynotes/sticky-notes-properties.ui:204
+#, fuzzy
+msgid "Choose a font color for the note"
+msgstr "Scegli un colore per questa nota"
+
+#: stickynotes/sticky-notes-properties.ui:205
+#, fuzzy
+msgid "Pick a font color for the sticky note"
+msgstr "Scegli un colore per la nota"
+
+#: stickynotes/sticky-notes-properties.ui:217
+msgid "Choose a color for the note"
+msgstr "Scegli un colore per questa nota"
+
+#: stickynotes/sticky-notes-properties.ui:218
+msgid "Pick a color for the sticky note"
+msgstr "Scegli un colore per la nota"
+
+#: stickynotes/sticky-notes-properties.ui:245
+msgid "Choose a font for the note"
+msgstr "Scegli un tipo di carattere per questa nota"
+
+#: stickynotes/sticky-notes-properties.ui:247
+msgid "Pick a font for the sticky note"
+msgstr "Scegli un tipo di carattere per la nota"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:5
+msgid "Default width for new notes"
+msgstr "Larghezza predefinita per nuove note"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:6
+msgid "Default width for new sticky notes in pixels."
+msgstr "Larghezza predefinita delle nuove note adesive, in pixel."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:10
+msgid "Default height for new notes"
+msgstr "Altezza predefinita per le nuove note"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:11
+msgid "Default height for new sticky notes in pixels."
+msgstr "Altezza predefinita delle nuove note adesive, in pixel."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:15
+msgid "Default color for new notes"
+msgstr "Colore predefinito per le nuove note"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:16
+msgid ""
+"Default color for new sticky notes. This should be in html hex "
+"specification, for example \"#30FF50\"."
+msgstr ""
+"Colore predefinito per le nuove note adesive. Deve essere specificato nella "
+"modalità esadecimale dell'HTML, come ad esempio \"#30FF50\"."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:20
+msgid "Default color for font"
+msgstr "Colore predefinito per tipo di carattere"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:21
+msgid ""
+"Default font color for new sticky notes. This should be in html hex "
+"specification, for example \"#000000\"."
+msgstr ""
+"Colore predefinito del tipo di carattere per le nuove note adesive. Deve "
+"essere specificato nella modalità esadecimale dell'HTML, come ad esempio "
+"\"#30FF50\"."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:25
+msgid "Default font for new notes"
+msgstr "Tipo di carattere predefinito per le nuove note"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:26
+msgid ""
+"Default font for new sticky notes. This should be a Pango Font Name, for "
+"example \"Sans Italic 10\"."
+msgstr ""
+"Tipo di carattere predefinito per le nuove note adesive. Deve essere un nome "
+"valido per Pango, come ad esempio \"Sans Italic 10\"."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:30
+msgid "Sticky notes' workspace stickyness"
+msgstr "Visibilità su tutte le aree delle note"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:31
+msgid ""
+"Specifies whether the sticky notes are visible on ALL workspaces on the "
+"desktop, or not."
+msgstr ""
+"Specifica se le note adesive sono visibili su TUTTE le aree del desktop "
+"oppure no."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:35
+msgid "Sticky notes' locked state"
+msgstr "Stato bloccato/sbloccato delle note adesive"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:36
+msgid "Specifies whether the sticky notes are locked (non-editable) or not."
+msgstr ""
+"Specifica se le note adesive sono bloccate (non modificabili) oppure no."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:40
+msgid "Date format of note's title"
+msgstr "Formato della data nei titoli delle note"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:41
+msgid ""
+"By default, sticky notes are given the current date as the title when they "
+"are created. This format is used; anything that can be parsed by strftime() "
+"is valid."
+msgstr ""
+"In modo predefinito le note assumono come titolo la data corrente alla loro "
+"creazione. Viene usato questo formato; è valido tutto ciò che può essere "
+"interpretato da strftime()."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:45
+msgid "Whether to use the default system color"
+msgstr "Indica se usare il colore predefinito del sistema"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:46
+msgid ""
+"If this option is disabled, a custom color can be used as the default color "
+"for all sticky notes."
+msgstr ""
+"Se questa opzione è disabilitata, è possibile usare un colore personalizzato "
+"come colore predefinito per tutte le note adesive."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:50
+msgid "Whether to use the default system font"
+msgstr "Indica se usare tipo di carattere predefinito del sistema"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:51
+msgid ""
+"If this option is disabled, a custom font can be used as the default font "
+"for all sticky notes."
+msgstr ""
+"Se questa opzione è disabilitata, è possibile usare un tipo di carattere "
+"personalizzato come carattere predefinito per tutte le note adesive."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:55
+msgid "Whether to force the default color and font on all notes"
+msgstr ""
+"Indica se forzare colore e tipo di carattere predefiniti su tutte le note"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:56
+msgid ""
+"If this option is enabled, the custom colors and fonts that have been "
+"assigned to individual notes will be ignored."
+msgstr ""
+"Se questa opzione è abilitata, i colori e i tipi di carattere assegnati alle "
+"singole note sono ignorati."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:60
+msgid "Whether to hide all notes when the desktop is selected"
+msgstr ""
+"Indica se nascondere tutte le note quando viene selezionata la Scrivania"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:61
+msgid ""
+"If this option is enabled, selecting the desktop in any way will "
+"automatically hide all the open notes."
+msgstr ""
+"Se questa opzione è abilitata, selezionando la Scrivania in qualunque modo, "
+"le note aperte verranno nascoste automaticamente."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:65
+msgid "Whether to ask for confirmation when deleting a note"
+msgstr "Indica se chiedere conferma quando si elimina una nota"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:66
+msgid "Empty notes are always deleted without confirmation."
+msgstr "Le note vuote vengono sempre eliminate senza conferma."
+
+#: stickynotes/stickynotes_applet.c:37
+msgid "Hi_de Notes"
+msgstr "Nas_condi note"
+
+#: stickynotes/stickynotes_applet.c:40
+msgid "_Delete Notes"
+msgstr "Eli_mina note"
+
+#: stickynotes/stickynotes_applet.c:56
+msgid "_Lock Notes"
+msgstr "B_locca note"
+
+#: stickynotes/stickynotes_applet.c:607
+#, c-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "%d nota"
+msgstr[1] "%d note"
+msgstr[2] "%d note"
+
+#: stickynotes/stickynotes_applet.c:613
+msgid "Show sticky notes"
+msgstr "Mostra le note adesive"
+
+#: stickynotes/stickynotes_applet_callbacks.c:429
+msgid "About Sticky Notes"
+msgstr "Info su Note adesive"
+
+#: stickynotes/stickynotes_applet_callbacks.c:431
+msgid ""
+"Copyright © 2002-2003 Loban A Rahman\n"
+"Copyright © 2005 Davyd Madeley\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Copyright © 2002-2003 Loban A Rahman\n"
+"Copyright © 2005 Davyd Madeley\n"
+"Copyright © 2012-2021 Gli sviluppatori di MATE"
+
+#: stickynotes/stickynotes_applet_callbacks.c:434
+msgid "Sticky Notes for the MATE Desktop Environment"
+msgstr "Note adesive per l'ambiente desktop MATE"
+
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:5
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:6
+msgid "Timer Factory"
+msgstr "Fabbrica Timer"
+
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:9
+msgid "Timer"
+msgstr "Timer"
+
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:10
+#: timerapplet/src/timerapplet.c:288 timerapplet/src/timerapplet.c:399
+msgid "Start a timer and receive a notification when it is finished"
+msgstr "Avvia un timer e ricevi una notifica quando scade il tempo"
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:5
+msgid "Name of timer"
+msgstr "Nome del timer"
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:9
+msgid "Duration of timer in seconds"
+msgstr "Durata del timer in secondi"
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:13
+msgid "Show notification popup when timer finish"
+msgstr "Mostra notifica a comparsa quando il timer finisce"
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:17
+msgid "Show dialog window when timer finish"
+msgstr "Mostra finestra di avviso quando il timer finisce"
+
+#: timerapplet/data/timerapplet-preferences.ui:28
+msgid "Timer Applet Preferences"
+msgstr "Preferenze applet timer"
+
+#: timerapplet/data/timerapplet-preferences.ui:79
+msgid "_Name:"
+msgstr "_Nome:"
+
+#: timerapplet/data/timerapplet-preferences.ui:93
+msgid "_Hours:"
+msgstr "_Ore:"
+
+#: timerapplet/data/timerapplet-preferences.ui:107
+msgid "_Minutes:"
+msgstr "_Minuti:"
+
+#: timerapplet/data/timerapplet-preferences.ui:121
+msgid "_Seconds:"
+msgstr "_Secondi:"
+
+#: timerapplet/data/timerapplet-preferences.ui:189
+msgid "Show notification _popup"
+msgstr "Mostra notifiche _popup"
+
+#: timerapplet/data/timerapplet-preferences.ui:205
+msgid "Show _dialog"
+msgstr "Mostra il _dialogo"
+
+#: timerapplet/src/timerapplet.c:83
+msgid "_Start timer"
+msgstr "_Avvia timer"
+
+#: timerapplet/src/timerapplet.c:84
+msgid "P_ause timer"
+msgstr "Sospendi ti_mer"
+
+#: timerapplet/src/timerapplet.c:85
+msgid "S_top timer"
+msgstr "_Ferma timer"
+
+#: timerapplet/src/timerapplet.c:86
+msgid "R_eset"
+msgstr "R_eset"
+
+#. Translators: %s is a placeholder for the timer name, 'Timer' by default
+#: timerapplet/src/timerapplet.c:156
+#, c-format
+msgid "Finished %s"
+msgstr "Terminato %s"
+
+#: timerapplet/src/timerapplet.c:166 timerapplet/src/timerapplet.c:178
+msgid "Timer finished!"
+msgstr "Conteggio completato!"
+
+#: timerapplet/src/timerapplet.c:283
+msgid "About Timer Applet"
+msgstr "Info su Timer"
+
+#: timerapplet/src/timerapplet.c:285
+msgid ""
+"Copyright © 2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 MATE developers"
+msgstr ""
+"Copyright © 2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 Gli sviluppatori di MATE"
+
+#: timerapplet/src/timerapplet.c:376 timerapplet/src/timerapplet.c:398
+msgid "Timer Applet"
+msgstr "Applet Timer"
+
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:5
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:6
+msgid "Trash Applet Factory"
+msgstr "Fabbrica applet Cestino"
+
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:9
+msgid "Trash"
+msgstr "Cestino"
+
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:10
+msgid "Go to Trash"
+msgstr "Va al cestino"
+
+#: trashapplet/src/trashapplet.c:68 trashapplet/src/trash-empty.c:341
+msgid "_Empty Trash"
+msgstr "S_vuota cestino"
+
+#: trashapplet/src/trashapplet.c:71
+msgid "_Open Trash"
+msgstr "_Apri cestino"
+
+#: trashapplet/src/trashapplet.c:130
+#, c-format
+msgid "%d Item in Trash"
+msgid_plural "%d Items in Trash"
+msgstr[0] "%d elemento nel cestino"
+msgstr[1] "%d elementi nel cestino"
+msgstr[2] "%d elementi nel cestino"
+
+#: trashapplet/src/trashapplet.c:135
+msgid "No Items in Trash"
+msgstr "Nessun oggetto nel cestino"
+
+#: trashapplet/src/trashapplet.c:378
+#, c-format
+msgid ""
+"Error while spawning caja:\n"
+"%s"
+msgstr ""
+"Errore durante l'esecuzione di caja:\n"
+"%s"
+
+#: trashapplet/src/trashapplet.c:432
+msgid "About Trash Applet"
+msgstr "Info su Cestino"
+
+#: trashapplet/src/trashapplet.c:434
+msgid ""
+"Copyright © 2004 Michiel Sikkes\n"
+"Copyright © 2008 Ryan Lortie\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Copyright © 2004 Michiel Sikkes\n"
+"Copyright © 2008 Ryan Lortie\n"
+"Copyright © 2012-2021 Gli sviluppatori di MATE"
+
+#: trashapplet/src/trashapplet.c:437
+msgid ""
+"A MATE trash bin that lives in your panel. You can use it to view the trash "
+"or drag and drop items into the trash."
+msgstr ""
+"Un cestino per MATE che risiede sul pannello. È possibile usarlo per "
+"visualizzare il cestino o trascinarci oggetti."
+
+#: trashapplet/src/trashapplet.c:462
+msgid "Delete Immediately?"
+msgstr "Eliminare immediatamente?"
+
+#: trashapplet/src/trashapplet.c:492
+msgid "Cannot move items to trash, do you want to delete them immediately?"
+msgstr ""
+"Impossibile spostare gli oggetti nel cestino: eliminarli immediatamente?"
+
+#: trashapplet/src/trashapplet.c:497
+msgid ""
+"Cannot move some items to trash, do you want to delete these immediately?"
+msgstr ""
+"Non è possibile spostare alcuni oggetti nel cestino: eliminarli "
+"immediatamente?"
+
+#: trashapplet/src/trashapplet.c:625 trashapplet/src/trashapplet.c:644
+msgid "Trash Applet"
+msgstr "Applet cestino"
+
+#. Translators: the %s in this string should be read as %d.
+#: trashapplet/src/trash-empty.c:72
+#, c-format
+msgid "Removing item %s of %s"
+msgstr "Rimozione oggetto %s di %s"
+
+#. Translators: %s is a file name
+#: trashapplet/src/trash-empty.c:98
+#, c-format
+msgid "Removing: %s"
+msgstr "Rimozione di: %s"
+
+#: trashapplet/src/trash-empty.c:321
+msgid "Empty all of the items from the trash?"
+msgstr "Svuotare il cestino da tutti gli oggetti presenti?"
+
+#: trashapplet/src/trash-empty.c:328
+msgid ""
+"If you choose to empty the trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
+msgstr ""
+"Scegliendo di svuotare il cestino, tutti gli oggetti in esso contenuti "
+"saranno perduti in modo definitivo. Notare che è anche possibile eliminarli "
+"uno ad uno."
+
+#: trashapplet/trashapplet-empty-progress.ui:13
+#: trashapplet/trashapplet-empty-progress.ui:62
+msgid "Emptying the Trash"
+msgstr "Svuotamento del cestino"
+
+#: trashapplet/trashapplet-empty-progress.ui:83
+msgid "From:"
+msgstr "Da:"

@@ -1,0 +1,2989 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-applets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# clefebvre <clement.lefebvre@linuxmint.com>, 2021
+# Martin Wimpress <code@flexion.org>, 2021
+# Юрій Яновський <lytvyn349@ukr.net>, 2021
+# Yuri Chornoivan <yurchor@ukr.net>, 2021
+# Denis <prohibiti@gmail.com>, 2021
+# Bohdan Kovalchuk <neostanniy@gmail.com>, 2021
+# zubr139, 2021
+# 8368efb4263ae7005ba7cc0c0f943bdd_16f29c1, 2021
+# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2021
+# Vlad - <priv4417@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Микола Ткач <chistomov@gmail.com>, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-applets 1.25.3\n"
+"Report-Msgid-Bugs-To: https://www.transifex.com/mate/MATE/\n"
+"POT-Creation-Date: 2023-03-10 07:23+0100\n"
+"PO-Revision-Date: 2021-09-18 20:12+0000\n"
+"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2021\n"
+"Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:5
+msgid "AccessX Status Applet Factory"
+msgstr "Фабрика аплету стану AccessX"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:6
+msgid "Keyboard Accessibility Status Applet Factory"
+msgstr "Фабрика стану спеціальних можливостей набірниці"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:9
+#: accessx-status/src/applet.c:1670
+msgid "Keyboard Accessibility Status"
+msgstr "Стан спеціальних можливостей набірниці"
+
+#: accessx-status/data/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:10
+msgid "Shows the status of keyboard accessibility features"
+msgstr "Показує стан спеціальних можливостей набірниці"
+
+#: accessx-status/src/applet.c:100 charpick/charpick.c:623
+#: geyes/src/geyes.c:180 mateweather/src/mateweather-about.c:41
+#: multiload/src/main.c:48 stickynotes/stickynotes_applet_callbacks.c:417
+msgid "Sun GNOME Documentation Team <gdocteam@sun.com>"
+msgstr "Команда з документування GNOME Sun <gdocteam@sun.com>"
+
+#: accessx-status/src/applet.c:101 battstat/battstat_applet.c:830
+#: charpick/charpick.c:624 cpufreq/src/cpufreq-applet.c:463
+#: drivemount/src/drivemount.c:107 geyes/src/geyes.c:181
+#: mateweather/src/mateweather-about.c:43 multiload/src/main.c:49
+#: stickynotes/stickynotes_applet_callbacks.c:418
+#: trashapplet/src/trashapplet.c:421
+msgid "MATE Documentation Team"
+msgstr "Команда документування MATE"
+
+#: accessx-status/src/applet.c:112
+msgid "About AccessX Status"
+msgstr "Про стан AccessX"
+
+#: accessx-status/src/applet.c:114
+msgid "Shows the state of AccessX features such as latched modifiers"
+msgstr "Показує стан особливостей AccessX, наприклад, увімкнутих модифікаторів"
+
+#: accessx-status/src/applet.c:115
+msgid ""
+"Copyright © 2003 Sun Microsystems\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Авторське право © 2003 Сун Мікросістемс\n"
+"Copyright © 2012-2021 Розробники MATE"
+
+#: accessx-status/src/applet.c:119 battstat/battstat_applet.c:855
+#: charpick/charpick.c:644 command/src/command.c:131
+#: cpufreq/src/cpufreq-applet.c:487 drivemount/src/drivemount.c:125
+#: geyes/src/geyes.c:200 mateweather/src/mateweather-about.c:61
+#: multiload/src/main.c:69 netspeed/src/netspeed.c:1058
+#: stickynotes/stickynotes_applet_callbacks.c:438
+#: timerapplet/src/timerapplet.c:289 trashapplet/src/trashapplet.c:442
+msgid "translator-credits"
+msgstr ""
+"Yarema aka Knedlyk <yupadmin@gmail.com>,\n"
+"Микола Ткач <Stuartlittle1970@gmail.com>,\n"
+"Oleh Tsyupka <myr4yk@gmail.com>\n"
+"Юрій Яновський <lytvyn349@ukr.net>"
+
+#: accessx-status/src/applet.c:143
+#, c-format
+msgid "There was an error launching the help viewer: %s"
+msgstr "Помилка при запуску переглядача довідки: %s"
+
+#: accessx-status/src/applet.c:176
+msgid "Open the keyboard preferences dialog"
+msgstr "Відкрити діалог налаштування набірниці"
+
+#: accessx-status/src/applet.c:199
+#, c-format
+msgid "There was an error launching the keyboard preferences dialog: %s"
+msgstr "Помилка під час запуску діалогу параметрів набірниці: %s"
+
+#: accessx-status/src/applet.c:218
+msgid "_Keyboard Accessibility Preferences"
+msgstr "Параметри спеціальних можливостей _набірниці"
+
+#: accessx-status/src/applet.c:220 battstat/battstat_applet.c:62
+#: battstat/battstat-preferences.ui:37 charpick/charpick.c:730
+#: cpufreq/cpufreq-preferences.ui:31 cpufreq/src/cpufreq-applet.c:119
+#: drivemount/src/drivemount.c:163 geyes/data/themes.ui:35
+#: geyes/src/geyes.c:371 mateweather/src/mateweather-applet.c:119
+#: multiload/data/properties.ui:67 multiload/src/main.c:470
+#: netspeed/data/netspeed-details.ui:31
+#: netspeed/data/netspeed-preferences.ui:33
+#: stickynotes/sticky-notes-preferences.ui:51
+#: stickynotes/sticky-notes-properties.ui:37
+#: stickynotes/stickynotes_applet.c:46 trashapplet/src/trashapplet.c:74
+msgid "_Help"
+msgstr "_Допомога"
+
+#: accessx-status/src/applet.c:222 battstat/battstat_applet.c:65
+#: charpick/charpick.c:733 command/src/command.c:87
+#: cpufreq/src/cpufreq-applet.c:122 drivemount/src/drivemount.c:166
+#: geyes/src/geyes.c:373 mateweather/src/mateweather-applet.c:122
+#: multiload/src/main.c:473 stickynotes/stickynotes_applet.c:49
+#: timerapplet/src/timerapplet.c:88 trashapplet/src/trashapplet.c:77
+msgid "_About"
+msgstr "_Про програму"
+
+#: accessx-status/src/applet.c:571 accessx-status/src/applet.c:640
+msgid "a"
+msgstr "а"
+
+#: accessx-status/src/applet.c:1242 accessx-status/src/applet.c:1320
+#: accessx-status/src/applet.c:1442 accessx-status/src/applet.c:1673
+msgid "AccessX Status"
+msgstr "Стан AccessX"
+
+#: accessx-status/src/applet.c:1244 accessx-status/src/applet.c:1444
+msgid "Shows keyboard status when accessibility features are used."
+msgstr "Показує стан набірниці при використанні спеціальних можливостей"
+
+#: accessx-status/src/applet.c:1280
+msgid "XKB Extension is not enabled"
+msgstr "XKB розширення не увімкнено"
+
+#: accessx-status/src/applet.c:1285
+msgid "Unknown error"
+msgstr "Невідома помилка"
+
+#: accessx-status/src/applet.c:1293
+#, c-format
+msgid "Error: %s"
+msgstr "Помилка: %s"
+
+#: accessx-status/src/applet.c:1675
+msgid "Displays current state of keyboard accessibility features"
+msgstr "Показує поточний стан спеціальних можливостей набірниці"
+
+#: battstat/battstat_applet.c:59 charpick/charpick.c:727
+#: command/src/command.c:86 cpufreq/src/cpufreq-applet.c:116
+#: geyes/src/geyes.c:369 mateweather/src/mateweather-applet.c:116
+#: multiload/src/main.c:464 stickynotes/stickynotes_applet.c:43
+#: timerapplet/src/timerapplet.c:87
+msgid "_Preferences"
+msgstr "_Налаштування"
+
+#: battstat/battstat_applet.c:70
+msgid "System is running on AC power"
+msgstr "Система працює від мережі змінного струму"
+
+#: battstat/battstat_applet.c:71
+msgid "System is running on battery power"
+msgstr "Система працює від акумулятора"
+
+#: battstat/battstat_applet.c:176
+#, c-format
+msgid "Battery charged (%d%%)"
+msgstr "Акумулятор повністю заряджений (%d%%)"
+
+#: battstat/battstat_applet.c:178
+#, c-format
+msgid "Unknown time (%d%%) remaining"
+msgstr "Час завершення невідомий (%d%%)"
+
+#: battstat/battstat_applet.c:180
+#, c-format
+msgid "Unknown time (%d%%) until charged"
+msgstr "Час до повного зарядження (%d%%) невідомий"
+
+#: battstat/battstat_applet.c:184
+#, c-format
+msgid "%d minute (%d%%) remaining"
+msgid_plural "%d minutes (%d%%) remaining"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: battstat/battstat_applet.c:189
+#, c-format
+msgid "%d minute until charged (%d%%)"
+msgid_plural "%d minutes until charged (%d%%)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: battstat/battstat_applet.c:195
+#, c-format
+msgid "%d hour (%d%%) remaining"
+msgid_plural "%d hours (%d%%) remaining"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: battstat/battstat_applet.c:200
+#, c-format
+msgid "%d hour until charged (%d%%)"
+msgid_plural "%d hours until charged (%d%%)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: battstat/battstat_applet.c:208
+#, c-format
+msgid "%d %s %d %s (%d%%) remaining"
+msgstr "залишилося %d %s %d %s (%d%%)"
+
+#: battstat/battstat_applet.c:209 battstat/battstat_applet.c:216
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: battstat/battstat_applet.c:210 battstat/battstat_applet.c:217
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: battstat/battstat_applet.c:215
+#, c-format
+msgid "%d %s %d %s until charged (%d%%)"
+msgstr "%d %s %d %s до повного зарядження (%d%%)"
+
+#: battstat/battstat_applet.c:229
+msgid "Battery Monitor"
+msgstr "Індикатор заряду акумулятора"
+
+#: battstat/battstat_applet.c:239 battstat/battstat_applet.c:297
+msgid "Your battery is now fully recharged"
+msgstr "Акумулятор повністю заряджено"
+
+#: battstat/battstat_applet.c:273 battstat/battstat_applet.c:430
+msgid "Battery Notice"
+msgstr "Інформація про акумулятор"
+
+#: battstat/battstat_applet.c:377
+#, c-format
+msgid "You have %d%% of your total battery capacity remaining."
+msgstr "Залишилося %d%% місткости акумулятора."
+
+#: battstat/battstat_applet.c:382
+#, c-format
+msgid ""
+"You have %d minute of battery power remaining (%d%% of the total capacity)."
+msgid_plural ""
+"You have %d minutes of battery power remaining (%d%% of the total capacity)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: battstat/battstat_applet.c:395
+msgid ""
+"To avoid losing your work:\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr ""
+"Щоб запобігти втраті Вашої роботи:\n"
+" • під’єднайте ноутбук до зовнішнього джерела живлення, або\n"
+" • збережіть відкриті документи та завершіть роботу комп'ютера."
+
+#: battstat/battstat_applet.c:402
+msgid ""
+"To avoid losing your work:\n"
+" • suspend your laptop to save power,\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr ""
+"Щоб запобігти втраті Вашої роботи:\n"
+" • переведіть ноутбук у режим сну,\n"
+" • під’єднайте ноутбук до зовнішнього джерела живлення, або\n"
+" • збережіть відкриті документи та завершіть роботу комп'ютера."
+
+#: battstat/battstat_applet.c:408
+msgid "Your battery is running low"
+msgstr "Заряд акумулятора низький"
+
+#: battstat/battstat_applet.c:510
+msgid "No battery present"
+msgstr "Акумулятор відсутній"
+
+#: battstat/battstat_applet.c:513
+msgid "Battery status unknown"
+msgstr "Стан акумулятора невідомий"
+
+#: battstat/battstat_applet.c:543
+msgid "N/A"
+msgstr "Н/Д"
+
+#: battstat/battstat_applet.c:793 drivemount/src/drivemount.c:151
+#: geyes/src/geyes.c:355 geyes/src/themes.c:226
+#: mateweather/src/mateweather-applet.c:63
+#: mateweather/src/mateweather-pref.c:774
+#: stickynotes/stickynotes_applet_callbacks.c:389
+#: stickynotes/stickynotes_applet_callbacks.c:617
+#: trashapplet/src/trashapplet.c:399
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "Помилка показу довідки: %s"
+
+#: battstat/battstat_applet.c:835
+msgid "This utility shows the status of your laptop battery."
+msgstr "Цей засіб показує стан акумулятора Вашого комп'ютера."
+
+#: battstat/battstat_applet.c:837
+msgid "upower backend enabled."
+msgstr "Бекенд upower увімкнено."
+
+#: battstat/battstat_applet.c:838
+msgid "Legacy backend enabled."
+msgstr "Увімкнено застарілий бекенд."
+
+#: battstat/battstat_applet.c:847
+msgid "About Battery Charge Monitor"
+msgstr "Про індикатор зарядження акумулятора"
+
+#: battstat/battstat_applet.c:849
+msgid ""
+"Copyright © 2000 The Gnulix Society\n"
+"Copyright © 2002-2005 Free Software Foundation and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Авторське право © 2000 Товариство Ґнулікса\n"
+"Авторські права © 2002-2005 Фонд вільного програмного забезпечення та инші\n"
+"Авторське право © 2012-2021 Розробники MATE"
+
+#: battstat/battstat_applet.c:1133 battstat/battstat_applet.c:1188
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:9
+msgid "Battery Charge Monitor"
+msgstr "Індикатор зарядження акумулятора"
+
+#: battstat/battstat_applet.c:1190
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:10
+msgid "Monitor a laptop's remaining power"
+msgstr "Стежить за зарядом акумулятора портативного комп'ютера"
+
+#: battstat/battstat-preferences.ui:23
+msgid "Battery Charge Monitor Preferences"
+msgstr "Параметри індикатора заряду акумулятора"
+
+#: battstat/battstat-preferences.ui:53 command/data/command-preferences.ui:39
+#: cpufreq/cpufreq-preferences.ui:47 geyes/data/themes.ui:51
+#: mateweather/data/mateweather-dialog.ui:45 multiload/data/properties.ui:83
+#: netspeed/data/netspeed-details.ui:47
+#: netspeed/data/netspeed-preferences.ui:49
+#: stickynotes/sticky-notes-preferences.ui:68
+#: stickynotes/sticky-notes-properties.ui:54
+#: timerapplet/data/timerapplet-preferences.ui:41
+msgid "_Close"
+msgstr "_Закрити"
+
+#: battstat/battstat-preferences.ui:102
+msgid "_Show time/percentage:"
+msgstr "_Показувати час/відсотки:"
+
+#: battstat/battstat-preferences.ui:125
+msgid "Show _time remaining"
+msgstr "Показувати _час, що залишився"
+
+#: battstat/battstat-preferences.ui:143
+msgid "Show _percentage remaining"
+msgstr "Показувати _відсотки, що залишилися"
+
+#: battstat/battstat-preferences.ui:175
+msgid "Appearance"
+msgstr "Вигляд"
+
+#: battstat/battstat-preferences.ui:214
+msgid "_Warn when battery charge drops to:"
+msgstr "_Попереджувати коли заряд спадає до:"
+
+#: battstat/battstat-preferences.ui:255
+msgid "Percent"
+msgstr "Відсоток"
+
+#: battstat/battstat-preferences.ui:256
+msgid "Minutes Remaining"
+msgstr "Залишилося часу"
+
+#: battstat/battstat-preferences.ui:282
+msgid "_Notify when battery is fully recharged"
+msgstr "_Сповіщати про повний заряд акумулятора"
+
+#: battstat/battstat-preferences.ui:305
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:5
+#: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:6
+msgid "Battstat Factory"
+msgstr "Фабрика стану акумулятора"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:5
+msgid "Red value level"
+msgstr "Рівень червоного кольору"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:6
+msgid ""
+"The battery level below which the battery is displayed as red. Also the "
+"value at which the low battery warning is displayed."
+msgstr ""
+"Рівень зарядження, нижче якого батарея зображується червоною. Також "
+"значення, при якому виводиться попередження про низький заряд."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:10
+msgid "Warn on low time rather than low percentage"
+msgstr "Попереджувати при маленькому часі, а не при низькому відсотку"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:11
+msgid ""
+"Use the value defined in red_value as a time remaining to show the warning "
+"dialog rather than a percentage."
+msgstr ""
+"Встановлене у параметрі red_value значення є часом, що залишився до показу "
+"діялоґу попередження, а не відсотком заряду"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:15
+msgid "Low Battery Notification"
+msgstr "Сповіщення про низький рівень заряду"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:16
+msgid "Notify user when the battery is low."
+msgstr "Сповіщати про низький рівень заряду акумулятора."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:20
+msgid "Full Battery Notification"
+msgstr "Сповіщення про повний заряд"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:21
+msgid "Notify user when the battery is full."
+msgstr "Сповіщати про повний рівень заряду акумулятора."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:25
+msgid "Beep for warnings"
+msgstr "Попередження звуковим сигналом"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:26
+msgid "Beep when displaying a warning."
+msgstr "Супроводжувати вивід попереджень звуковим сигналом."
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:30
+msgid "Show the time/percent label"
+msgstr "Показувати позначку часу/заряду"
+
+#: battstat/org.mate.panel.applet.battstat.gschema.xml.in:31
+msgid "0 for no label, 1 for percentage and 2 for time remaining."
+msgstr "0 - без позначки, 1 - відсотки, та  2 - залишок часу"
+
+#: battstat/sounds/mate-battstat_applet.soundlist.desktop.in:3
+msgid "Battery Status Utility"
+msgstr "Засіб індикації стану акумулятора"
+
+#: battstat/sounds/mate-battstat_applet.soundlist.desktop.in:7
+msgid "Battery power low"
+msgstr "Акумулятор розряджений"
+
+#: battstat/sounds/mate-battstat_applet.soundlist.desktop.in:11
+msgid "Battery fully re-charged"
+msgstr "Акумулятор повністю заряджено"
+
+#: charpick/charpick.c:412
+msgid "Available palettes"
+msgstr "Наявні палітри"
+
+#: charpick/charpick.c:465
+#, c-format
+msgid "Insert \"%s\""
+msgstr "Вставити \"%s\""
+
+#: charpick/charpick.c:468
+msgid "Insert special character"
+msgstr "Вставити спеціальний символ"
+
+#: charpick/charpick.c:472
+#, c-format
+msgid "insert special character %s"
+msgstr "вставити спеціальний символ %s"
+
+#: charpick/charpick.c:635
+msgid "About Character Palette"
+msgstr "Про Касу символів"
+
+#: charpick/charpick.c:637
+msgid ""
+"Copyright © 1998, 2004-2005 GNOME Applets Maintainers and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Авторське право © 1998, 2004-2005 Супровідники аплетів GNOME та инші\n"
+"Авторське право © 2012-2021 Розробники MATE"
+
+#: charpick/charpick.c:639
+msgid ""
+"MATE Panel applet for selecting strange characters that are not on the "
+"keyboard. Released under GNU General Public Licence."
+msgstr ""
+"Аплет панелі MATE для вибору дивних символів, яких немає на набірниці. "
+"Випущено під загальною публічною ліцензією GNU."
+
+#: charpick/charpick.c:757 charpick/charpick.c:770
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:9
+#: charpick/properties.c:452
+msgid "Character Palette"
+msgstr "Палітра символів"
+
+#: charpick/charpick.c:757
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:10
+msgid "Insert characters"
+msgstr "Вставка символів"
+
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:5
+#: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:6
+msgid "Charpicker Applet Factory"
+msgstr "Фабрика аплету вибору символів"
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:5
+msgid "Characters shown on applet startup"
+msgstr "Символи, що показуються після запуску"
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:6
+msgid ""
+"The string that the user had selected when the applet was last used. This "
+"string will be displayed when the user starts the applet."
+msgstr ""
+"Рядок, який вибрав користувач під час останнього використання аплету. Цей "
+"рядок показуватиметься після наступного запуску."
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:10
+#: charpick/properties.c:370
+msgid "List of available palettes"
+msgstr "Перелік наявних палітр"
+
+#: charpick/org.mate.panel.applet.charpick.gschema.xml.in:11
+msgid "List of strings containing the available palettes."
+msgstr "Перелік рядків, що містять доступні шаблони."
+
+#: charpick/properties.c:28
+msgid "_Edit"
+msgstr "_Зміни"
+
+#: charpick/properties.c:94
+msgid "_Palette:"
+msgstr "_Палітра:"
+
+#: charpick/properties.c:102
+msgid "Palette entry"
+msgstr "Поле палітри"
+
+#: charpick/properties.c:103
+msgid "Modify a palette by adding or removing characters"
+msgstr "Змініть палітру додаючи чи забираючи символи"
+
+#: charpick/properties.c:227
+msgid "Add Palette"
+msgstr "Додавання палітри"
+
+#: charpick/properties.c:263
+msgid "Edit Palette"
+msgstr "Редагування палітри"
+
+#: charpick/properties.c:369
+msgid "Palettes list"
+msgstr "Перелік палітр"
+
+#: charpick/properties.c:457
+msgid "_Palettes:"
+msgstr "_Палітри:"
+
+#: charpick/properties.c:480
+msgid "Add button"
+msgstr "Додати"
+
+#: charpick/properties.c:481
+msgid "Click to add a new palette"
+msgstr "Натисніть кнопку для додавання нової палітри"
+
+#: charpick/properties.c:495
+msgid "Edit button"
+msgstr "Кнопка оновлення"
+
+#: charpick/properties.c:496
+msgid "Click to edit the selected palette"
+msgstr "Клацніть для зміни вибраної палітри"
+
+#: charpick/properties.c:510
+msgid "Delete button"
+msgstr "Кнопка вилучення"
+
+#: charpick/properties.c:511
+msgid "Click to delete the selected palette"
+msgstr "Клацніть для вилучення вибраної палітри"
+
+#: charpick/properties.c:565
+msgid "Character Palette Preferences"
+msgstr "Параметри палітри символів"
+
+#: command/data/command-preferences.ui:25
+msgid "Command Applet Preferences"
+msgstr "Уподобання команди Applet"
+
+#: command/data/command-preferences.ui:77
+msgid "C_ommand:"
+msgstr "К_оманда:"
+
+#: command/data/command-preferences.ui:91
+msgid "_Interval (seconds):"
+msgstr "Інтервал (секунд):"
+
+#: command/data/command-preferences.ui:105
+msgid "Maximum _width (chars):"
+msgstr "Щонайбільша _ширина (символів):"
+
+#: command/data/command-preferences.ui:161
+msgid "_Show icon"
+msgstr "_Показати піктограму"
+
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:5
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:6
+msgid "Command Factory"
+msgstr "Фабрика команди"
+
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:9
+msgid "Command"
+msgstr "Команда"
+
+#: command/data/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:10
+#: command/src/command.c:130 command/src/command.c:477
+msgid "Shows the output of a command"
+msgstr "Показати вивід команди"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:5
+msgid "Command to execute"
+msgstr "Команда для виконання"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:6
+msgid "Command/script to execute to get the output"
+msgstr "Команда / скрипт для виконання, щоб отримати вихід"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:10
+msgid "Interval for the command"
+msgstr "Інтервал для команди"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:11
+msgid "Interval to execute the command (in seconds)"
+msgstr "Інтервал для виконання команди (у секундах)"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:15
+msgid "Width of output"
+msgstr "Ширина виводу"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:16
+msgid "Number of characters to display"
+msgstr "Кількість символів для відображення"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:20
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:25
+msgid "Show icon"
+msgstr "Показати піктограму"
+
+#: command/data/org.mate.panel.applet.command.gschema.xml.in:21
+msgid "If applet icon is shown or not"
+msgstr "Якщо піктограма applet показується чи ні"
+
+#: command/src/command.c:125
+msgid "About Command Applet"
+msgstr "Про Командний аплет"
+
+#: command/src/command.c:127
+msgid ""
+"Copyright © 2013-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 MATE developers"
+msgstr ""
+"Авторське право © 2013-2014 Стефано Карапецас\n"
+"Авторське право © 2015-2021 Розробники MATE"
+
+#: command/src/command.c:416
+msgid "Command Applet"
+msgstr "Команда Applet"
+
+#: command/src/command.c:475
+#, fuzzy
+msgid "Command applet"
+msgstr "Команда Applet"
+
+#: cpufreq/cpufreq-preferences.ui:18
+msgid "CPU Frequency Monitor Preferences"
+msgstr "Параметри індикатора частоти ЦПП"
+
+#: cpufreq/cpufreq-preferences.ui:97
+msgid "_Monitored CPU:"
+msgstr "_Контрольований процесор:"
+
+#: cpufreq/cpufreq-preferences.ui:127
+msgid "Monitor Settings"
+msgstr "Параметри монітору"
+
+#: cpufreq/cpufreq-preferences.ui:168
+msgid "_Appearance:"
+msgstr "_Вигляд:"
+
+#: cpufreq/cpufreq-preferences.ui:199
+msgid "Show CPU frequency as _frequency"
+msgstr "Показувати частоту ЦПП як _частоту"
+
+#: cpufreq/cpufreq-preferences.ui:216
+msgid "Show frequency _units"
+msgstr "Показувати _одиниці частоти"
+
+#: cpufreq/cpufreq-preferences.ui:233
+msgid "Show CPU frequency as _percentage"
+msgstr "Показувати частоту ЦПП у _відсотках"
+
+#: cpufreq/cpufreq-preferences.ui:256
+msgid "Display Settings"
+msgstr "Параметри екрану"
+
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:5
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:9
+#: cpufreq/src/cpufreq-applet.c:791 cpufreq/src/cpufreq-applet.c:846
+msgid "CPU Frequency Scaling Monitor"
+msgstr "Індикатор зміни частоти процесора"
+
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:6
+#: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:10
+msgid "Monitor the CPU Frequency Scaling"
+msgstr "Відстежує зміну частоти процесора"
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:6
+msgid "CPU to Monitor"
+msgstr "Процесор, що відстежується"
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:7
+msgid ""
+"Set the CPU to monitor. In a single processor system you don't have to "
+"change it."
+msgstr ""
+"Встановіть процесор для відстежування. На однопроцесорній системі змінювати "
+"не треба."
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:11
+msgid "Mode to show CPU usage"
+msgstr "Режим показу використання ЦПП"
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:12
+msgid ""
+"A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in "
+"graphic and text mode."
+msgstr ""
+"Значення 0 означає відображення аплету у графічному режимі (лише "
+"зображення), 1 - текстовий режим (не показувати зображення), 2 - показувати "
+"текст та зображення."
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:16
+msgid "The type of text to display (if the text is enabled)."
+msgstr "Тип тексту для показу (якщо текст увімкнено)."
+
+#: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:17
+msgid ""
+"A 0 value means to show CPU frequency, 1 to show frequency and units, and 2 "
+"to show percentage instead of frequency."
+msgstr ""
+"0 - показувати частоту ЦПП, 1 - частоту й одиниці, 2 - відсотки замість "
+"частоти."
+
+#: cpufreq/src/cpufreq-applet.c:446 cpufreq/src/cpufreq-prefs.c:364
+msgid "Could not open help document"
+msgstr "Не вдається відкрити документ довідки"
+
+#: cpufreq/src/cpufreq-applet.c:478
+msgid "About CPU Frequency Scaling Monitor"
+msgstr "Про Індикатор зміни частоти процесора"
+
+#: cpufreq/src/cpufreq-applet.c:480
+msgid ""
+"Copyright © 2004 Carlos Garcia Campos\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Авторське право © 2004 Карлос Ґарсія Кампос\n"
+"Авторське право © 2012-2021 Розробники MATE"
+
+#: cpufreq/src/cpufreq-applet.c:482
+msgid "This utility shows the current CPU Frequency Scaling."
+msgstr "Цей засіб показує поточну частоту процесора."
+
+#: cpufreq/src/cpufreq-applet.c:847
+msgid "This utility shows the current CPU Frequency"
+msgstr "Цей засіб показує поточну частоту ЦПП"
+
+#: cpufreq/src/cpufreq-prefs.c:504
+msgid "Graphic"
+msgstr "Графічний"
+
+#: cpufreq/src/cpufreq-prefs.c:509
+msgid "Text"
+msgstr "Текст"
+
+#: cpufreq/src/cpufreq-prefs.c:514
+msgid "Graphic and Text"
+msgstr "Графічний та текст"
+
+#: cpufreq/src/cpufreq-monitor-cpuinfo.c:119
+msgid "Frequency Scaling Unsupported"
+msgstr "Зміна частоти не підтримується"
+
+#: cpufreq/src/cpufreq-monitor-factory.c:55
+msgid "CPU frequency scaling unsupported"
+msgstr "Зміна частоти процесора не підтримується"
+
+#: cpufreq/src/cpufreq-monitor-factory.c:56
+msgid ""
+"You will not be able to modify the frequency of your machine.  Your machine "
+"may be misconfigured or not have hardware support for CPU frequency scaling."
+msgstr ""
+"Ви не зможете змінити частоту процесора на Вашому комп'ютері. Можливо, Ваш "
+"комп'ютер неправильно налаштований, або не має апаратної підтримки зміни "
+"частоти."
+
+#: cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in:14
+msgid "Change CPU Frequency scaling"
+msgstr "Змінити частоту процесора"
+
+#: cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in:15
+msgid "Privileges are required to change the CPU Frequency scaling."
+msgstr "Для зміни частоти процесора потрібні привілеї розпорядника."
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:5
+msgid "Drive Mount Applet Factory"
+msgstr "Фабрика аплету монтування"
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:6
+msgid "Factory for drive mount applet"
+msgstr "Фабрика для аплету монтування дисків"
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:9
+#: drivemount/src/drivemount.c:182 drivemount/src/drivemount.c:216
+msgid "Disk Mounter"
+msgstr "Монтування дисків"
+
+#: drivemount/data/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:10
+msgid "Mount local disks and devices"
+msgstr "Монтування локальних дисків та пристроїв"
+
+#: drivemount/src/drive-button.c:281
+msgid "nothing to mount"
+msgstr "нічого монтувати"
+
+#: drivemount/src/drive-button.c:314 drivemount/src/drive-button.c:328
+msgid "(mounted)"
+msgstr "(змонтовано)"
+
+#: drivemount/src/drive-button.c:321
+msgid "(not mounted)"
+msgstr " (не змонтовано)"
+
+#: drivemount/src/drive-button.c:599
+msgid "Cannot execute Caja"
+msgstr "Неможливо виконати Caja"
+
+#: drivemount/src/drive-button.c:940
+msgid "_Play DVD"
+msgstr "_Грати DVD"
+
+#: drivemount/src/drive-button.c:944
+msgid "_Play CD"
+msgstr "_Грати КД"
+
+#: drivemount/src/drive-button.c:947
+#, c-format
+msgid "_Open %s"
+msgstr "_Відкрити %s"
+
+#: drivemount/src/drive-button.c:955
+#, c-format
+msgid "Un_mount %s"
+msgstr "Де_монтувати %s"
+
+#: drivemount/src/drive-button.c:961
+#, c-format
+msgid "_Mount %s"
+msgstr "_Змонтувати %s"
+
+#: drivemount/src/drive-button.c:969
+#, c-format
+msgid "_Eject %s"
+msgstr "Ви_тягнути %s"
+
+#: drivemount/src/drivemount.c:118
+msgid "About Disk Mounter"
+msgstr "Про Монтування дисків"
+
+#: drivemount/src/drivemount.c:120
+msgid ""
+"Copyright © 2004 Canonical Ltd\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Авторське право © 2004 Канонікал Ltd\n"
+"Авторське право © 2012-2021 Розробники MATE"
+
+#: drivemount/src/drivemount.c:122
+msgid "Applet for mounting and unmounting block volumes."
+msgstr "Аплет для монтування та демонтування блочних томів."
+
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:5
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:6
+msgid "Eyes Applet Factory"
+msgstr "Фабрика аплету \"Очі\""
+
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:9
+#: geyes/src/geyes.c:401 geyes/src/geyes.c:430 geyes/src/geyes.c:432
+msgid "Eyes"
+msgstr "Очі"
+
+#: geyes/data/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:10
+msgid "A set of eyeballs for your panel"
+msgstr "Встановлює аплет \"Очі\" на Вашу панель"
+
+#: geyes/data/org.mate.panel.applet.geyes.gschema.xml.in:5
+#: geyes/data/org.mate.panel.applet.geyes.gschema.xml.in:6
+msgid "Directory in which the theme is located"
+msgstr "Каталог, де розташована тема"
+
+#: geyes/data/themes.ui:18
+msgid "Eyes Preferences"
+msgstr "Параметри аплету \"Очі\""
+
+#: geyes/data/themes.ui:100
+msgid "_Select a theme:"
+msgstr "_Виберіть тему:"
+
+#: geyes/data/themes.ui:148
+msgid "Themes"
+msgstr "Теми"
+
+#: geyes/src/geyes.c:192
+msgid "About Eyes"
+msgstr "Про програму Очі"
+
+#: geyes/src/geyes.c:194
+msgid "A goofy set of eyes for the MATE panel. They follow your mouse."
+msgstr "Безґлузді очі для панелі MATE, що стежать за вказівником миші."
+
+#: geyes/src/geyes.c:196
+msgid ""
+"Copyright © 1999 Dave Camp\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Авторське право © 1999 Дейв Кемп\n"
+"Авторське право © 2012-2021 Розробники MATE"
+
+#: geyes/src/geyes.c:433
+msgid "The eyes look in the direction of the mouse pointer"
+msgstr "Очі, що дивляться у напрямку вказівника миші"
+
+#: geyes/src/themes.c:123
+msgid "Can not launch the eyes applet."
+msgstr "Не вдається запустити аплет \"Очі\"."
+
+#: geyes/src/themes.c:124
+msgid "There was a fatal error while trying to load the theme."
+msgstr "Фатальна помилка при спробі завантажити тему."
+
+#: mateweather/data/mateweather-dialog.ui:13
+msgid "Details"
+msgstr "Докладно"
+
+#: mateweather/data/mateweather-dialog.ui:30
+#: mateweather/src/mateweather-applet.c:113
+msgid "_Update"
+msgstr "_Оновити"
+
+#: mateweather/data/mateweather-dialog.ui:88
+msgid "City:"
+msgstr "Місто:"
+
+#: mateweather/data/mateweather-dialog.ui:101
+msgid "Last update:"
+msgstr "Останнє оновлення:"
+
+#: mateweather/data/mateweather-dialog.ui:114
+msgid "Conditions:"
+msgstr "Погодні умови:"
+
+#: mateweather/data/mateweather-dialog.ui:127
+msgid "Sky:"
+msgstr "Небо:"
+
+#: mateweather/data/mateweather-dialog.ui:140
+msgid "Temperature:"
+msgstr "Температура:"
+
+#: mateweather/data/mateweather-dialog.ui:153
+msgid "Feels like:"
+msgstr "Комфортність:"
+
+#: mateweather/data/mateweather-dialog.ui:166
+msgid "Dew point:"
+msgstr "Точка роси:"
+
+#: mateweather/data/mateweather-dialog.ui:179
+msgid "Relative humidity:"
+msgstr "Відносна вологість:"
+
+#: mateweather/data/mateweather-dialog.ui:192
+msgid "Wind:"
+msgstr "Вітер:"
+
+#: mateweather/data/mateweather-dialog.ui:205
+msgid "Pressure:"
+msgstr "Тиск:"
+
+#: mateweather/data/mateweather-dialog.ui:218
+msgid "Visibility:"
+msgstr "Видимість:"
+
+#: mateweather/data/mateweather-dialog.ui:231
+msgid "Sunrise:"
+msgstr "Схід сонця:"
+
+#: mateweather/data/mateweather-dialog.ui:244
+msgid "Sunset:"
+msgstr "Захід сонця:"
+
+#: mateweather/data/mateweather-dialog.ui:422
+msgid "Current Conditions"
+msgstr "Поточні погодні умови"
+
+#: mateweather/data/mateweather-dialog.ui:447
+msgid "Forecast Report"
+msgstr "Прогноз погоди"
+
+#: mateweather/data/mateweather-dialog.ui:448
+msgid "See the ForeCast Details"
+msgstr "Переглянути докладний прогноз"
+
+#: mateweather/data/mateweather-dialog.ui:469
+msgid "Forecast"
+msgstr "Прогноз"
+
+#: mateweather/data/mateweather-dialog.ui:510
+msgid "_Visit Weather.com"
+msgstr "_Відвідати Weather.com"
+
+#: mateweather/data/mateweather-dialog.ui:518
+msgid "Visit Weather.com"
+msgstr "Відвідати Weather.com"
+
+#: mateweather/data/mateweather-dialog.ui:519
+msgid "Click to Enter Weather.com"
+msgstr "Клацніть, щоб відвідати Weather.com"
+
+#: mateweather/data/mateweather-dialog.ui:538
+msgid "Radar Map"
+msgstr "Радарна мапа"
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:5
+msgid "Mateweather Applet Factory"
+msgstr "Фабрика аплету Mateweather"
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:6
+msgid "Factory for creating the weather applet."
+msgstr "Фабрика для створення аплету погоди."
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:9
+#: mateweather/src/mateweather-applet.c:345
+msgid "Weather Report"
+msgstr "Зведення погоди"
+
+#: mateweather/data/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:10
+msgid "Monitor the current weather conditions, and forecasts"
+msgstr "Стежить за поточними погодними умовами та робить прогнози"
+
+#: mateweather/src/mateweather-about.c:54
+msgid "About Weather Report"
+msgstr "Про Прогноз погоди"
+
+#: mateweather/src/mateweather-about.c:56
+msgid ""
+"Copyright © 1999-2005 by S. Papadimitriou and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Авторське право © 1999-2005 С. Пападімітріу та ин\n"
+"Авторське право © 2012-2021 Розробники MATE"
+
+#: mateweather/src/mateweather-about.c:58
+msgid "A panel application for monitoring local weather conditions."
+msgstr "Аплет показу погодних умов."
+
+#: mateweather/src/mateweather-applet.c:110
+msgid "_Details"
+msgstr "До_кладно"
+
+#: mateweather/src/mateweather-applet.c:165
+msgid "?"
+msgstr "?"
+
+#: mateweather/src/mateweather-applet.c:369
+#: mateweather/src/mateweather-applet.c:373
+msgid "MATE Weather"
+msgstr "Аплет \"Зведення погоди\""
+
+#: mateweather/src/mateweather-applet.c:466
+msgid "Weather Forecast"
+msgstr "Прогноз погоди"
+
+#: mateweather/src/mateweather-applet.c:477
+#, c-format
+msgid ""
+"City: %s\n"
+"Sky: %s\n"
+"Temperature: %s"
+msgstr ""
+"Місто: %s\n"
+"Небо: %s\n"
+"Температура: %s"
+
+#: mateweather/src/mateweather-applet.c:531
+msgid "Updating..."
+msgstr "Триває оновлення..."
+
+#: mateweather/src/mateweather-dialog.c:231
+msgid "Forecast not currently available for this location."
+msgstr "Для цієї місцевости прогноз наразі недоступний."
+
+#: mateweather/src/mateweather-pref.c:157
+msgid "Location view"
+msgstr "Перегляд місцевости"
+
+#: mateweather/src/mateweather-pref.c:157
+msgid "Select Location from the list"
+msgstr "Виберіть місцевість з переліку"
+
+#: mateweather/src/mateweather-pref.c:158
+msgid "Update spin button"
+msgstr "Кнопка оновлення"
+
+#: mateweather/src/mateweather-pref.c:158
+msgid "Spinbutton for updating"
+msgstr "Кнопка оновлення"
+
+#: mateweather/src/mateweather-pref.c:159
+msgid "Address Entry"
+msgstr "Поле адреси"
+
+#: mateweather/src/mateweather-pref.c:159
+msgid "Enter the URL"
+msgstr "Уведіть адресу (URL)"
+
+#: mateweather/src/mateweather-pref.c:285
+msgid ""
+"Failed to load the Locations XML database.  Please report this as a bug."
+msgstr "Не вдається завантажити XML базу даних місць. Сповістіть про помилку."
+
+#: mateweather/src/mateweather-pref.c:839
+msgid "Weather Preferences"
+msgstr "Параметри аплету \"Зведення погоди\""
+
+#: mateweather/src/mateweather-pref.c:863
+#: mateweather/src/mateweather-pref.c:1054
+msgid "_Automatically update every:"
+msgstr "Автоматично оновлювати _кожні "
+
+#: mateweather/src/mateweather-pref.c:878
+msgid "_Temperature unit:"
+msgstr "_Температурні одиниці:"
+
+#: mateweather/src/mateweather-pref.c:888
+msgid "Kelvin"
+msgstr "Кельвін"
+
+#: mateweather/src/mateweather-pref.c:890
+msgid "Celsius"
+msgstr "Цельсій"
+
+#: mateweather/src/mateweather-pref.c:891
+msgid "Fahrenheit"
+msgstr "Фаренгейт"
+
+#: mateweather/src/mateweather-pref.c:900
+msgid "_Wind speed unit:"
+msgstr "Одиниці швидкости _вітру:"
+
+#: mateweather/src/mateweather-pref.c:911
+msgid "m/s"
+msgstr "м/с"
+
+#: mateweather/src/mateweather-pref.c:913
+msgid "km/h"
+msgstr "км/год"
+
+#: mateweather/src/mateweather-pref.c:915
+msgid "mph"
+msgstr "миль/год"
+
+#: mateweather/src/mateweather-pref.c:917
+msgid "knots"
+msgstr "вузлів"
+
+#: mateweather/src/mateweather-pref.c:918
+msgid "Beaufort scale"
+msgstr "Шкала Бофорта"
+
+#: mateweather/src/mateweather-pref.c:927
+msgid "_Pressure unit:"
+msgstr "Одиниці т_иску:"
+
+#: mateweather/src/mateweather-pref.c:938
+msgid "kPa"
+msgstr "кПа"
+
+#: mateweather/src/mateweather-pref.c:940
+msgid "hPa"
+msgstr "ГПа"
+
+#: mateweather/src/mateweather-pref.c:942
+msgid "mb"
+msgstr "мб"
+
+#: mateweather/src/mateweather-pref.c:944
+msgid "mmHg"
+msgstr "мм рт.ст."
+
+#: mateweather/src/mateweather-pref.c:946
+msgid "inHg"
+msgstr "дюймів рт.ст."
+
+#: mateweather/src/mateweather-pref.c:948
+msgid "atm"
+msgstr "атм"
+
+#: mateweather/src/mateweather-pref.c:957
+msgid "_Visibility unit:"
+msgstr "Одиниці види_мости:"
+
+#: mateweather/src/mateweather-pref.c:968
+msgid "meters"
+msgstr "метрів"
+
+#: mateweather/src/mateweather-pref.c:970
+msgid "km"
+msgstr "км"
+
+#: mateweather/src/mateweather-pref.c:972
+msgid "miles"
+msgstr "миль"
+
+#: mateweather/src/mateweather-pref.c:996
+msgid "Enable _radar map"
+msgstr "Увімкнути _радарну мапу"
+
+#: mateweather/src/mateweather-pref.c:1011
+msgid "Use _custom address for radar map"
+msgstr "В_ласна адреса радарної мапи"
+
+#: mateweather/src/mateweather-pref.c:1027
+msgid "A_ddress:"
+msgstr "Ад_реса:"
+
+#: mateweather/src/mateweather-pref.c:1042
+msgid "Show _notifications"
+msgstr "Показати _сповіщення"
+
+#: mateweather/src/mateweather-pref.c:1050
+msgid "Update"
+msgstr "Замінити"
+
+#: mateweather/src/mateweather-pref.c:1066
+msgid "minutes"
+msgstr "хвилин"
+
+#: mateweather/src/mateweather-pref.c:1084
+msgid "Display"
+msgstr "Зовнішній вигляд"
+
+#: mateweather/src/mateweather-pref.c:1103
+msgid "General"
+msgstr "Загальні"
+
+#: mateweather/src/mateweather-pref.c:1114
+msgid "_Select a location:"
+msgstr "Вибрати _місцевість:"
+
+#: mateweather/src/mateweather-pref.c:1135
+msgid "_Find:"
+msgstr "З_найти:"
+
+#: mateweather/src/mateweather-pref.c:1141
+msgid "Find _Next"
+msgstr "Знайти _наступний"
+
+#: mateweather/src/mateweather-pref.c:1159
+msgid "Location"
+msgstr "Розташування"
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:5
+msgid "MultiLoad Applet Factory"
+msgstr ""
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:6
+msgid "Factory for creating the load applet."
+msgstr ""
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:9
+#: multiload/src/main.c:499 multiload/src/main.c:551
+msgid "System Monitor"
+msgstr "Системний монітор"
+
+#: multiload/data/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:10
+msgid "A system load indicator"
+msgstr "Індикатор завантаження системи"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:5
+msgid "Enable CPU load graph"
+msgstr "Увімкнути графік використання ЦПП"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:9
+msgid "Enable memory load graph"
+msgstr "Увімкнути графік використання пам'яти"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:13
+msgid "Enable network load graph"
+msgstr "Увімкнути графік використання мережі"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:17
+msgid "Enable swap load graph"
+msgstr "Увімкнути графік використання підкачки"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:21
+msgid "Enable load average graph"
+msgstr "Увімкнути графік середнього завантаження"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:25
+msgid "Enable disk load graph"
+msgstr "Увімкнути графік використання диску"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:30
+msgid "Applet refresh rate in milliseconds"
+msgstr "Частота оновлення аплету у мілісекундах"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:35
+msgid "Graph size"
+msgstr "Розмір графіку"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:36
+msgid ""
+"For horizontal panels, the width of the graphs in pixels. For vertical "
+"panels, this is the height of the graphs."
+msgstr ""
+"Для горизонтальних панелей, ширина графіку у точках. Для вертикальних "
+"панелей, це висота графіку."
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:40
+msgid "Graph color for user-related CPU activity"
+msgstr "Колір графіку завантажености процесора користувачем"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:44
+msgid "Graph color for system-related CPU activity"
+msgstr "Колір графіку системної активности процесора"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:48
+msgid "Graph color for nice-related CPU activity"
+msgstr "Колір графіку активности ЦПП з урахуванням пріоритету"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:52
+msgid "Graph color for iowait related CPU activity"
+msgstr "Колір графіку для показу активности ЦПП з урахуванням iowait"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:56
+msgid "CPU graph background color"
+msgstr "Колір тла графіку використання ЦПП"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:60
+msgid "Graph color for user-related memory usage"
+msgstr "Колір графіку використання пам'яти користувачем"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:64
+msgid "Graph color for shared memory"
+msgstr "Колір графіку спільної пам'яти"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:68
+msgid "Graph color for buffer memory"
+msgstr "Колір графіку буферу пам'яти"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:72
+msgid "Graph color for cached memory"
+msgstr "Колір графіку кешованої пам'яти"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:76
+msgid "Memory graph background color"
+msgstr "Колір тла графіку пам'яти"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:80
+msgid "Graph color for input network activity"
+msgstr "Колір графіку для показу вхідного трафіку у мережі"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:84
+msgid "Graph color for output network activity"
+msgstr "Колір графіку для показу вихідного трафіку у мережі"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:88
+msgid "Graph color for loopback network usage"
+msgstr "Колір графіку для локального використання мережі"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:92
+msgid "Network graph background color"
+msgstr "Колір тла графіку мережі"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:96
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:135
+msgid "Grid line color"
+msgstr "Колір ґратки"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:100
+msgid "Indicator color"
+msgstr "Колір індикатора"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:105
+msgid "Network threshold 1 in bytes"
+msgstr "Межа мережі 1 в байтах"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:110
+msgid "Network threshold 2 in bytes"
+msgstr "Межа мережі 2 в байтах"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:115
+msgid "Network threshold 3 in bytes"
+msgstr "Межа мережі 3 в байтах"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:119
+msgid "Graph color for user-related swap usage"
+msgstr "Колір графіку використання підкачки користувачем"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:123
+msgid "Swap graph background color"
+msgstr "Колір тла графіку підкачки"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:127
+msgid "Graph color for load average"
+msgstr "Колір графіку середньої завантаженості"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:131
+msgid "Load graph background color"
+msgstr "Колір тла графіку завантаженості"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:139
+msgid "Graph color for disk read"
+msgstr "Колір графіку для читання з диску"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:143
+msgid "Graph color for disk write"
+msgstr "Колір графіку для запису на диск"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:147
+msgid "Background color for disk load graph"
+msgstr "Колір тла для графіку завантаження диску"
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:151
+msgid "Uses /proc/diskstats to determine NVMe disk load"
+msgstr ""
+
+#: multiload/data/org.mate.panel.applet.multiload.gschema.xml.in:155
+msgid "The desktop description file to execute as the system monitor"
+msgstr "Файл опису для додатку що запускається як системний монітор"
+
+#: multiload/data/properties.ui:51
+msgid "System Monitor Preferences"
+msgstr "Параметри системного монітору"
+
+#: multiload/data/properties.ui:131
+msgid "_Processor"
+msgstr "П_роцесор"
+
+#: multiload/data/properties.ui:148
+msgid "_Memory"
+msgstr "_Пам'ять"
+
+#: multiload/data/properties.ui:165
+msgid "_Network"
+msgstr "_Мережа"
+
+#: multiload/data/properties.ui:182
+msgid "S_wap Space"
+msgstr "Під_качка"
+
+#: multiload/data/properties.ui:199
+msgid "_Load"
+msgstr "З_авантаження"
+
+#: multiload/data/properties.ui:216
+msgid "_Harddisk"
+msgstr "_Жорсткий диск"
+
+#: multiload/data/properties.ui:239
+msgid "Monitored Resources"
+msgstr "Ресурси, що контролюються"
+
+#: multiload/data/properties.ui:276 multiload/src/properties.c:602
+msgid "System m_onitor width:"
+msgstr ""
+
+#: multiload/data/properties.ui:304
+msgid "pixels"
+msgstr "пікселів"
+
+#: multiload/data/properties.ui:316
+msgid "Sys_tem monitor update interval:"
+msgstr ""
+
+#: multiload/data/properties.ui:344
+msgid "milliseconds"
+msgstr "мс"
+
+#: multiload/data/properties.ui:359
+msgid "Options"
+msgstr "Опції"
+
+#: multiload/data/properties.ui:481 multiload/data/properties.ui:583
+msgid "_User"
+msgstr "_Користувач"
+
+#: multiload/data/properties.ui:494
+msgid "S_ystem"
+msgstr "_Система"
+
+#: multiload/data/properties.ui:507
+msgid "N_ice"
+msgstr "Пр_іоритет"
+
+#: multiload/data/properties.ui:520
+msgid "I_OWait"
+msgstr "I_OWait"
+
+#: multiload/data/properties.ui:533
+msgid "I_dle"
+msgstr "О_чікування"
+
+#: multiload/data/properties.ui:548 multiload/src/main.c:272
+msgid "Processor"
+msgstr "Процесор"
+
+#: multiload/data/properties.ui:612
+msgid "Sh_ared"
+msgstr "_Спільна"
+
+#: multiload/data/properties.ui:641
+msgid "_Buffers"
+msgstr "_Буфери"
+
+#: multiload/data/properties.ui:670
+msgid "Cach_ed"
+msgstr "Ке_ш"
+
+#: multiload/data/properties.ui:699
+msgid "F_ree"
+msgstr "_Вільна"
+
+#: multiload/data/properties.ui:717 multiload/src/main.c:273
+msgid "Memory"
+msgstr "Пам'ять"
+
+#: multiload/data/properties.ui:753
+msgid "_In"
+msgstr "В_хідний"
+
+#: multiload/data/properties.ui:782
+msgid "_Out"
+msgstr "В_ихідний"
+
+#: multiload/data/properties.ui:811
+msgid "_Local"
+msgstr "_Локальний"
+
+#: multiload/data/properties.ui:840 multiload/data/properties.ui:1064
+#: multiload/data/properties.ui:1211
+msgid "_Background"
+msgstr "_Тло"
+
+#: multiload/data/properties.ui:869 multiload/data/properties.ui:1093
+msgid "_Gridline"
+msgstr "_Лінія ґратки"
+
+#: multiload/data/properties.ui:898
+msgid "_Indicator"
+msgstr "_Індикатор"
+
+#: multiload/data/properties.ui:916 multiload/src/main.c:274
+msgid "Network"
+msgstr "Мережа"
+
+#: multiload/data/properties.ui:952
+msgid "_Used"
+msgstr "В_икористано"
+
+#: multiload/data/properties.ui:981
+msgid "_Free"
+msgstr "_Вільно"
+
+#: multiload/data/properties.ui:999 multiload/src/main.c:275
+msgid "Swap Space"
+msgstr "Підкачка"
+
+#: multiload/data/properties.ui:1035
+msgid "_Average"
+msgstr "_Середнє"
+
+#: multiload/data/properties.ui:1111
+msgid "Load"
+msgstr "Завантаження"
+
+#: multiload/data/properties.ui:1153
+msgid "_Read"
+msgstr "_Читання"
+
+#: multiload/data/properties.ui:1182
+msgid "_Write"
+msgstr "_Запис"
+
+#: multiload/data/properties.ui:1229
+msgid "Use diskstats for _NVMe"
+msgstr ""
+
+#: multiload/data/properties.ui:1253
+msgid "Harddisk"
+msgstr "Жорсткий диск"
+
+#: multiload/data/properties.ui:1268
+msgid "Colors"
+msgstr "Кольори"
+
+#: multiload/data/properties.ui:1305
+msgid "Threshold _1:"
+msgstr ""
+
+#: multiload/data/properties.ui:1334 multiload/data/properties.ui:1375
+#: multiload/data/properties.ui:1415
+msgid "bytes"
+msgstr "байів"
+
+#: multiload/data/properties.ui:1346
+msgid "Threshold _2:"
+msgstr ""
+
+#: multiload/data/properties.ui:1387
+msgid "Threshold _3:"
+msgstr ""
+
+#: multiload/data/properties.ui:1430
+msgid "Network speed thresholds"
+msgstr "Межі швидкости мережі"
+
+#: multiload/src/main.c:60
+msgid "About System Monitor"
+msgstr "Про системний монітор"
+
+#: multiload/src/main.c:62
+msgid ""
+"Copyright © 1999-2005 Free Software Foundation and others\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Авторське право © 1999-2005 Фонд вільного програмного забезпечення та инші\n"
+"Авторське право © 2012-2021 Розробники MATE"
+
+#: multiload/src/main.c:64 multiload/src/main.c:553
+msgid ""
+"A system load monitor capable of displaying graphs for CPU, ram, and swap "
+"space use, plus network traffic."
+msgstr ""
+"Монітор навантаження системи показує графіки використання процесора, "
+"пам'яті, файлу підкачки, дискового простору та мережі."
+
+#: multiload/src/main.c:124
+msgid "Start system-monitor"
+msgstr "Запустити системний монітор"
+
+#: multiload/src/main.c:146
+#, c-format
+msgid "There was an error executing '%s': %s"
+msgstr "Помилка при виконанні \"%s\": %s"
+
+#: multiload/src/main.c:276 multiload/src/main.c:360
+msgid "Load Average"
+msgstr "Середнє завантаження"
+
+#: multiload/src/main.c:277
+msgid "Disk"
+msgstr "Диск"
+
+#: multiload/src/main.c:294
+#, c-format
+msgid ""
+"%s:\n"
+"%.01f%% in use by programs\n"
+"%.01f%% in use as cache"
+msgstr ""
+
+#: multiload/src/main.c:303
+#, c-format
+msgid "The system load average is %0.02f"
+msgstr "Середнє завантаження системи - %0.02f"
+
+#: multiload/src/main.c:313
+#, c-format
+msgid ""
+"%s:\n"
+"Receiving %s\n"
+"Sending %s"
+msgstr ""
+"%s:\n"
+"Отримую %s\n"
+"Надсилаю %s"
+
+#: multiload/src/main.c:335
+#, c-format
+msgid ""
+"%s:\n"
+"%.01f%% in use"
+msgstr ""
+
+#: multiload/src/main.c:356
+msgid "CPU Load"
+msgstr "Завантаження ЦПП"
+
+#: multiload/src/main.c:357
+msgid "Memory Load"
+msgstr "Використання пам'яти"
+
+#: multiload/src/main.c:358
+msgid "Net Load"
+msgstr "Завантаження мережі"
+
+#: multiload/src/main.c:359
+msgid "Swap Load"
+msgstr "Завантаження підкачки"
+
+#: multiload/src/main.c:361
+msgid "Disk Load"
+msgstr "Завантаження диску"
+
+#: multiload/src/main.c:467
+msgid "_Open System Monitor"
+msgstr "Відкрити _Системний монітор"
+
+#: multiload/src/netspeed.c:60
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: multiload/src/properties.c:605
+msgid "System m_onitor height:"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:101
+msgid "Transfer Rate Graph"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:134
+msgid "_In graph color"
+msgstr "Колір графіку _вхідних даних"
+
+#: netspeed/data/netspeed-details.ui:161
+msgid "_Out graph color"
+msgstr "Колір графіку _вихідних даних"
+
+#: netspeed/data/netspeed-details.ui:195
+msgid "IPv4 Address:"
+msgstr "Адреса IPv4:"
+
+#: netspeed/data/netspeed-details.ui:224
+msgid "Netmask:"
+msgstr "Маска мережі:"
+
+#: netspeed/data/netspeed-details.ui:265
+msgid "IPv6 Address:"
+msgstr "Адреса IPv6:"
+
+#: netspeed/data/netspeed-details.ui:308
+msgid "Hardware Address:"
+msgstr "Адреса пристрою:"
+
+#: netspeed/data/netspeed-details.ui:337
+msgid "P-t-P Address:"
+msgstr "P-t-P Адреса:"
+
+#: netspeed/data/netspeed-details.ui:378
+msgid "Bytes in:"
+msgstr "Об’єм вхідного трафіку:"
+
+#: netspeed/data/netspeed-details.ui:393 netspeed/data/netspeed-details.ui:423
+msgid "0 byte"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:408
+msgid "Bytes out:"
+msgstr "Об’єм вихідного трафіку:"
+
+#: netspeed/data/netspeed-details.ui:456
+msgid "ESSID:"
+msgstr "ESSID:"
+
+#: netspeed/data/netspeed-details.ui:485
+msgid "Signal Strength:"
+msgstr "Сила сигналу"
+
+#: netspeed/data/netspeed-details.ui:530
+msgid "Station:"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:557
+msgid "Channel:"
+msgstr ""
+
+#: netspeed/data/netspeed-details.ui:596
+msgid "Connected Time:"
+msgstr "Час під'єднання:"
+
+#: netspeed/data/netspeed-preferences.ui:18
+msgid "MATE Netspeed Preferences"
+msgstr "Налаштування MATE Мережевий монітор"
+
+#: netspeed/data/netspeed-preferences.ui:100
+msgid "Network _device:"
+msgstr "Мережевий _пристрій:"
+
+#: netspeed/data/netspeed-preferences.ui:131
+msgid "Show _sum instead of in & out"
+msgstr "Показувати _сумарну швидкість вхідного та вихідного трафіку"
+
+#: netspeed/data/netspeed-preferences.ui:147
+msgid "Show _bits instead of bytes"
+msgstr "Показати _біти замість байтів"
+
+#: netspeed/data/netspeed-preferences.ui:163
+msgid "_Change icon according to the selected device"
+msgstr "_Змінити піктограму відповідно до вибраного пристрою  "
+
+#: netspeed/data/netspeed-preferences.ui:179
+msgid "Show _icon"
+msgstr "Показати _піктограму"
+
+#: netspeed/data/netspeed-preferences.ui:195
+msgid "Show signal _quality icon for wireless devices"
+msgstr "Показати піктограму  _якости сигналу для бездротових пристроїв"
+
+#: netspeed/data/netspeed-preferences.ui:211
+msgid "Show all _IP addresses on tooltip"
+msgstr ""
+
+#: netspeed/data/netspeed-preferences.ui:234
+msgid "General Settings"
+msgstr "Загальні параметри"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:5
+msgid "Device to monitor"
+msgstr "Пристрій, що відстежується"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:6
+msgid "The name of the device to monitor"
+msgstr "Ім'я пристрою, що відстежується"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:10
+msgid "Show sum speed"
+msgstr "Показати сумарну швидкість"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:11
+msgid "If true, show sum of inbound/outbound speed instead of separated ones."
+msgstr ""
+"Якщо обрано показувати сумарну вхідну/вихідну швидкість замість "
+"відокремлених."
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:15
+msgid "Show bits"
+msgstr "Показувати у бітах"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:16
+msgid "If true, show speed in bits instead of bytes."
+msgstr ""
+"Якщо цей ключ має значення ІСТИНА, показувати швидкість у бітах замість "
+"байтів."
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:20
+msgid "Show IPv4 and IPv6 addresses on tooltip"
+msgstr "Показувати адреси IPv4 та IPv6 у підказці"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:21
+msgid "If true, show both IP addresses if enabled."
+msgstr ""
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:26
+msgid "If true, show main icon."
+msgstr "Якщо цей ключ має значення ІСТИНА, показувати головну піктограму."
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:30
+msgid "Change icon"
+msgstr "Змінити піктограму"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:31
+msgid "If true, change the icon due to selected device."
+msgstr ""
+"Якщо цей ключ має значення ІСТИНА, автоматично змінити піктограму на "
+"вибраному пристрої."
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:35
+msgid "Auto change device"
+msgstr "Змінити пристрій автоматично"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:36
+msgid "If true, change automatically the selected device."
+msgstr ""
+"Якщо цей ключ має значення ІСТИНА, автоматично змінити вибраний пристрій."
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:40
+msgid "In color"
+msgstr "Вхідний колір"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:41
+msgid "The color of the graph of the inbound traffic"
+msgstr "Колір діаграми для вхідного трафіку"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:45
+msgid "Out color"
+msgstr "Вихідний колір"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:46
+msgid "The color of the graph of the outbound traffic"
+msgstr "Колір діаграми для вихідного трафіку"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:50
+msgid "Up command"
+msgstr "Команда активації"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:51
+msgid "Command to execute to activate the device"
+msgstr "Виконати команду щоб задіяти пристрій"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:55
+msgid "Down command"
+msgstr "Команда деактивації"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:56
+msgid "Command to execute to shut down the device"
+msgstr "Виконати команду щоб вимкнути пристрій"
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:60
+msgid "Show signal quality icon"
+msgstr "Показати піктограму якости сигналу "
+
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:61
+msgid "If true, show signal quality icon for wireless devices."
+msgstr ""
+"Якщо цей ключ має значення ІСТИНА, показати піктограму якости сигналу для "
+"бездротових пристроїв."
+
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:5
+msgid "Netspeed Applet Factory"
+msgstr "Фабрика аплету швидкости мережі"
+
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:6
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:10
+msgid "Netspeed Applet"
+msgstr "Аплет швидкости мережі"
+
+#: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:9
+msgid "Network Monitor"
+msgstr "Мережевий монітор"
+
+#: netspeed/src/backend.c:149
+msgid "link-local"
+msgstr ""
+
+#: netspeed/src/backend.c:151
+msgid "site-local"
+msgstr ""
+
+#: netspeed/src/backend.c:153
+msgid "v4mapped"
+msgstr ""
+
+#: netspeed/src/backend.c:155
+msgid "v4compat"
+msgstr ""
+
+#: netspeed/src/backend.c:157
+msgid "host"
+msgstr "хост"
+
+#: netspeed/src/backend.c:159
+msgid "unspecified"
+msgstr ""
+
+#: netspeed/src/backend.c:161
+msgid "global"
+msgstr ""
+
+#: netspeed/src/backend.c:588
+#, c-format
+msgid "%d.%d MBit/s"
+msgstr "%d.%d МБіт/с"
+
+#: netspeed/src/backend.c:590
+#, c-format
+msgid "(unknown)"
+msgstr "(невідомо)"
+
+#: netspeed/src/backend.c:594
+#, c-format
+msgid " MCS %d"
+msgstr ""
+
+#: netspeed/src/backend.c:597
+#, c-format
+msgid " VHT-MCS %d"
+msgstr ""
+
+#: netspeed/src/backend.c:599
+#, c-format
+msgid " 40MHz"
+msgstr " 40МГц"
+
+#: netspeed/src/backend.c:601
+#, c-format
+msgid " 80MHz"
+msgstr " 80МГц"
+
+#: netspeed/src/backend.c:603
+#, c-format
+msgid " 80P80MHz"
+msgstr ""
+
+#: netspeed/src/backend.c:605
+#, c-format
+msgid " 160MHz"
+msgstr " 160МГц"
+
+#: netspeed/src/backend.c:607
+#, c-format
+msgid " short GI)"
+msgstr ""
+
+#: netspeed/src/backend.c:610
+#, c-format
+msgid " VHT-NSS %d"
+msgstr ""
+
+#: netspeed/src/backend.c:613
+#, c-format
+msgid " HE-MCS %d"
+msgstr ""
+
+#: netspeed/src/backend.c:616
+#, c-format
+msgid " HE-NSS %d"
+msgstr ""
+
+#: netspeed/src/backend.c:619
+#, c-format
+msgid " HE-GI %d"
+msgstr ""
+
+#: netspeed/src/backend.c:622
+#, c-format
+msgid " HE-DCM %d"
+msgstr ""
+
+#: netspeed/src/backend.c:706
+msgid "20 MHz (no HT)"
+msgstr ""
+
+#: netspeed/src/backend.c:708
+msgid "20 MHz"
+msgstr "20 МГц"
+
+#: netspeed/src/backend.c:710
+msgid "40 MHz"
+msgstr "40 МГц"
+
+#: netspeed/src/backend.c:712
+msgid "80 MHz"
+msgstr "80 МГц"
+
+#: netspeed/src/backend.c:714
+msgid "80+80 MHz"
+msgstr "80+80 МГц"
+
+#: netspeed/src/backend.c:716
+msgid "160 MHz"
+msgstr "160 МГц"
+
+#: netspeed/src/backend.c:718
+msgid "5 MHz"
+msgstr "5 МГц"
+
+#: netspeed/src/backend.c:720
+msgid "10 MHz"
+msgstr "10 МГц"
+
+#: netspeed/src/backend.c:722 netspeed/src/netspeed.c:772
+#: netspeed/src/netspeed.c:776 netspeed/src/netspeed.c:1422
+#: netspeed/src/netspeed.c:1431
+msgid "unknown"
+msgstr "Невідомо"
+
+#: netspeed/src/backend.c:773
+#, c-format
+msgid "%d (%d MHz)"
+msgstr "%d (%d МГц)"
+
+#: netspeed/src/backend.c:777
+#, c-format
+msgid ", width: %s"
+msgstr ", ширина: %s"
+
+#: netspeed/src/netspeed.c:469
+msgid "bit/s"
+msgstr "біт/с"
+
+#: netspeed/src/netspeed.c:469
+msgid "B/s"
+msgstr "Б/с"
+
+#: netspeed/src/netspeed.c:473
+msgid "Kibit/s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:473
+msgid "KiB/s"
+msgstr "КіБ/с"
+
+#: netspeed/src/netspeed.c:477
+msgid "Mibit/s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:477
+msgid "MiB/s"
+msgstr "МіБ/с"
+
+#: netspeed/src/netspeed.c:481
+msgid "Gibit/s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:481
+msgid "GiB/s"
+msgstr "ҐіБ/с"
+
+#: netspeed/src/netspeed.c:646
+msgid "%'"
+msgid_plural "%'"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: netspeed/src/netspeed.c:652
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: netspeed/src/netspeed.c:653
+#, c-format
+msgid "%'d secon"
+msgid_plural "%'d seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: netspeed/src/netspeed.c:658
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: netspeed/src/netspeed.c:699 netspeed/src/netspeed.c:707
+#: netspeed/src/netspeed.c:716 netspeed/src/netspeed.c:723
+msgid "none"
+msgstr "немає"
+
+#: netspeed/src/netspeed.c:780 netspeed/src/netspeed.c:892
+msgid "na"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1011
+#, c-format
+msgid ""
+"There was an error displaying help:\n"
+"%s"
+msgstr ""
+"Сталася помилка під час перегляду за допомогою:\n"
+"%s"
+
+#: netspeed/src/netspeed.c:1050
+msgid "About MATE Netspeed"
+msgstr "Про MATE Мережевий потік"
+
+#: netspeed/src/netspeed.c:1052
+msgid ""
+"Copyright © 2002-2003 Jörgen Scheibengruber\n"
+"Copyright © 2011-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 MATE developers"
+msgstr ""
+"Авторське право © 2002-2003 Йорген Шейбенґрубер\n"
+"Авторське право © 2011-2014 Стефано Карапецас\n"
+"Авторське право © 2015-2021 Розробники MATE"
+
+#: netspeed/src/netspeed.c:1055 netspeed/src/netspeed.c:1757
+msgid ""
+"A little applet that displays some information on the traffic on the "
+"specified network device"
+msgstr ""
+"Індикатор швидкости повідомляє статистичні відомості про потік даних, що "
+"проходить через вибраний мережевий пристрій."
+
+#: netspeed/src/netspeed.c:1231
+msgid "Device _Details"
+msgstr "_Докладніше про пристрій"
+
+#: netspeed/src/netspeed.c:1233
+msgid "Preferences..."
+msgstr "Налаштування..."
+
+#: netspeed/src/netspeed.c:1235
+msgid "Help"
+msgstr "Довідка"
+
+#: netspeed/src/netspeed.c:1237
+msgid "About..."
+msgstr "Про..."
+
+#: netspeed/src/netspeed.c:1278
+#, c-format
+msgid "Do you want to disconnect %s now?"
+msgstr "Від’єднати %s зараз?"
+
+#: netspeed/src/netspeed.c:1281
+#, c-format
+msgid "Do you want to connect %s now?"
+msgstr "Під’єднати %s зараз?"
+
+#: netspeed/src/netspeed.c:1307
+#, c-format
+msgid ""
+"<b>Running command %s failed</b>\n"
+"%s"
+msgstr ""
+"<b>Запуск команди %s не вдався</b>\n"
+"%s"
+
+#: netspeed/src/netspeed.c:1365
+#, c-format
+msgid "%s is down"
+msgstr "%s відімкнений"
+
+#: netspeed/src/netspeed.c:1383 netspeed/src/netspeed.c:1402
+#, c-format
+msgid ""
+"\n"
+"%s"
+msgstr ""
+"\n"
+"%s"
+
+#: netspeed/src/netspeed.c:1409
+#, c-format
+msgid ""
+"\n"
+"in: %s out: %s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1414
+#, c-format
+msgid ""
+"\n"
+"sum: %s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1421
+#, c-format
+msgid ""
+"\n"
+"ESSID: %s\n"
+"RSSI: %d dBm\n"
+"RX Bitrate: %s\n"
+"TX Bitrate: %s"
+msgstr ""
+
+#: netspeed/src/netspeed.c:1430
+#, c-format
+msgid ""
+"\n"
+"ESSID: %s\n"
+"Strength: %d %%"
+msgstr ""
+"\n"
+"ESSID: %s\n"
+"Сила сигналу: %d %%"
+
+#: netspeed/src/netspeed.c:1578 netspeed/src/netspeed.c:1755
+msgid "MATE Netspeed"
+msgstr "MATE Мережевий монітор"
+
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:5
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:6
+msgid "Sticky Notes Applet Factory"
+msgstr "Фабрика аплету липких нотаток"
+
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:9
+#: stickynotes/stickynotes_applet.c:179 stickynotes/stickynotes_applet.c:427
+msgid "Sticky Notes"
+msgstr "Липкі нотатки"
+
+#: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:10
+msgid "Create, view, and manage sticky notes on the desktop"
+msgstr "Створення, показ та керування нотатками на стільниці"
+
+#: stickynotes/stickynotes.c:706
+msgid "This note is locked."
+msgstr "Ця нотатка заблокована."
+
+#: stickynotes/stickynotes.c:712
+msgid "This note is unlocked."
+msgstr "Ця нотатка розблокована."
+
+#: stickynotes/sticky-notes-delete-all.ui:36
+#: stickynotes/sticky-notes-delete.ui:37
+#: trashapplet/trashapplet-empty-progress.ui:27
+msgid "_Cancel"
+msgstr "_Скасувати"
+
+#: stickynotes/sticky-notes-delete-all.ui:53
+msgid "_Delete All"
+msgstr "В_илучити усі"
+
+#: stickynotes/sticky-notes-delete-all.ui:106
+msgid "Delete all sticky notes?"
+msgstr "Вилучити усі липкі нотатки?"
+
+#: stickynotes/sticky-notes-delete-all.ui:123
+#: stickynotes/sticky-notes-delete.ui:124
+msgid "This cannot be undone."
+msgstr "Не можна скасувати."
+
+#: stickynotes/sticky-notes-delete.ui:54
+msgid "_Delete"
+msgstr "В_илучити"
+
+#: stickynotes/sticky-notes-delete.ui:107
+msgid "Delete this sticky note?"
+msgstr "Вилучити цю липку нотатку?"
+
+#: stickynotes/sticky-notes-note.ui:14 stickynotes/stickynotes_applet.c:34
+msgid "_New Note"
+msgstr "_Створити нотатку"
+
+#: stickynotes/sticky-notes-note.ui:21
+#, fuzzy
+msgid "_Delete Note..."
+msgstr "Вилучити _нотатки"
+
+#: stickynotes/sticky-notes-note.ui:31
+#, fuzzy
+msgid "_Lock Note"
+msgstr "_Блокувати нотатки"
+
+#: stickynotes/sticky-notes-note.ui:41
+#, fuzzy
+msgid "_Properties"
+msgstr "Властивості"
+
+#: stickynotes/sticky-notes-note.ui:47
+msgid "Sticky Note"
+msgstr "Липка нотатка"
+
+#: stickynotes/sticky-notes-note.ui:64
+msgid "Lock/Unlock note"
+msgstr "Розблокувати/заблокувати нотатку"
+
+#: stickynotes/sticky-notes-note.ui:102
+msgid "Delete note"
+msgstr "Вилучити нотатку"
+
+#: stickynotes/sticky-notes-note.ui:155 stickynotes/sticky-notes-note.ui:178
+msgid "Resize note"
+msgstr "Змінити розмір нотатки"
+
+#: stickynotes/sticky-notes-preferences.ui:32
+msgid "Sticky Notes Preferences"
+msgstr "Параметри липких нотаток"
+
+#: stickynotes/sticky-notes-preferences.ui:108
+msgid "Default Note Properties"
+msgstr "Первинні властивості нотатки"
+
+#: stickynotes/sticky-notes-preferences.ui:131
+msgid "_Width:"
+msgstr "Ш_ирина:"
+
+#: stickynotes/sticky-notes-preferences.ui:145
+msgid "H_eight:"
+msgstr "_Висота:"
+
+#: stickynotes/sticky-notes-preferences.ui:159
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "Початкова ширина нових нотаток (у точках)"
+
+#: stickynotes/sticky-notes-preferences.ui:160
+msgid "1"
+msgstr "1"
+
+#: stickynotes/sticky-notes-preferences.ui:174
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "Початкова висота нових нотаток (у точках)"
+
+#: stickynotes/sticky-notes-preferences.ui:175
+msgid "0"
+msgstr "0"
+
+#: stickynotes/sticky-notes-preferences.ui:187
+msgid "Use co_lor from the system theme"
+msgstr "Використовувати ко_лір системної теми"
+
+#: stickynotes/sticky-notes-preferences.ui:205
+msgid "Font Co_lor:"
+msgstr "К_олір шрифту:"
+
+#: stickynotes/sticky-notes-preferences.ui:219
+msgid "Note C_olor:"
+msgstr "_Колір нотатки:"
+
+#: stickynotes/sticky-notes-preferences.ui:234
+#, fuzzy
+msgid "Choose a font color to use for all sticky notes"
+msgstr "Вибрати шрифт для усіх нотаток"
+
+#: stickynotes/sticky-notes-preferences.ui:235
+#, fuzzy
+msgid "Pick a default font color"
+msgstr "Вибір типового кольору для нотатки"
+
+#: stickynotes/sticky-notes-preferences.ui:247
+msgid "Choose a base color to use for all sticky notes"
+msgstr "Вибрати основний колір для усіх нотаток"
+
+#: stickynotes/sticky-notes-preferences.ui:248
+msgid "Pick a default sticky note color"
+msgstr "Вибір типового кольору для нотатки"
+
+#: stickynotes/sticky-notes-preferences.ui:257
+msgid "Use fo_nt from the system theme"
+msgstr "Використовувати ш_рифт системної теми"
+
+#: stickynotes/sticky-notes-preferences.ui:275
+#: stickynotes/sticky-notes-properties.ui:230
+msgid "_Font:"
+msgstr "_Шрифт:"
+
+#: stickynotes/sticky-notes-preferences.ui:290
+msgid "Choose a font to use for all sticky notes"
+msgstr "Вибрати шрифт для усіх нотаток"
+
+#: stickynotes/sticky-notes-preferences.ui:292
+msgid "Pick a default sticky note font"
+msgstr "Вибір типового шрифту для нотаток"
+
+#: stickynotes/sticky-notes-preferences.ui:323
+msgid "Behavior"
+msgstr "Поведінка"
+
+#: stickynotes/sticky-notes-preferences.ui:344
+msgid "_Put notes on all workspaces"
+msgstr "_Показувати нотатки на усіх робочих просторах"
+
+#: stickynotes/sticky-notes-preferences.ui:348
+msgid "Choose if notes are visible on all workspaces"
+msgstr "Позначте для показу нотаток на усіх робочих просторах"
+
+#: stickynotes/sticky-notes-preferences.ui:361
+msgid "Force _default color and font on notes"
+msgstr "С_тандартний колір та шрифт для усіх нотаток"
+
+#: stickynotes/sticky-notes-preferences.ui:365
+msgid "Choose if the default style is forced on all notes"
+msgstr "Позначте, щоб стандартний стиль застосовувався до усіх нотаток"
+
+#: stickynotes/sticky-notes-preferences.ui:378
+msgid "Hide notes when the des_ktop is clicked on"
+msgstr "Ховати нотатки при клацанні мишею по _стільниці"
+
+#: stickynotes/sticky-notes-preferences.ui:382
+msgid "Choose whether to hide all notes when selecting on the desktop"
+msgstr "Виберіть, чи ховати усі нотатки при виділенні на стільниці"
+
+#: stickynotes/sticky-notes-properties.ui:18
+msgid "Sticky Note Properties"
+msgstr "Властивості липкої нотатки"
+
+#: stickynotes/sticky-notes-properties.ui:94
+msgid "Properties"
+msgstr "Властивості"
+
+#: stickynotes/sticky-notes-properties.ui:117
+msgid "_Title:"
+msgstr "За_головок:"
+
+#: stickynotes/sticky-notes-properties.ui:131
+msgid "Specify a title for the note"
+msgstr "Вказати заголовок нотатки"
+
+#: stickynotes/sticky-notes-properties.ui:140
+msgid "Use default co_lor"
+msgstr "Використовувати типовий _колір"
+
+#: stickynotes/sticky-notes-properties.ui:159
+msgid "Font C_olor:"
+msgstr "_Колір шрифту:"
+
+#: stickynotes/sticky-notes-properties.ui:174
+msgid "Note _Color:"
+msgstr "К_олір нотатки:"
+
+#: stickynotes/sticky-notes-properties.ui:185
+msgid "Use default fo_nt"
+msgstr "Використовувати типовий _шрифт"
+
+#: stickynotes/sticky-notes-properties.ui:204
+#, fuzzy
+msgid "Choose a font color for the note"
+msgstr "Вибрати колір нотатки"
+
+#: stickynotes/sticky-notes-properties.ui:205
+#, fuzzy
+msgid "Pick a font color for the sticky note"
+msgstr "Вибір кольору нотатки"
+
+#: stickynotes/sticky-notes-properties.ui:217
+msgid "Choose a color for the note"
+msgstr "Вибрати колір нотатки"
+
+#: stickynotes/sticky-notes-properties.ui:218
+msgid "Pick a color for the sticky note"
+msgstr "Вибір кольору нотатки"
+
+#: stickynotes/sticky-notes-properties.ui:245
+msgid "Choose a font for the note"
+msgstr "Вибрати шрифт нотатки"
+
+#: stickynotes/sticky-notes-properties.ui:247
+msgid "Pick a font for the sticky note"
+msgstr "Вибір шрифту нотатки"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:5
+msgid "Default width for new notes"
+msgstr "Типова ширина нових нотаток"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:6
+msgid "Default width for new sticky notes in pixels."
+msgstr "Типова ширина нових нотаток у точках."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:10
+msgid "Default height for new notes"
+msgstr "Типова висота нових нотаток"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:11
+msgid "Default height for new sticky notes in pixels."
+msgstr "Початкова висота нових нотаток у точках."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:15
+msgid "Default color for new notes"
+msgstr "Типовий колір нових нотаток"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:16
+msgid ""
+"Default color for new sticky notes. This should be in html hex "
+"specification, for example \"#30FF50\"."
+msgstr ""
+"Типовий колір нових нотаток у шістнадцятковому форматі HTML, наприклад, "
+"\"#30FF50\"."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:20
+msgid "Default color for font"
+msgstr "Типовий колір шрифту"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:21
+msgid ""
+"Default font color for new sticky notes. This should be in html hex "
+"specification, for example \"#000000\"."
+msgstr ""
+"Типовий колір нових нотаток у шістнадцятковому форматі HTML, наприклад, "
+"\"#000000\"."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:25
+msgid "Default font for new notes"
+msgstr "Типовий шрифт нових нотаток"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:26
+msgid ""
+"Default font for new sticky notes. This should be a Pango Font Name, for "
+"example \"Sans Italic 10\"."
+msgstr ""
+"Типовий шрифт у нових нотатках. Це має бути назва шрифту у форматі Pango, "
+"наприклад, \"Sans Italic 10\"."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:30
+msgid "Sticky notes' workspace stickyness"
+msgstr "Липкість нотаток до робочого простору"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:31
+msgid ""
+"Specifies whether the sticky notes are visible on ALL workspaces on the "
+"desktop, or not."
+msgstr "Визначає, чи показуються нотатки на усіх робочих просторах стільниці."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:35
+msgid "Sticky notes' locked state"
+msgstr "Заблокований стан нотаток"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:36
+msgid "Specifies whether the sticky notes are locked (non-editable) or not."
+msgstr "Визначає, чи нотатки заблоковані (їх заборонено редагувати)."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:40
+msgid "Date format of note's title"
+msgstr "Формат дати заголовку нотатки"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:41
+msgid ""
+"By default, sticky notes are given the current date as the title when they "
+"are created. This format is used; anything that can be parsed by strftime() "
+"is valid."
+msgstr ""
+"Зазвичай, новим нотаткам призначається заголовок з поточною датою. "
+"Використовується формат, який розпізнає функція strftime()."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:45
+msgid "Whether to use the default system color"
+msgstr "Чи використовувати типовий системний колір"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:46
+msgid ""
+"If this option is disabled, a custom color can be used as the default color "
+"for all sticky notes."
+msgstr ""
+"Якщо цей параметр вимкнено, то власний колір може бути використано у якости "
+"стандартного кольору для усіх нотаток."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:50
+msgid "Whether to use the default system font"
+msgstr "Чи використовувати типовий системний шрифт"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:51
+msgid ""
+"If this option is disabled, a custom font can be used as the default font "
+"for all sticky notes."
+msgstr ""
+"Якщо цей параметр вимкнено, то власний шрифт може бути використано у якости "
+"стандартного кольору для усіх нотаток."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:55
+msgid "Whether to force the default color and font on all notes"
+msgstr "Чи застосовувати стандартний колір та шрифт до усіх нотаток"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:56
+msgid ""
+"If this option is enabled, the custom colors and fonts that have been "
+"assigned to individual notes will be ignored."
+msgstr ""
+"Якщо цей параметр увімкнено, то власні призначені нотаткам кольори та шрифти "
+"будуть нехтуватися."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:60
+msgid "Whether to hide all notes when the desktop is selected"
+msgstr "Чи приховувати усі нотатки коли вибирається стільниця"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:61
+msgid ""
+"If this option is enabled, selecting the desktop in any way will "
+"automatically hide all the open notes."
+msgstr ""
+"Якщо цей параметр увімкнено, вибір стільниці автоматично сховає усі відкриті "
+"нотатки."
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:65
+msgid "Whether to ask for confirmation when deleting a note"
+msgstr "Чи запитувати схвалення перед знищенням нотатки"
+
+#: stickynotes/org.mate.stickynotes.gschema.xml.in:66
+msgid "Empty notes are always deleted without confirmation."
+msgstr "Порожні нотатки завжди знищуються без попередження."
+
+#: stickynotes/stickynotes_applet.c:37
+msgid "Hi_de Notes"
+msgstr "С_ховати нотатки"
+
+#: stickynotes/stickynotes_applet.c:40
+msgid "_Delete Notes"
+msgstr "Вилучити _нотатки"
+
+#: stickynotes/stickynotes_applet.c:56
+msgid "_Lock Notes"
+msgstr "_Блокувати нотатки"
+
+#: stickynotes/stickynotes_applet.c:607
+#, c-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: stickynotes/stickynotes_applet.c:613
+msgid "Show sticky notes"
+msgstr "Показує липкі нотатки"
+
+#: stickynotes/stickynotes_applet_callbacks.c:429
+msgid "About Sticky Notes"
+msgstr "Про Липкі нотатки"
+
+#: stickynotes/stickynotes_applet_callbacks.c:431
+msgid ""
+"Copyright © 2002-2003 Loban A Rahman\n"
+"Copyright © 2005 Davyd Madeley\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Авторське право © 2002-2003 Лобан Рахман\n"
+"Copyright © 2005 Девід Мадлі\n"
+"Авторське право © 2012-2021 Розробники MATE"
+
+#: stickynotes/stickynotes_applet_callbacks.c:434
+msgid "Sticky Notes for the MATE Desktop Environment"
+msgstr "\"Липкі\" нотатки для середовища MATE"
+
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:5
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:6
+msgid "Timer Factory"
+msgstr "Фабрика таймера"
+
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:9
+msgid "Timer"
+msgstr "Таймер"
+
+#: timerapplet/data/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:10
+#: timerapplet/src/timerapplet.c:288 timerapplet/src/timerapplet.c:399
+msgid "Start a timer and receive a notification when it is finished"
+msgstr "Виставити таймер та отримати сповіщення після закінчення"
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:5
+msgid "Name of timer"
+msgstr "Назва таймера"
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:9
+msgid "Duration of timer in seconds"
+msgstr "Тривалість таймера у секундах"
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:13
+msgid "Show notification popup when timer finish"
+msgstr "Показати виринне повідомлення про сповіщення після завершення таймера"
+
+#: timerapplet/data/org.mate.panel.applet.timer.gschema.xml.in:17
+msgid "Show dialog window when timer finish"
+msgstr "Показати діялоґ, коли час вийде"
+
+#: timerapplet/data/timerapplet-preferences.ui:28
+msgid "Timer Applet Preferences"
+msgstr "Параметри аплету Таймера"
+
+#: timerapplet/data/timerapplet-preferences.ui:79
+msgid "_Name:"
+msgstr "_Назва:"
+
+#: timerapplet/data/timerapplet-preferences.ui:93
+msgid "_Hours:"
+msgstr "_Години:"
+
+#: timerapplet/data/timerapplet-preferences.ui:107
+msgid "_Minutes:"
+msgstr "_Хвилини:"
+
+#: timerapplet/data/timerapplet-preferences.ui:121
+msgid "_Seconds:"
+msgstr "_Секунди:"
+
+#: timerapplet/data/timerapplet-preferences.ui:189
+msgid "Show notification _popup"
+msgstr ""
+
+#: timerapplet/data/timerapplet-preferences.ui:205
+msgid "Show _dialog"
+msgstr "Показати _діалог"
+
+#: timerapplet/src/timerapplet.c:83
+msgid "_Start timer"
+msgstr "_Запустити таймер"
+
+#: timerapplet/src/timerapplet.c:84
+msgid "P_ause timer"
+msgstr "При_зупинити таймер"
+
+#: timerapplet/src/timerapplet.c:85
+msgid "S_top timer"
+msgstr "Зу_пинити таймер"
+
+#: timerapplet/src/timerapplet.c:86
+msgid "R_eset"
+msgstr "Ск_инути"
+
+#. Translators: %s is a placeholder for the timer name, 'Timer' by default
+#: timerapplet/src/timerapplet.c:156
+#, c-format
+msgid "Finished %s"
+msgstr "Готово %s"
+
+#: timerapplet/src/timerapplet.c:166 timerapplet/src/timerapplet.c:178
+msgid "Timer finished!"
+msgstr "Час вийшов!"
+
+#: timerapplet/src/timerapplet.c:283
+msgid "About Timer Applet"
+msgstr "Про аплет Таймер"
+
+#: timerapplet/src/timerapplet.c:285
+msgid ""
+"Copyright © 2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 MATE developers"
+msgstr ""
+"Авторське право © 2014 Стефано Карапецас\n"
+"Авторське право © 2015-2021 Розробники MATE"
+
+#: timerapplet/src/timerapplet.c:376 timerapplet/src/timerapplet.c:398
+msgid "Timer Applet"
+msgstr "Аплет таймера"
+
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:5
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:6
+msgid "Trash Applet Factory"
+msgstr "Фабрика аплету смітника"
+
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:9
+msgid "Trash"
+msgstr "Смітник"
+
+#: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:10
+msgid "Go to Trash"
+msgstr "Перейти у смітник"
+
+#: trashapplet/src/trashapplet.c:68 trashapplet/src/trash-empty.c:341
+msgid "_Empty Trash"
+msgstr "Спо_рожнити смітник"
+
+#: trashapplet/src/trashapplet.c:71
+msgid "_Open Trash"
+msgstr "_Відкрити смітник"
+
+#: trashapplet/src/trashapplet.c:130
+#, c-format
+msgid "%d Item in Trash"
+msgid_plural "%d Items in Trash"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: trashapplet/src/trashapplet.c:135
+msgid "No Items in Trash"
+msgstr "У смітнику немає елементів"
+
+#: trashapplet/src/trashapplet.c:378
+#, c-format
+msgid ""
+"Error while spawning caja:\n"
+"%s"
+msgstr ""
+"Помилка запуску caja:\n"
+"%s"
+
+#: trashapplet/src/trashapplet.c:432
+msgid "About Trash Applet"
+msgstr "Про аплет Смітник"
+
+#: trashapplet/src/trashapplet.c:434
+msgid ""
+"Copyright © 2004 Michiel Sikkes\n"
+"Copyright © 2008 Ryan Lortie\n"
+"Copyright © 2012-2021 MATE developers"
+msgstr ""
+"Авторське право © 2004 Міхіель Сіккес\n"
+"Авторське право © 2008 Райан Лорті\n"
+"Авторське право © 2012-2021 Розробники MATE"
+
+#: trashapplet/src/trashapplet.c:437
+msgid ""
+"A MATE trash bin that lives in your panel. You can use it to view the trash "
+"or drag and drop items into the trash."
+msgstr ""
+"Смітник середовища MATE, який живе у Вашій панелі. Ви можете використовувати "
+"його для перегляду смітника або перетягування у нього елементів."
+
+#: trashapplet/src/trashapplet.c:462
+msgid "Delete Immediately?"
+msgstr "Вилучити остаточно?"
+
+#: trashapplet/src/trashapplet.c:492
+msgid "Cannot move items to trash, do you want to delete them immediately?"
+msgstr "Не вдається перемістити елементи у смітник, вилучити їх остаточно?"
+
+#: trashapplet/src/trashapplet.c:497
+msgid ""
+"Cannot move some items to trash, do you want to delete these immediately?"
+msgstr "Не вдається перемістити елементи у смітник, вилучити їх остаточно?"
+
+#: trashapplet/src/trashapplet.c:625 trashapplet/src/trashapplet.c:644
+msgid "Trash Applet"
+msgstr "Аплет смітника"
+
+#. Translators: the %s in this string should be read as %d.
+#: trashapplet/src/trash-empty.c:72
+#, c-format
+msgid "Removing item %s of %s"
+msgstr "Вилучається елемент %s з %s"
+
+#. Translators: %s is a file name
+#: trashapplet/src/trash-empty.c:98
+#, c-format
+msgid "Removing: %s"
+msgstr "Вилучається: %s"
+
+#: trashapplet/src/trash-empty.c:321
+msgid "Empty all of the items from the trash?"
+msgstr "Вилучити усі елементи зі смітника?"
+
+#: trashapplet/src/trash-empty.c:328
+msgid ""
+"If you choose to empty the trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
+msgstr ""
+"Якщо Ви спорожните смітник, увесь його вміст буде остаточно втрачено. "
+"Зверніть увагу, Ви також можете вилучити їх окремо."
+
+#: trashapplet/trashapplet-empty-progress.ui:13
+#: trashapplet/trashapplet-empty-progress.ui:62
+msgid "Emptying the Trash"
+msgstr "Спорожнення смітника"
+
+#: trashapplet/trashapplet-empty-progress.ui:83
+msgid "From:"
+msgstr "З:"
